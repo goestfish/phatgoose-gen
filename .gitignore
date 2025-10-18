@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # experiment outputs
-# exp_out/
+exp_out/FLAN_Phatgoose
 wandb/
 loggings/
 
