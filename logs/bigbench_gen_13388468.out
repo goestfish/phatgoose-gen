@@ -1,0 +1,321 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 13388468
+##  Job Name : bigbench_gen
+##  Nodelist : gpu2002
+##      CPUs : 
+##  Mem/Node : 65536 MB
+## Directory : /oscar/home/bkou1/phatgoose
+##   Job Started : Thu Oct 16 09:30:06 AM EDT 2025
+###############################################################################
+Python: 3.9.24 (main, Oct 14 2025, 16:06:14) 
+[GCC 11.2.0]
+sentence_transformers OK
+Using A2 architecture
+
+
+Running Eval
+
+score_type: original, scaling_scores: True elementwise_affine: False
+
+########################################################################################
+#                           Experiment [flan_t5_xl_gen] Start                          #
+########################################################################################
+Time: 2025-10-16 09:30:59.304892
+Run [flan_t5_xl_gen] with the following configuration:
+	exp_name: flan_t5_xl_gen
+	procedure_exec_order: ['P/EVALUATE']
+	recover_from_checkpoint: None
+	global_seed: 42
+########################################################################################
+#                                Build and Link Objects                                #
+########################################################################################
+----------------------------------------------------------------------------------------
+Building P/EVALUATE...
+Done building P/EVALUATE.
+Linking P/EVALUATE to find other top-level objects...
+----------------------------------------------------------------------------------------
+Building M/MODEL...
+Using none as a regular expression pattern since it is not in model_short_cut_dict.
+Setting device to auto and parallelism to None
+Auto detected devices: ['cuda:0']
+Done building M/MODEL.
+----------------------------------------------------------------------------------------
+Building D/BBBOOLEANEXPRESSIONS/EVAL...
+Done building D/BBBOOLEANEXPRESSIONS/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBCAUSALJUDGEMENT/EVAL...
+Done building D/BBCAUSALJUDGEMENT/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBDATEUNDERSTANDING/EVAL...
+Done building D/BBDATEUNDERSTANDING/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBDISAMBIGUATIONQA/EVAL...
+Done building D/BBDISAMBIGUATIONQA/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBFORMALFALLACIES/EVAL...
+Done building D/BBFORMALFALLACIES/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBGEOMETRICSHAPES/EVAL...
+Done building D/BBGEOMETRICSHAPES/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBHYPERBATON/EVAL...
+Done building D/BBHYPERBATON/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBLOGICALDEDUCTION/EVAL...
+Done building D/BBLOGICALDEDUCTION/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBMOVIERECOMMENDATION/EVAL...
+Done building D/BBMOVIERECOMMENDATION/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBMULTISTEPARITHMETICTWO/EVAL...
+Done building D/BBMULTISTEPARITHMETICTWO/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBNAVIGATE/EVAL...
+Done building D/BBNAVIGATE/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBOBJECTCOUNTING/EVAL...
+Done building D/BBOBJECTCOUNTING/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBPENGUINSINATABLE/EVAL...
+Done building D/BBPENGUINSINATABLE/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBREASONINGABOUTCOLOREDOBJECTS/EVAL...
+Done building D/BBREASONINGABOUTCOLOREDOBJECTS/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBRUINNAMES/EVAL...
+Done building D/BBRUINNAMES/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBSALIENTTRANSLATIONERRORDETECTION/EVAL...
+Done building D/BBSALIENTTRANSLATIONERRORDETECTION/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBSNARKS/EVAL...
+Done building D/BBSNARKS/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBSPORTSUNDERSTANDING/EVAL...
+Done building D/BBSPORTSUNDERSTANDING/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBTEMPORALSEQUENCES/EVAL...
+Done building D/BBTEMPORALSEQUENCES/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBTRACKINGSHUFFLEDOBJECTS/EVAL...
+Done building D/BBTRACKINGSHUFFLEDOBJECTS/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBWEBOFLIES/EVAL...
+Done building D/BBWEBOFLIES/EVAL.
+----------------------------------------------------------------------------------------
+Building D/BBWORDSORTING/EVAL...
+Done building D/BBWORDSORTING/EVAL.
+Done linking P/EVALUATE, run late_init...
+########################################################################################
+#                                   Object Inventory                                   #
+########################################################################################
+Listing all defined objects...
+Defined data
+	(1/22) D/BBBOOLEANEXPRESSIONS/EVAL
+		Dataset class BigBenchSampleDataset
+		Size: 250 examples.
+		Loaded from test split of ['huggingface', 'lukaemon/bbh', 'boolean_expressions']
+		Batch size: 32
+		Peek stats: {'num_tokens': 24, 'truncation_ratio': 0.0}
+	(2/22) D/BBCAUSALJUDGEMENT/EVAL
+		Dataset class BigBenchDataset
+		Size: 190 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'causal_judgment']
+		Batch size: 16
+		Peek stats: {'num_tokens': 246, 'truncation_ratio': 0.01}
+	(3/22) D/BBDATEUNDERSTANDING/EVAL
+		Dataset class BigBenchDataset
+		Size: 369 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'date_understanding']
+		Batch size: 32
+		Peek stats: {'num_tokens': 76, 'truncation_ratio': 0.0}
+	(4/22) D/BBDISAMBIGUATIONQA/EVAL
+		Dataset class BigBenchDataset
+		Size: 258 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'disambiguation_qa']
+		Batch size: 32
+		Peek stats: {'num_tokens': 108, 'truncation_ratio': 0.0}
+	(5/22) D/BBFORMALFALLACIES/EVAL
+		Dataset class BigBenchDataset
+		Size: 14200 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'formal_fallacies_syllogisms_negation']
+		Batch size: 32
+		Peek stats: {'num_tokens': 144, 'truncation_ratio': 0.0}
+	(6/22) D/BBGEOMETRICSHAPES/EVAL
+		Dataset class BigBenchDataset
+		Size: 359 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'geometric_shapes']
+		Batch size: 8
+		Peek stats: {'num_tokens': 152, 'truncation_ratio': 0.0}
+	(7/22) D/BBHYPERBATON/EVAL
+		Dataset class BigBenchDataset
+		Size: 50000 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'hyperbaton']
+		Batch size: 32
+		Peek stats: {'num_tokens': 49, 'truncation_ratio': 0.0}
+	(8/22) D/BBLOGICALDEDUCTION/EVAL
+		Dataset class BigBenchDataset
+		Size: 1500 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'logical_deduction']
+		Batch size: 8
+		Peek stats: {'num_tokens': 173, 'truncation_ratio': 0.0}
+	(9/22) D/BBMOVIERECOMMENDATION/EVAL
+		Dataset class BigBenchDataset
+		Size: 500 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'movie_recommendation']
+		Batch size: 16
+		Peek stats: {'num_tokens': 88, 'truncation_ratio': 0.0}
+	(10/22) D/BBMULTISTEPARITHMETICTWO/EVAL
+		Dataset class BigBenchSampleDataset
+		Size: 250 examples.
+		Loaded from test split of ['huggingface', 'lukaemon/bbh', 'multistep_arithmetic_two']
+		Batch size: 32
+		Peek stats: {'num_tokens': 32, 'truncation_ratio': 0.0}
+	(11/22) D/BBNAVIGATE/EVAL
+		Dataset class BigBenchDataset
+		Size: 1000 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'navigate']
+		Batch size: 32
+		Peek stats: {'num_tokens': 55, 'truncation_ratio': 0.0}
+	(12/22) D/BBOBJECTCOUNTING/EVAL
+		Dataset class BigBenchDataset
+		Size: 1000 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'object_counting']
+		Batch size: 32
+		Peek stats: {'num_tokens': 47, 'truncation_ratio': 0.0}
+	(13/22) D/BBPENGUINSINATABLE/EVAL
+		Dataset class BigBenchDataset
+		Size: 149 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'penguins_in_a_table']
+		Batch size: 16
+		Peek stats: {'num_tokens': 146, 'truncation_ratio': 0.0}
+	(14/22) D/BBREASONINGABOUTCOLOREDOBJECTS/EVAL
+		Dataset class BigBenchDataset
+		Size: 2000 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'reasoning_about_colored_objects']
+		Batch size: 4
+		Peek stats: {'num_tokens': 110, 'truncation_ratio': 0.0}
+	(15/22) D/BBRUINNAMES/EVAL
+		Dataset class BigBenchDataset
+		Size: 448 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'ruin_names']
+		Batch size: 16
+		Peek stats: {'num_tokens': 89, 'truncation_ratio': 0.0}
+	(16/22) D/BBSALIENTTRANSLATIONERRORDETECTION/EVAL
+		Dataset class BigBenchDataset
+		Size: 998 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'salient_translation_error_detection']
+		Batch size: 4
+		Peek stats: {'num_tokens': 281, 'truncation_ratio': 0.0}
+	(17/22) D/BBSNARKS/EVAL
+		Dataset class BigBenchDataset
+		Size: 181 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'snarks']
+		Batch size: 32
+		Peek stats: {'num_tokens': 70, 'truncation_ratio': 0.0}
+	(18/22) D/BBSPORTSUNDERSTANDING/EVAL
+		Dataset class BigBenchDataset
+		Size: 986 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'sports_understanding']
+		Batch size: 32
+		Peek stats: {'num_tokens': 49, 'truncation_ratio': 0.0}
+	(19/22) D/BBTEMPORALSEQUENCES/EVAL
+		Dataset class BigBenchDataset
+		Size: 1000 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'temporal_sequences']
+		Batch size: 16
+		Peek stats: {'num_tokens': 180, 'truncation_ratio': 0.0}
+	(20/22) D/BBTRACKINGSHUFFLEDOBJECTS/EVAL
+		Dataset class BigBenchDataset
+		Size: 3750 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'tracking_shuffled_objects']
+		Batch size: 8
+		Peek stats: {'num_tokens': 182, 'truncation_ratio': 0.0}
+	(21/22) D/BBWEBOFLIES/EVAL
+		Dataset class BigBenchSampleDataset
+		Size: 250 examples.
+		Loaded from test split of ['huggingface', 'lukaemon/bbh', 'web_of_lies']
+		Batch size: 32
+		Peek stats: {'num_tokens': 62, 'truncation_ratio': 0.0}
+	(22/22) D/BBWORDSORTING/EVAL
+		Dataset class BigBenchDataset
+		Size: 1900 examples.
+		Loaded from train_validation split of ['huggingface', 'tasksource/bigbench', 'word_sorting']
+		Batch size: 32
+		Peek stats: {'num_tokens': 71, 'truncation_ratio': 0.0}
+Defined models
+	(1/1) M/MODEL
+		Model class: Model
+		Based on torch model: AugmentedClass(
+  (shared): Embedding(32128, 2048)
+  (encoder): T5Stack(
+    (embed_tokens): Embedding(32128, 2048)
+    (block): ModuleList(
+      (0): T5Block(
+        (layer): ModuleList(
+          ...
+		 and tokenizer: T5TokenizerFast
+		Addons installed: ['to_device x1']
+		Interface selected: OrderedDict([('lm', <function InterfaceMixin.language_modeling_for_encdec at 0x7f2901ac23a0>), ('gen', <function InterfaceMixin.generation_for_encdec at 0x7f2901ac24c0>), ('mc', <function InterfaceMixin.multiple_choice_by_perplexity_for_encdec at 0x7f2901ac25e0>)])
+		Parameters: 2,849,757,184 (0 trainable + 2,849,757,184 frozen)
+Defined procedures
+	(1/1) P/EVALUATE
+		Procedure class: Evaluator
+		Evalutes M/MODEL model on 22 datasets (['D/BBBOOLEANEXPRESSIONS/EVAL', 'D/BBCAUSALJUDGEMENT/EVAL', 'D/BBDATEUNDERSTANDING/EVAL', 'D/BBDISAMBIGUATIONQA/EVAL', 'D/BBFORMALFALLACIES/EVAL', 'D/BBGEOMETRICSHAPES/EVAL', 'D/BBHYPERBATON/EVAL', 'D/BBLOGICALDEDUCTION/EVAL', 'D/BBMOVIERECOMMENDATION/EVAL', 'D/BBMULTISTEPARITHMETICTWO/EVAL', 'D/BBNAVIGATE/EVAL', 'D/BBOBJECTCOUNTING/EVAL', 'D/BBPENGUINSINATABLE/EVAL', 'D/BBREASONINGABOUTCOLOREDOBJECTS/EVAL', 'D/BBRUINNAMES/EVAL', 'D/BBSALIENTTRANSLATIONERRORDETECTION/EVAL', 'D/BBSNARKS/EVAL', 'D/BBSPORTSUNDERSTANDING/EVAL', 'D/BBTEMPORALSEQUENCES/EVAL', 'D/BBTRACKINGSHUFFLEDOBJECTS/EVAL', 'D/BBWEBOFLIES/EVAL', 'D/BBWORDSORTING/EVAL'])
+########################################################################################
+#                                    Run Procedures                                    #
+########################################################################################
+----------------------------------------------------------------------------------------
+Running P/EVALUATE...
+	Evaluating D/BBBOOLEANEXPRESSIONS/EVAL...
+	D/BBBOOLEANEXPRESSIONS/EVAL results: {'accuracy': 0.504, 'score': 0.504}
+	Evaluating D/BBCAUSALJUDGEMENT/EVAL...
+	D/BBCAUSALJUDGEMENT/EVAL results: {'accuracy': 0.611, 'score': 0.611}
+	Evaluating D/BBDATEUNDERSTANDING/EVAL...
+	D/BBDATEUNDERSTANDING/EVAL results: {'accuracy': 0.369, 'score': 0.369}
+	Evaluating D/BBDISAMBIGUATIONQA/EVAL...
+	D/BBDISAMBIGUATIONQA/EVAL results: {'accuracy': 0.655, 'score': 0.655}
+	Evaluating D/BBFORMALFALLACIES/EVAL...
+	D/BBFORMALFALLACIES/EVAL results: {'accuracy': 0.522, 'score': 0.522}
+	Evaluating D/BBGEOMETRICSHAPES/EVAL...
+	D/BBGEOMETRICSHAPES/EVAL results: {'accuracy_multiple_ans': 0.097, 'score': 0.097}
+	Evaluating D/BBHYPERBATON/EVAL...
+	D/BBHYPERBATON/EVAL results: {'accuracy': 0.511, 'score': 0.511}
+	Evaluating D/BBLOGICALDEDUCTION/EVAL...
+	D/BBLOGICALDEDUCTION/EVAL results: {'accuracy': 0.496, 'score': 0.496}
+	Evaluating D/BBMOVIERECOMMENDATION/EVAL...
+	D/BBMOVIERECOMMENDATION/EVAL results: {'accuracy': 0.326, 'score': 0.326}
+	Evaluating D/BBMULTISTEPARITHMETICTWO/EVAL...
+	D/BBMULTISTEPARITHMETICTWO/EVAL results: {'exact_match': 0.0, 'score': 0.0}
+	Evaluating D/BBNAVIGATE/EVAL...
+	D/BBNAVIGATE/EVAL results: {'accuracy': 0.5, 'score': 0.5}
+	Evaluating D/BBOBJECTCOUNTING/EVAL...
+	D/BBOBJECTCOUNTING/EVAL results: {'exact_match_multiple_ans': 0.357, 'score': 0.357}
+	Evaluating D/BBPENGUINSINATABLE/EVAL...
+	D/BBPENGUINSINATABLE/EVAL results: {'accuracy': 0.396, 'score': 0.396}
+	Evaluating D/BBREASONINGABOUTCOLOREDOBJECTS/EVAL...
+	D/BBREASONINGABOUTCOLOREDOBJECTS/EVAL results: {'accuracy_multiple_ans': 0.565, 'score': 0.565}
+	Evaluating D/BBRUINNAMES/EVAL...
+	D/BBRUINNAMES/EVAL results: {'accuracy': 0.194, 'score': 0.194}
+	Evaluating D/BBSALIENTTRANSLATIONERRORDETECTION/EVAL...
+	D/BBSALIENTTRANSLATIONERRORDETECTION/EVAL results: {'accuracy': 0.392, 'score': 0.392}
+	Evaluating D/BBSNARKS/EVAL...
+	D/BBSNARKS/EVAL results: {'accuracy': 0.597, 'score': 0.597}
+	Evaluating D/BBSPORTSUNDERSTANDING/EVAL...
+	D/BBSPORTSUNDERSTANDING/EVAL results: {'accuracy': 0.514, 'score': 0.514}
+	Evaluating D/BBTEMPORALSEQUENCES/EVAL...
+	D/BBTEMPORALSEQUENCES/EVAL results: {'accuracy': 0.269, 'score': 0.269}
+	Evaluating D/BBTRACKINGSHUFFLEDOBJECTS/EVAL...
+	D/BBTRACKINGSHUFFLEDOBJECTS/EVAL results: {'accuracy': 0.159, 'score': 0.159}
+	Evaluating D/BBWEBOFLIES/EVAL...
+	D/BBWEBOFLIES/EVAL results: {'accuracy': 0.532, 'score': 0.532}
+	Evaluating D/BBWORDSORTING/EVAL...
+	D/BBWORDSORTING/EVAL results: {'exact_match': 0.0, 'score': 0.0}
+	All results: OrderedDict([('D/BBBOOLEANEXPRESSIONS/EVAL', {'accuracy': 0.504, 'score': 0.504}), ('D/BBCAUSALJUDGEMENT/EVAL', {'accuracy': 0.611, 'score': 0.611}), ('D/BBDATEUNDERSTANDING/EVAL', {'accuracy': 0.369, 'score': 0.369}), ('D/BBDISAMBIGUATIONQA/EVAL', {'accuracy': 0.655, 'score': 0.655}), ('D/BBFORMALFALLACIES/EVAL', {'accuracy': 0.522, 'score': 0.522}), ('D/BBGEOMETRICSHAPES/EVAL', {'accuracy_multiple_ans': 0.097, 'score': 0.097}), ('D/BBHYPERBATON/EVAL', {'accuracy': 0.511, 'score': 0.511}), ('D/BBLOGICALDEDUCTION/EVAL', {'accuracy': 0.496, 'score': 0.496}), ('D/BBMOVIERECOMMENDATION/EVAL', {'accuracy': 0.326, 'score': 0.326}), ('D/BBMULTISTEPARITHMETICTWO/EVAL', {'exact_match': 0.0, 'score': 0.0}), ('D/BBNAVIGATE/EVAL', {'accuracy': 0.5, 'score': 0.5}), ('D/BBOBJECTCOUNTING/EVAL', {'exact_match_multiple_ans': 0.357, 'score': 0.357}), ('D/BBPENGUINSINATABLE/EVAL', {'accuracy': 0.396, 'score': 0.396}), ('D/BBREASONINGABOUTCOLOREDOBJECTS/EVAL', {'accuracy_multiple_ans': 0.565, 'score': 0.565}), ('D/BBRUINNAMES/EVAL', {'accuracy': 0.194, 'score': 0.194}), ('D/BBSALIENTTRANSLATIONERRORDETECTION/EVAL', {'accuracy': 0.392, 'score': 0.392}), ('D/BBSNARKS/EVAL', {'accuracy': 0.597, 'score': 0.597}), ('D/BBSPORTSUNDERSTANDING/EVAL', {'accuracy': 0.514, 'score': 0.514}), ('D/BBTEMPORALSEQUENCES/EVAL', {'accuracy': 0.269, 'score': 0.269}), ('D/BBTRACKINGSHUFFLEDOBJECTS/EVAL', {'accuracy': 0.159, 'score': 0.159}), ('D/BBWEBOFLIES/EVAL', {'accuracy': 0.532, 'score': 0.532}), ('D/BBWORDSORTING/EVAL', {'exact_match': 0.0, 'score': 0.0}), ('average_score', np.float64(0.3893636363636364)), ('confidence', np.float64(0.19052571896407283))])
+Finished P/EVALUATE
+	 New best results!
+########################################################################################
+#                         Experiment [flan_t5_xl_gen] Finished                         #
+########################################################################################
+Time: 2025-10-16 12:29:12.804616
+Done. Check exp_out/flan_t5_xl_gen/ and logs/*.out, *.err
