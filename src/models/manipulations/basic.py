@@ -196,7 +196,7 @@ def load_weights(
 
     if os.path.exists(weight_path):
         print(f"Loading weights from {weight_path}")
-        state_dict = torch.load(weight_path, map_location=torch.device("cpu"))
+        state_dict = torch.load(weight_path, map_location=torch.device("cpu"), weights_only=False)
         load_result = model.torch_model.load_state_dict(state_dict, strict=False)
         assert (
             len(load_result.unexpected_keys) == 0

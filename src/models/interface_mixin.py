@@ -245,7 +245,7 @@ class InterfaceMixin:
 
     @staticmethod
     def generation_for_encdec(
-        torch_model, tokenizer, batch_input, num_beams=1, max_gen_length=20
+        torch_model, tokenizer, batch_input, num_beams=1, max_gen_length=20, do_sample=True, temperature=1.0
     ):
         global_hidden_updates = {}
         input_ids = batch_input["input_ids"]
@@ -256,6 +256,8 @@ class InterfaceMixin:
             attention_mask=attention_mask,
             num_beams=num_beams,
             max_length=max_gen_length,
+            do_sample=do_sample,
+            temperature=temperature,
         )
         output_text = tokenizer.batch_decode(output_ids, skip_special_tokens=True)
 
@@ -264,7 +266,7 @@ class InterfaceMixin:
 
     @staticmethod
     def generation_for_decoder(
-        torch_model, tokenizer, batch_input, num_beams=1, max_gen_length=20
+        torch_model, tokenizer, batch_input, num_beams=1, max_gen_length=20, do_sample=True, temperature=1.0
     ):
         global_hidden_updates = {}
         input_ids = shift_pad(batch_input["input_ids"], tokenizer)
@@ -283,6 +285,8 @@ class InterfaceMixin:
             attention_mask=attention_mask,
             num_beams=num_beams,
             max_length=max_gen_length + input_length,
+            do_sample=do_sample,
+            temperature=temperature,
         )
         output_ids = output_ids[..., input_length:]
         output_text = tokenizer.batch_decode(output_ids, skip_special_tokens=True)

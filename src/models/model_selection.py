@@ -2,9 +2,11 @@ import os
 
 import gin
 
-
-@gin.configurable(allowlist=["model_name_or_path", "model_class"])
-def hf_torch_model(model_name_or_path, model_class=""):
+#add
+import torch
+#add
+@gin.configurable(allowlist=["model_name_or_path", "model_class", "from_pretrained_kwargs"])
+def hf_torch_model(model_name_or_path, model_class="", from_pretrained_kwargs=None):
     model_name_or_path = os.path.expandvars(model_name_or_path)
     model_class = os.path.expandvars(model_class)
 
@@ -18,7 +20,15 @@ def hf_torch_model(model_name_or_path, model_class=""):
         AutoModelForTokenClassification,
     )
 
-    model_class = {
+    from_pretrained_kwargs = dict(from_pretrained_kwargs or {})
+
+    if "torch_dtype" in from_pretrained_kwargs and isinstance(from_pretrained_kwargs["torch_dtype"], str):
+        s = from_pretrained_kwargs["torch_dtype"].lower()
+        if s in ("bf16", "bfloat16"):   from_pretrained_kwargs["torch_dtype"] = torch.bfloat16
+        elif s in ("fp16", "float16"):  from_pretrained_kwargs["torch_dtype"] = torch.float16
+        elif s in ("fp32", "float32"):  from_pretrained_kwargs["torch_dtype"] = torch.float32
+
+    cls_map = {
         "": AutoModel,
         "causal_lm": AutoModelForCausalLM,
         "masked_lm": AutoModelForMaskedLM,
@@ -26,9 +36,9 @@ def hf_torch_model(model_name_or_path, model_class=""):
         "seq_cls": AutoModelForSequenceClassification,
         "token_cls": AutoModelForTokenClassification,
         "qa": AutoModelForQuestionAnswering,
-    }[model_class]
-    torch_model = model_class.from_pretrained(model_name_or_path)
-
+    }
+    model_ctor = cls_map[model_class]
+    torch_model = model_ctor.from_pretrained(model_name_or_path, **from_pretrained_kwargs)
     return torch_model
 
 

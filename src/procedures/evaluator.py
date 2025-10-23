@@ -67,6 +67,106 @@ class Evaluator(Procedure):
         self.batcher.set_tokenizer(self.model.tokenizer)
         self.batcher.set_seed(self.seed)
 
+#add
+    def _run_one_dataset_adaptive(self, dataset):
+
+        orig_bs = getattr(dataset, "batch_size", 32)
+        bs = max(1, orig_bs)
+
+        while True:
+            try:
+                dataset.batch_size = bs
+                data_loader = self.batcher.build(dataset)
+
+                for batch_idx, batch_inputs in enumerate(data_loader):
+                    batch_outputs = self.model(batch_inputs, dataset.interface_info, {})
+                    self.scorer[dataset.name].add_batch(batch_inputs, batch_outputs)
+                    for analysis_processor in self.analysis_processors:
+                        analysis_processor.batch_process(
+                            batch_inputs, batch_outputs, self.model.global_hidden_dict
+                        )
+
+                dataset.batch_size = orig_bs
+                return True
+
+            except torch.cuda.OutOfMemoryError:
+                torch.cuda.empty_cache()
+                new_bs = max(1, bs // 2)
+                print(f"[{dataset.name}] OOM -> reduce batch_size {bs} -> {new_bs}")
+                if new_bs == bs:
+                    dataset.batch_size = orig_bs
+                    return False
+                bs = new_bs
+
+    # def run(self, step=None):
+    #     logging.print_single_bar()
+    #     print(f"Running {self.name}...")
+    #     self.model.torch_model.eval()
+    #     with torch.no_grad():
+    #         for dataset in self.datasets:
+    #             print(f"\tEvaluating {dataset.name}...")
+    #             if dataset.name in self._current_results:
+    #                 continue
+    #             if dataset.metrics is None:
+    #                 continue
+    #             data_loader = self.batcher.build(dataset)
+    #             for batch_idx, batch_inputs in enumerate(data_loader):
+    #                 batch_outputs = self.model(batch_inputs, dataset.interface_info, {})
+    #                 self.scorer[dataset.name].add_batch(batch_inputs, batch_outputs)
+    #                 for analysis_processor in self.analysis_processors:
+    #                     analysis_processor.batch_process(
+    #                         batch_inputs, batch_outputs, self.model.global_hidden_dict
+    #                     )
+
+    #             self._current_results[dataset.name] = self.scorer[
+    #                 dataset.name
+    #             ].get_score()
+    #             self._current_results[dataset.name]["score"] = sum(
+    #                 self._current_results[dataset.name].values()
+    #             ) / len(self._current_results[dataset.name])
+    #             self.save_states()
+
+    #             for analysis_processor in self.analysis_processors:
+    #                 analysis_processor.dataset_process(dataset.name)
+    #             print(
+    #                 f"\t{dataset.name} results: {self._current_results[dataset.name]}"
+    #             )
+
+    #     for aggregator in self.results_aggregators:
+    #         aggregator(self._current_results)
+    #     results = self._current_results.copy()
+    #     if step is not None:
+    #         results["step"] = step
+    #     self._current_results.clear()
+
+    #     print(f"\tAll results: {results}")
+    #     print(f"Finished {self.name}")
+
+    #     logging.log_scalar_dict(
+    #         {f"{self.name}/{key}": value for key, value in results.items()}
+    #     )
+    #     self.save_results(results, step=step)
+    #     for analysis_processor in self.analysis_processors:
+    #         analysis_processor.cross_dataset_process()
+    #         analysis_processor.save(step)
+
+    #     if (
+    #         self.best_results is None
+    #         or (
+    #             results["average_score"] >= self.best_results["average_score"]
+    #             and self.higher_is_better
+    #         )
+    #         or (
+    #             results["average_score"] <= self.best_results["average_score"]
+    #             and not self.higher_is_better
+    #         )
+    #     ):
+    #         print("\t New best results!")
+    #         self.best_results = results
+    #         for moma_call in self.better_model_moma_calls:
+    #             moma_call(self.model)
+    #     return results
+
     def run(self, step=None):
         logging.print_single_bar()
         print(f"Running {self.name}...")
@@ -78,18 +178,17 @@ class Evaluator(Procedure):
                     continue
                 if dataset.metrics is None:
                     continue
-                data_loader = self.batcher.build(dataset)
-                for batch_idx, batch_inputs in enumerate(data_loader):
-                    batch_outputs = self.model(batch_inputs, dataset.interface_info, {})
-                    self.scorer[dataset.name].add_batch(batch_inputs, batch_outputs)
-                    for analysis_processor in self.analysis_processors:
-                        analysis_processor.batch_process(
-                            batch_inputs, batch_outputs, self.model.global_hidden_dict
-                        )
 
-                self._current_results[dataset.name] = self.scorer[
-                    dataset.name
-                ].get_score()
+                if dataset.name not in self.scorer and dataset.metrics is not None:
+                    self.scorer[dataset.name] = Scorer(dataset.metrics)
+
+                ok = self._run_one_dataset_adaptive(dataset)
+                if not ok:
+                    self._current_results[dataset.name] = {"skipped_oom": True}
+                    print(f"\t{dataset.name} skipped due to OOM with batch_size=1")
+                    continue
+
+                self._current_results[dataset.name] = self.scorer[dataset.name].get_score()
                 self._current_results[dataset.name]["score"] = sum(
                     self._current_results[dataset.name].values()
                 ) / len(self._current_results[dataset.name])
@@ -97,38 +196,37 @@ class Evaluator(Procedure):
 
                 for analysis_processor in self.analysis_processors:
                     analysis_processor.dataset_process(dataset.name)
-                print(
-                    f"\t{dataset.name} results: {self._current_results[dataset.name]}"
-                )
 
+                print(f"\t{dataset.name} results: {self._current_results[dataset.name]}")
+
+        scored = {k: v for k, v in self._current_results.items() if "score" in v}
         for aggregator in self.results_aggregators:
-            aggregator(self._current_results)
-        results = self._current_results.copy()
+            aggregator(scored)
+
+        results = scored.copy()
         if step is not None:
             results["step"] = step
+
+        for k, v in self._current_results.items():
+            if "score" not in v:
+                results[k] = v
+
         self._current_results.clear()
 
         print(f"\tAll results: {results}")
         print(f"Finished {self.name}")
 
-        logging.log_scalar_dict(
-            {f"{self.name}/{key}": value for key, value in results.items()}
-        )
+        logging.log_scalar_dict({f"{self.name}/{key}": value for key, value in results.items()
+                                 if isinstance(value, (int, float))})
         self.save_results(results, step=step)
         for analysis_processor in self.analysis_processors:
             analysis_processor.cross_dataset_process()
             analysis_processor.save(step)
 
-        if (
+        if "average_score" in results and (
             self.best_results is None
-            or (
-                results["average_score"] >= self.best_results["average_score"]
-                and self.higher_is_better
-            )
-            or (
-                results["average_score"] <= self.best_results["average_score"]
-                and not self.higher_is_better
-            )
+            or (results["average_score"] >= self.best_results.get("average_score", float("-inf")) and self.higher_is_better)
+            or (results["average_score"] <= self.best_results.get("average_score", float("inf")) and not self.higher_is_better)
         ):
             print("\t New best results!")
             self.best_results = results

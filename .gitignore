@@ -130,6 +130,7 @@ dmypy.json
 
 # experiment outputs
 exp_out/FLAN_Phatgoose
+exp_out/P3_Phatgoose
 wandb/
 loggings/
 
