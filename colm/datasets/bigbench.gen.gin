@@ -11,7 +11,7 @@ D/BigBenchDataset:
     max_length = 512
     batch_size = 32
     split = "train_validation"
-    metrics = ["accuracy"]
+    metrics = ["exact_match"]
 
 D/BigBenchSampleDataset:
     batch_size = 32
@@ -27,7 +27,7 @@ D/BBBOOLEANEXPRESSIONS/EVAL/InterfaceInfo.interface = "gen"
 D/BBBOOLEANEXPRESSIONS/EVAL/BigBenchSampleDataset:
     answer_choices = ["True", "False"]
     split = "test"
-    metrics = ["accuracy"]
+    metrics = ["exact_match"]
 
 
 D/BBCAUSALJUDGEMENT/BigBenchDataset:
@@ -71,7 +71,7 @@ D/BBGEOMETRICSHAPES/BigBenchDataset:
 D/BBGEOMETRICSHAPES/EVAL/build.cls = @BigBenchDataset
 D/BBGEOMETRICSHAPES/EVAL/InterfaceInfo.interface = "gen"
 D/BBGEOMETRICSHAPES/EVAL/BigBenchDataset:
-    metrics = ["accuracy_multiple_ans"]
+    metrics = ["exact_match_multiple_ans"]
     batch_size = 8
 
 
@@ -141,7 +141,7 @@ D/BBREASONINGABOUTCOLOREDOBJECTS/BigBenchDataset:
 D/BBREASONINGABOUTCOLOREDOBJECTS/EVAL/build.cls = @BigBenchDataset
 D/BBREASONINGABOUTCOLOREDOBJECTS/EVAL/InterfaceInfo.interface = "gen"
 D/BBREASONINGABOUTCOLOREDOBJECTS/EVAL/BigBenchDataset:
-    metrics = ["accuracy_multiple_ans"]
+    metrics = ["exact_match_multiple_ans"]
     batch_size = 4
 
 
@@ -199,7 +199,7 @@ D/BBWEBOFLIES/EVAL/InterfaceInfo.interface = "gen"
 D/BBWEBOFLIES/EVAL/BigBenchSampleDataset:
     answer_choices = ["Yes", "No"]
     split = "test"
-    metrics = ["accuracy"]
+    metrics = ["exact_match"]
 
 D/BBWORDSORTING/BigBenchDataset:
     dataset_path = ["huggingface", "tasksource/bigbench", "word_sorting"]
@@ -325,7 +325,7 @@ D/BBNOVELCONCEPTS/BigBenchDataset:
 D/BBNOVELCONCEPTS/EVAL/build.cls = @BigBenchDataset
 D/BBNOVELCONCEPTS/EVAL/InterfaceInfo.interface = "gen"
 D/BBNOVELCONCEPTS/EVAL/BigBenchDataset:
-    metrics = ["accuracy_multiple_ans"]
+    metrics = ["exact_match_multiple_ans"]
     batch_size = 16
 
 

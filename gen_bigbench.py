@@ -19,6 +19,16 @@ SHORT_TASK_KEYS = {
     "BBSYMBOLINTERPRETATION","BBVITAMINCFACTVERIFICATION","BBWINOWHY",
 }
 
+MC_TO_GEN_METRIC = {
+    'accuracy': 'exact_match',
+    'accuracy_multiple_ans': 'exact_match_multiple_ans',
+}
+GEN_METRICS = {'exact_match', 'exact_match_multiple_ans', 'rouge'}
+
+ROUGE_TASKS = {
+    "BBCONLANGTRANSLATION",
+}
+
 def default_maxlen(task_key: str) -> int:
     return SHORT_GEN_DEFAULT if task_key in SHORT_TASK_KEYS else LONG_GEN_FALLBACK
 
@@ -38,9 +48,31 @@ INLINE_MAX = re.compile(
     r'^\s*D/([^/\n]+)/EVAL/InterfaceInfo\.max_gen_length\s*=\s*\d+\s*$'
 )
 
+TOP_DATASET_HDR = re.compile(r'^\s*(D/BigBenchDataset\s*:)\s*$')
+TOP_SAMPLE_HDR  = re.compile(r'^\s*(D/BigBenchSampleDataset\s*:)\s*$')
+
+INLINE_METRICS_LINE = re.compile(
+    r'^\s*(D/[^/\n]+/EVAL/(?:BigBenchDataset|BigBenchSampleDataset)\.metrics\s*=\s*)(\[[^\]]*\])\s*$'
+)
+
+def _normalize_metrics_value(text: str) -> str:
+    val = text.strip()
+    inner = val.strip()[1:-1].strip()
+    items = [x.strip().strip('"').strip("'") for x in inner.split(',') if x.strip()]
+    if not items:
+        return '["exact_match"]'
+    fixed = []
+    for it in items:
+        if it in MC_TO_GEN_METRIC:
+            fixed.append(MC_TO_GEN_METRIC[it])
+        else:
+            fixed.append(it)
+    if not any(m in GEN_METRICS for m in fixed):
+        fixed = ["exact_match"]
+    return "[" + ", ".join(f'"{m}"' for m in fixed) + "]"
+
 def patch_text(text: str) -> str:
     lines = text.splitlines()
-    out_lines = []
 
     patched = []
     for ln in lines:
@@ -51,15 +83,16 @@ def patch_text(text: str) -> str:
             m_inl = INLINE_IFACE_LMMC.match(ln)
             if m_inl:
                 ln = INLINE_IFACE_LMMC.sub(r'\1gen"\4', ln)
+        m_inline_metrics = INLINE_METRICS_LINE.match(ln)
+        if m_inline_metrics:
+            prefix, arr = m_inline_metrics.groups()
+            ln = prefix + _normalize_metrics_value(arr)
         patched.append(ln)
     lines = patched
 
     existing_max_tasks = set()
-    for ln in lines:
-        m_inline_max = INLINE_MAX.match(ln)
-        if m_inline_max:
-            existing_max_tasks.add(m_inline_max.group(1))
 
+    out_lines = []
     i = 0
     while i < len(lines):
         ln = lines[i]
@@ -69,7 +102,6 @@ def patch_text(text: str) -> str:
             block = [ln]; i += 1
             while i < len(lines) and not lines[i].lstrip().startswith("D/"):
                 block.append(lines[i]); i += 1
-
             newb = []
             for b in block:
                 mkv = KV.match(b)
@@ -84,6 +116,31 @@ def patch_text(text: str) -> str:
             out_lines.extend(newb)
             continue
 
+        if m_top_ds:
+            block = [ln]; i += 1
+            while i < len(lines) and not lines[i].lstrip().startswith("D/"):
+                block.append(lines[i]); i += 1
+            newb, saw_metrics = [], False
+            for b in block:
+                mkv = KV.match(b)
+                if mkv and mkv.group(1) == "metrics":
+                    saw_metrics = True
+                    newb.append('    metrics = ["exact_match"]')
+                else:
+                    newb.append(b)
+            if not saw_metrics:
+                newb.append('    metrics = ["exact_match"]')
+            out_lines.extend(newb)
+            continue
+
+        m_top_smpl = TOP_SAMPLE_HDR.match(ln)
+        if m_top_smpl:
+            block = [ln]; i += 1
+            while i < len(lines) and not lines[i].lstrip().startswith("D/"):
+                block.append(lines[i]); i += 1
+            out_lines.extend(block)
+            continue
+
         m_hdr = BLOCK_HDR.match(ln)
         if m_hdr:
             task_key = m_hdr.group(2)
@@ -91,8 +148,9 @@ def patch_text(text: str) -> str:
             saw_max = False
 
             while i < len(lines) and not lines[i].lstrip().startswith("D/"):
-                block.append(lines[i])
-                mkv = KV.match(lines[i])
+                b = lines[i]
+                block.append(b)
+                mkv = KV.match(b)
                 if mkv and mkv.group(1) == "max_gen_length":
                     saw_max = True
                 i += 1
@@ -109,9 +167,7 @@ def patch_text(text: str) -> str:
                 else:
                     newb.append(b)
 
-            if saw_max:
-                existing_max_tasks.add(task_key)
-            else:
+            if not saw_max:
                 ml = default_maxlen(task_key)
                 newb.append(f'    max_gen_length = {ml}')
                 existing_max_tasks.add(task_key)
@@ -119,23 +175,62 @@ def patch_text(text: str) -> str:
             out_lines.extend(newb)
             continue
 
-        out_lines.append(ln); i += 1
+        out_lines.append(ln)
+        i += 1
 
+  
     final = []
     i = 0
+    task_metrics_written = set()
+
+    seen_iface_tasks = set()
+
+    for ln in out_lines:
+        m = re.match(r'^\s*D/([^/\n]+)/EVAL/InterfaceInfo\.interface\s*=\s*"gen"', ln)
+        if m:
+            seen_iface_tasks.add(m.group(1))
+
     while i < len(out_lines):
         ln = out_lines[i]
-        m_inl = INLINE_IFACE_LMMC.match(ln)
-        if m_inl:
-            task = m_inl.group(2)
-            ln = INLINE_IFACE_LMMC.sub(r'\1gen"\4', ln)
-            final.append(ln)
-            if task not in existing_max_tasks:
-                ml = default_maxlen(task)
-                final.append(f'D/{task}/EVAL/InterfaceInfo.max_gen_length = {ml}')
-                existing_max_tasks.add(task)
-            i += 1
+
+        m_inline_metrics = INLINE_METRICS_LINE.match(ln)
+        if m_inline_metrics:
+            prefix, arr = m_inline_metrics.groups()
+            norm = _normalize_metrics_value(arr)
+            ln = prefix + norm
+            mt = re.match(r'^\s*D/([^/\n]+)/EVAL/', ln)
+            if mt:
+                task_metrics_written.add(mt.group(1))
+            final.append(ln); i += 1
             continue
+
+        m_ds_hdr = re.match(r'^\s*(D/([^/\s]+)/EVAL/(BigBenchDataset|BigBenchSampleDataset)\s*:)\s*$', ln)
+        if m_ds_hdr:
+            task_key = m_ds_hdr.group(2)
+            block = [ln]; i += 1
+            saw_metrics = False
+            while i < len(out_lines) and not out_lines[i].lstrip().startswith("D/"):
+                b = out_lines[i]
+                mkv = KV.match(b)
+                if mkv and mkv.group(1) == "metrics":
+                    saw_metrics = True
+                    raw = mkv.group(2).strip()
+                    new_val = _normalize_metrics_value(raw)
+                    block.append(f'    metrics = {new_val}')
+                else:
+                    block.append(b)
+                i += 1
+
+            if not saw_metrics:
+                if task_key in ROUGE_TASKS:
+                    block.append('    metrics = ["rouge"]')
+                else:
+                    block.append('    metrics = ["exact_match"]')
+                task_metrics_written.add(task_key)
+
+            final.extend(block)
+            continue
+
         final.append(ln); i += 1
 
     return "\n".join(final) + "\n"

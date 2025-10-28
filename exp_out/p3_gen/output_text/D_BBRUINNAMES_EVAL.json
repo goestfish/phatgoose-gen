@@ -1,0 +1,2690 @@
+[
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'rain man'?\n  choice: rainmman\n  choice: ruin man\n  choice: rain men\n  choice: rains man\nA:\nAnswer:",
+        "output_text": "rainmman",
+        "target_str": "ruin man",
+        "references": "ruin man"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the dark knight rises'?\n  choice: the dark kniggt rises\n  choice: thetdark knight rises\n  choice: the bark knight rises\n  choice: the dork knight rises\nA:\nAnswer:",
+        "output_text": "the dork knight rises",
+        "target_str": "the dork knight rises",
+        "references": "the dork knight rises"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the shawshank redemption'?\n  choice: the shawshanknredemption\n  choice: the shcawshank redemption\n  choice: the shapwshank redemption\n  choice: the shawshark redemption\nA:\nAnswer:",
+        "output_text": "the shawshank redemption",
+        "target_str": "the shawshark redemption",
+        "references": "the shawshark redemption"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the third man'?\n  choice: the third pan\n  choice: thed third man\n  choice: the third men\n  choice: the trird man\nA:\nAnswer:",
+        "output_text": "the trird man",
+        "target_str": "the third pan",
+        "references": "the third pan"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'coldplay'?\n  choice: coldpnay\n  choice: soldplay\n  choice: coldglay\n  choice: colldplay\nA:\nAnswer:",
+        "output_text": "coldglay",
+        "target_str": "soldplay",
+        "references": "soldplay"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'paul revere and the raiders'?\n  choice: paul erevere and the raiders\n  choice: paul severe and the raiders\n  choice: mpaul revere and the raiders\n  choice: paul rfevere and the raiders\nA:\nAnswer:",
+        "output_text": "paul rfevere and the raiders",
+        "target_str": "paul severe and the raiders",
+        "references": "paul severe and the raiders"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the smashing pumpkins'?\n  choice: the smashing bumpkins\n  choice: thez smashing pumpkins\n  choice: the rmashing pumpkins\n  choice: the smashingq pumpkins\nA:\nAnswer:",
+        "output_text": "the smashing bumpkins",
+        "target_str": "the smashing bumpkins",
+        "references": "the smashing bumpkins"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'guns n' roses'?\n  choice: guns n' hoses\n  choice: guns n'z roses\n  choice: gunh n' roses\n  choice: guns n' ropes\nA:\nAnswer:",
+        "output_text": "guns n'z roses",
+        "target_str": "guns n' hoses",
+        "references": "guns n' hoses"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beatles'?\n  choice: the bdeatles\n  choice: thp beatles\n  choice: tce beatles\n  choice: the beatless\nA:\nAnswer:",
+        "output_text": "the bdeatles",
+        "target_str": "the beatless",
+        "references": "the beatless"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'hellboy'?\n  choice: hellbby\n  choice: hpllboy\n  choice: cellboy\n  choice: hellbfoy\nA:\nAnswer:",
+        "output_text": "hellbby",
+        "target_str": "cellboy",
+        "references": "cellboy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'phish'?\n  choice: phisg\n  choice: pkish\n  choice: phigh\n  choice: phist\nA:\nAnswer:",
+        "output_text": "phist",
+        "target_str": "phist",
+        "references": "phist"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the who!'?\n  choice: the why!\n  choice: xhe who!\n  choice: the waho!\n  choice: trhe who!\nA:\nAnswer:",
+        "output_text": "xhe who!",
+        "target_str": "the why!",
+        "references": "the why!"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'braveheart'?\n  choice: braveheafrt\n  choice: graveheart\n  choice: brasveheart\n  choice: bravehearts\nA:\nAnswer:",
+        "output_text": "braveheafrt",
+        "target_str": "graveheart",
+        "references": "graveheart"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the three stooges'?\n  choice: the three stmooges\n  choice: the three suooges\n  choice: the three snooges\n  choice: the three stodges\nA:\nAnswer:",
+        "output_text": "the three stodges",
+        "target_str": "the three stodges",
+        "references": "the three stodges"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the deer hunter'?\n  choice: the deer hunhter\n  choice: the kdeer hunter\n  choice: the beer hunter\n  choice: the deer huntaer\nA:\nAnswer:",
+        "output_text": "the beer hunter",
+        "target_str": "the beer hunter",
+        "references": "the beer hunter"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'boyz 2 men'?\n  choice: boyz 2 ben\n  choice: toyz 2 men\n  choice: boiz 2 men\n  choice: boyz 2 mewn\nA:\nAnswer:",
+        "output_text": "boyz 2 mewn",
+        "target_str": "toyz 2 men",
+        "references": "toyz 2 men"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beastie boys'?\n  choice: the beastiwe boys\n  choice: the yeastie boys\n  choice: the beastie foys\n  choice: the bpeastie boys\nA:\nAnswer:",
+        "output_text": "the bpeastie boys",
+        "target_str": "the yeastie boys",
+        "references": "the yeastie boys"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'joy division'?\n  choice: joy divvision\n  choice: toy division\n  choice: job division\n  choice: jxoy division\nA:\nAnswer:",
+        "output_text": "jxoy division",
+        "target_str": "toy division",
+        "references": "toy division"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'herbie hancock'?\n  choice: hecrbie hancock\n  choice: herbqe hancock\n  choice: ferbie hancock\n  choice: hejrbie hancock\nA:\nAnswer:",
+        "output_text": "hecrbie hancock",
+        "target_str": "ferbie hancock",
+        "references": "ferbie hancock"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bon iver'?\n  choice: bion iver\n  choice: bon liver\n  choice: ban iver\n  choice: bon ivee\nA:\nAnswer:",
+        "output_text": "ban iver",
+        "target_str": "bon liver",
+        "references": "bon liver"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'star wars'?\n  choice: star warws\n  choice: stpr wars\n  choice: star warts\n  choice: start wars\nA:\nAnswer:",
+        "output_text": "stpr wars",
+        "target_str": "start wars",
+        "references": "start wars"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'cinderella'?\n  choice: cinderelrla\n  choice: tinderella\n  choice: cindeorella\n  choice: cindqrella\nA:\nAnswer:",
+        "output_text": "cindeorella",
+        "target_str": "tinderella",
+        "references": "tinderella"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the italian job'?\n  choice: the italians job\n  choice: the ytalian job\n  choice: the italian hob\n  choice: the italiay job\nA:\nAnswer:",
+        "output_text": "the italiay job",
+        "target_str": "the italian hob",
+        "references": "the italian hob"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'a few good men'?\n  choice: a few goofd men\n  choice: ad few good men\n  choice: a few food men\n  choice: a fewagood men\nA:\nAnswer:",
+        "output_text": "a few goofd men",
+        "target_str": "a few food men",
+        "references": "a few food men"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'raiders of the lost ark'?\n  choice: raiders of the last ark\n  choice: raiuders of the lost ark\n  choice: raidems of the lost ark\n  choice: raiders of the lost irk\nA:\nAnswer:",
+        "output_text": "raiuders of the lost ark",
+        "target_str": "raiders of the lost irk",
+        "references": "raiders of the lost irk"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'little shop of horrors'?\n  choice: little shoy of horrors\n  choice: ulittle shop of horrors\n  choice: little hop of horrors\n  choice: little wshop of horrors\nA:\nAnswer:",
+        "output_text": "ulittle shop of horrors",
+        "target_str": "little hop of horrors",
+        "references": "little hop of horrors"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'free willy'?\n  choice: frees willy\n  choice: tree willy\n  choice: freeh willy\n  choice: frre willy\nA:\nAnswer:",
+        "output_text": "frre willy",
+        "target_str": "tree willy",
+        "references": "tree willy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pixies'?\n  choice: pigies\n  choice: pinxies\n  choice: pgxies\n  choice: pihies\nA:\nAnswer:",
+        "output_text": "pgxies",
+        "target_str": "pigies",
+        "references": "pigies"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the princess and the frog'?\n  choice: the princess and tge frog\n  choice: the princess aud the frog\n  choice: tee princess and the frog\n  choice: the princess and the frig\nA:\nAnswer:",
+        "output_text": "tee princess and the frog",
+        "target_str": "the princess and the frig",
+        "references": "the princess and the frig"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'foo fighters'?\n  choice: foo fighthers\n  choice: poo fighters\n  choice: foo fighter\n  choice: fyo fighters\nA:\nAnswer:",
+        "output_text": "fyo fighters",
+        "target_str": "poo fighters",
+        "references": "poo fighters"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the godfather'?\n  choice: the godfathers\n  choice: uthe godfather\n  choice: the bodfather\n  choice: the gondfather\nA:\nAnswer:",
+        "output_text": "uthe godfather",
+        "target_str": "the bodfather",
+        "references": "the bodfather"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pantera'?\n  choice: paitera\n  choice: spantera\n  choice: lantern\n  choice: panera\nA:\nAnswer:",
+        "output_text": "spantera",
+        "target_str": "panera",
+        "references": "panera"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'top gun'?\n  choice: top guns\n  choice: tot gun\n  choice: top gum\n  choice: top sun\nA:\nAnswer:",
+        "output_text": "tot gun",
+        "target_str": "tot gun",
+        "references": "tot gun"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'die another day'?\n  choice: die anothpr day\n  choice: diet another day\n  choice: die another ay\n  choice: dies another day\nA:\nAnswer:",
+        "output_text": "dies another day",
+        "target_str": "diet another day",
+        "references": "diet another day"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the moody blues'?\n  choice: the moldy blues\n  choice: the moody blueus\n  choice: the mfody blues\n  choice: the moody blueds\nA:\nAnswer:",
+        "output_text": "the moody blueds",
+        "target_str": "the moldy blues",
+        "references": "the moldy blues"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'fall out boy'?\n  choice: fall out bot\n  choice: faqll out boy\n  choice: falbl out boy\n  choice: fall outt boy\nA:\nAnswer:",
+        "output_text": "faqll out boy",
+        "target_str": "fall out bot",
+        "references": "fall out bot"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'love story'?\n  choice: love stoery\n  choice: lrve story\n  choice: live story\n  choice: love storey\nA:\nAnswer:",
+        "output_text": "love stoery",
+        "target_str": "live story",
+        "references": "live story"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'whitney houston'?\n  choice: whitney homston\n  choice: whitneyx houston\n  choice: whiney houston\n  choice: whitney housbon\nA:\nAnswer:",
+        "output_text": "whitneyx houston",
+        "target_str": "whiney houston",
+        "references": "whiney houston"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bridge of spies'?\n  choice: bridgye of spies\n  choice: qbridge of spies\n  choice: bridge lf spies\n  choice: fridge of spies\nA:\nAnswer:",
+        "output_text": "qbridge of spies",
+        "target_str": "fridge of spies",
+        "references": "fridge of spies"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'breaking benjamin'?\n  choice: breaking benjaqmin\n  choice: reaking benjamin\n  choice: breaking benjamins\n  choice: breaking oenjamin\nA:\nAnswer:",
+        "output_text": "reaking benjamin",
+        "target_str": "reaking benjamin",
+        "references": "reaking benjamin"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'frank kappa'?\n  choice: frank kapoa\n  choice: franks kappa\n  choice: frank fkappa\n  choice: frank kappa\nA:\nAnswer:",
+        "output_text": "frank kappa",
+        "target_str": "frank kappa",
+        "references": "frank kappa"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'jurassic park'?\n  choice: jurassic pack\n  choice: jurassic pork\n  choice: jurassic mark\n  choice: jurassic pairk\nA:\nAnswer:",
+        "output_text": "jurassic pork",
+        "target_str": "jurassic pork",
+        "references": "jurassic pork"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the band'?\n  choice: the banmd\n  choice: the bland\n  choice: khe band\n  choice: the bend\nA:\nAnswer:",
+        "output_text": "khe band",
+        "target_str": "the bland",
+        "references": "the bland"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'creedence clearwater revival'?\n  choice: creedence clearwafer revival\n  choice: creedence clqarwater revival\n  choice: crecedence clearwater revival\n  choice: creedence clearwatee revival\nA:\nAnswer:",
+        "output_text": "creedence clearwafer revival",
+        "target_str": "creedence clearwafer revival",
+        "references": "creedence clearwafer revival"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'block 57'?\n  choice: blockv57\n  choice: bzlock 57\n  choice: block 47\n  choice: blonck 57\nA:\nAnswer:",
+        "output_text": "bzlock 57",
+        "target_str": "block 47",
+        "references": "block 47"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'get shorty'?\n  choice: get shirty\n  choice: wet shorty\n  choice: get sbhorty\n  choice: get shovrty\nA:\nAnswer:",
+        "output_text": "get sbhorty",
+        "target_str": "get shirty",
+        "references": "get shirty"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'radiohead'?\n  choice: radiodead\n  choice: rawdiohead\n  choice: radio head\n  choice: radiohesd\nA:\nAnswer:",
+        "output_text": "radiohesd",
+        "target_str": "radiodead",
+        "references": "radiodead"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'mean girls'?\n  choice: mean giwls\n  choice: oean girls\n  choice: bean girls\n  choice: meyan girls\nA:\nAnswer:",
+        "output_text": "mean giwls",
+        "target_str": "bean girls",
+        "references": "bean girls"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'seven brides for seven brothers'?\n  choice: seven brides for seven brotders\n  choice: seven brides for seven byrothers\n  choice: seven bride for seven brothers\n  choice: seven brides for seven brothels\nA:\nAnswer:",
+        "output_text": "seven brides for seven brothels",
+        "target_str": "seven brides for seven brothels",
+        "references": "seven brides for seven brothels"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the green mile'?\n  choice: the green mixle\n  choice: thle green mile\n  choice: the green midle\n  choice: the green mole\nA:\nAnswer:",
+        "output_text": "the green mixle",
+        "target_str": "the green mole",
+        "references": "the green mole"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'cat on a hot tin roof'?\n  choice: cat on a hot tin goof\n  choice: cat on a hot tjn roof\n  choice: cat cn a hot tin roof\n  choice: cat on a hot tin roof\nA:\nAnswer:",
+        "output_text": "cat on a hot tin roof",
+        "target_str": "cat on a hot tin goof",
+        "references": "cat on a hot tin goof"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'new kids on the block'?\n  choice: new kid on the block\n  choice: new kids on the clock\n  choice: newgkids on the block\nA:\nAnswer:",
+        "output_text": "newgkids on the block",
+        "target_str": "new kids on the clock",
+        "references": "new kids on the clock"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'superclunk'?\n  choice: suaperclunk\n  choice: supernclunk\n  choice: fsuperclunk\n  choice: superchunk\nA:\nAnswer:",
+        "output_text": "fsuperclunk",
+        "target_str": "superchunk",
+        "references": "superchunk"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'my big fat greek wedding'?\n  choice: my big fat greek weeding\n  choice: my bzg fat greek wedding\n  choice: my big fat greek wedading\n  choice: my big fatggreek wedding\nA:\nAnswer:",
+        "output_text": "my big fatggreek wedding",
+        "target_str": "my big fat greek weeding",
+        "references": "my big fat greek weeding"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'snakes on a plane'?\n  choice: snake on a plane\n  choice: snakes on a plaone\n  choice: shakes on a plane\n  choice: snakes on a plan\nA:\nAnswer:",
+        "output_text": "snakes on a plan",
+        "target_str": "shakes on a plane",
+        "references": "shakes on a plane"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'rocky'?\n  choice: ricky\n  choice: tocky\n  choice: crocky\n  choice: rotky\nA:\nAnswer:",
+        "output_text": "crocky",
+        "target_str": "ricky",
+        "references": "ricky"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pink floyd'?\n  choice: pinkffloyd\n  choice: wink floyd\n  choice: pijk floyd\n  choice: punk floyd\nA:\nAnswer:",
+        "output_text": "pijk floyd",
+        "target_str": "punk floyd",
+        "references": "punk floyd"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bad religion'?\n  choice: bad religvon\n  choice: brad religion\n  choice: bad religion\n  choice: bdd religion\nA:\nAnswer:",
+        "output_text": "bad religion",
+        "target_str": "brad religion",
+        "references": "brad religion"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the police'?\n  choice: thy police\n  choice: tpe police\n  choice: thezpolice\n  choice: toe police\nA:\nAnswer:",
+        "output_text": "thezpolice",
+        "target_str": "thy police",
+        "references": "thy police"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'ice cube'?\n  choice: ice cunbe\n  choice: lice cube\n  choice: ice cmbe\n  choice: icep cube\nA:\nAnswer:",
+        "output_text": "ice cunbe",
+        "target_str": "lice cube",
+        "references": "lice cube"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'new order'?\n  choice: ndw order\n  choice: news order\n  choice: few order\n  choice: neworder\nA:\nAnswer:",
+        "output_text": "ndw order",
+        "target_str": "few order",
+        "references": "few order"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'dolly dots'?\n  choice: dolly dotcs\n  choice: dolly kots\n  choice: dolly dot\n  choice: dolly dott\nA:\nAnswer:",
+        "output_text": "dolly dot",
+        "target_str": "dolly kots",
+        "references": "dolly kots"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'die another day'?\n  choice: dive another day\n  choice: vie another day\n  choice: die another iday\n  choice: pie another day\nA:\nAnswer:",
+        "output_text": "vie another day",
+        "target_str": "pie another day",
+        "references": "pie another day"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'mad max'?\n  choice: madq max\n  choice: sad max\n  choice: mada max\n  choice: mud max\nA:\nAnswer:",
+        "output_text": "mada max",
+        "target_str": "sad max",
+        "references": "sad max"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: '8 mile'?\n  choice: 8 milk\n  choice: 8 oile\n  choice: 8 male\n  choice: 8 mill\nA:\nAnswer:",
+        "output_text": "8 male",
+        "target_str": "8 milk",
+        "references": "8 milk"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'i spit on your grave'?\n  choice: i spit on your brave\n  choice: i spit on your gravy\n  choice: i skit on your grave\n  choice: i spit on your erave\nA:\nAnswer:",
+        "output_text": "i skit on your grave",
+        "target_str": "i spit on your gravy",
+        "references": "i spit on your gravy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'planet of the apes'?\n  choice: planet of the ape\n  choice: plrnet of the apes\n  choice: planet of the ales\n  choice: planet of the apoes\nA:\nAnswer:",
+        "output_text": "planet of the ape",
+        "target_str": "planet of the ales",
+        "references": "planet of the ales"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the rolling stones'?\n  choice: the rolling scones\n  choice: the rtlling stones\n  choice: the polling stones\n  choice: the rolling stones\nA:\nAnswer:",
+        "output_text": "the rolling scones",
+        "target_str": "the rolling scones",
+        "references": "the rolling scones"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'reservoir dogs'?\n  choice: reservoir dog\n  choice: reservojr dogs\n  choice: reservoir bogs\n  choice: reservoirzdogs\nA:\nAnswer:",
+        "output_text": "reservoirzdogs",
+        "target_str": "reservoir bogs",
+        "references": "reservoir bogs"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the men who stare at goats'?\n  choice: the men who stare vt goats\n  choice: uhe men who stare at goats\n  choice: the men who stare at boats\n  choice: the omen who stare at goats\nA:\nAnswer:",
+        "output_text": "uhe men who stare at goats",
+        "target_str": "the men who stare at boats",
+        "references": "the men who stare at boats"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bridge of spies'?\n  choice: bridge off spies\n  choice: brikge of spies\n  choice: bridge of spivs\n  choice: bridges of spies\nA:\nAnswer:",
+        "output_text": "bridge of spivs",
+        "target_str": "bridge of spivs",
+        "references": "bridge of spivs"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'last action hero'?\n  choice: last action herko\n  choice: lost action hero\n  choice: last actin hero\n  choice: last actions hero\nA:\nAnswer:",
+        "output_text": "last actin hero",
+        "target_str": "lost action hero",
+        "references": "lost action hero"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the godfather'?\n  choice: the gobfather\n  choice: the godfatrer\n  choice: thae godfather\n  choice: the godfathers\nA:\nAnswer:",
+        "output_text": "the godfathers",
+        "target_str": "the gobfather",
+        "references": "the gobfather"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the full monty'?\n  choice: the full minty\n  choice: thezfull monty\n  choice: the fucll monty\n  choice: the fulz monty\nA:\nAnswer:",
+        "output_text": "the fulz monty",
+        "target_str": "the full minty",
+        "references": "the full minty"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'fast and furious'?\n  choice: fast andm furious\n  choice: last and furious\n  choice: fast and furuous\n  choice: fast yand furious\nA:\nAnswer:",
+        "output_text": "fast yand furious",
+        "target_str": "last and furious",
+        "references": "last and furious"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'skinny puppy'?\n  choice: skinny puppry\n  choice: skinny yuppy\n  choice: skihnny puppy\n  choice: skinny puspy\nA:\nAnswer:",
+        "output_text": "skinny puspy",
+        "target_str": "skinny yuppy",
+        "references": "skinny yuppy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'depeche mode'?\n  choice: depeche hmode\n  choice: depecxhe mode\n  choice: depeche gmode\n  choice: depeche mole\nA:\nAnswer:",
+        "output_text": "depeche gmode",
+        "target_str": "depeche mole",
+        "references": "depeche mole"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'sly and the family stone'?\n  choice: sly and the familyf stone\n  choice: syy and the family stone\n  choice: sly and the familycstone\n  choice: soy and the family stone\nA:\nAnswer:",
+        "output_text": "sly and the familycstone",
+        "target_str": "soy and the family stone",
+        "references": "soy and the family stone"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the departed'?\n  choice: the defarted\n  choice: the deprarted\n  choice: the dearted\n  choice: the dephrted\nA:\nAnswer:",
+        "output_text": "the defarted",
+        "target_str": "the defarted",
+        "references": "the defarted"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'blade runner'?\n  choice: blade runnegr\n  choice: bulade runner\n  choice: blade ruiner\n  choice: blade runyner\nA:\nAnswer:",
+        "output_text": "blade runnegr",
+        "target_str": "blade ruiner",
+        "references": "blade ruiner"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the avengers'?\n  choice: the avjngers\n  choice: toe avengers\n  choice: the avengegs\n  choice: thes avengers\nA:\nAnswer:",
+        "output_text": "the avjngers",
+        "target_str": "toe avengers",
+        "references": "toe avengers"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'die hard'?\n  choice: die haard\n  choice: die sard\n  choice: dib hard\n  choice: die hare\nA:\nAnswer:",
+        "output_text": "dib hard",
+        "target_str": "die hare",
+        "references": "die hare"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'weezer'?\n  choice: weepzer\n  choice: wemezer\n  choice: tweezer\n  choice: weezej\nA:\nAnswer:",
+        "output_text": "weezej",
+        "target_str": "tweezer",
+        "references": "tweezer"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the longest day'?\n  choice: the longest eay\n  choice: thee longest day\n  choice: the bongest day\n  choice: the longest eday\nA:\nAnswer:",
+        "output_text": "the longest eay",
+        "target_str": "the bongest day",
+        "references": "the bongest day"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'babs'?\n  choice: baubs\n  choice: jabs\n  choice: bab\n  choice: bibs\nA:\nAnswer:",
+        "output_text": "baubs",
+        "target_str": "jabs",
+        "references": "jabs"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'moonlight'?\n  choice: moonlights\n  choice: moonlzght\n  choice: goonlight\n  choice: moonligrht\nA:\nAnswer:",
+        "output_text": "goonlight",
+        "target_str": "goonlight",
+        "references": "goonlight"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'animal farm'?\n  choice: animal fagm\n  choice: animalofarm\n  choice: anidal farm\n  choice: animal fart\nA:\nAnswer:",
+        "output_text": "animal fart",
+        "target_str": "animal fart",
+        "references": "animal fart"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'seven brides for seven brothers'?\n  choice: seven bridles for seven brothers\n  choice: sevenzbrides for seven brothers\n  choice: seven brides forpseven brothers\n  choice: seven briqes for seven brothers\nA:\nAnswer:",
+        "output_text": "sevenzbrides for seven brothers",
+        "target_str": "seven bridles for seven brothers",
+        "references": "seven bridles for seven brothers"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'kiss'?\n  choice: ktiss\n  choice: ukiss\n  choice: kfss\n  choice: piss\nA:\nAnswer:",
+        "output_text": "ukiss",
+        "target_str": "piss",
+        "references": "piss"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the police'?\n  choice: the polite.\n  choice: tye police\n  choice: nhe police\n  choice: twhe police\nA:\nAnswer:",
+        "output_text": "twhe police",
+        "target_str": "the polite.",
+        "references": "the polite."
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'en vogue'?\n  choice: en vfogue\n  choice: eon vogue\n  choice: en rogue\n  choice: en vogbue\nA:\nAnswer:",
+        "output_text": "en vfogue",
+        "target_str": "en rogue",
+        "references": "en rogue"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'top gun'?\n  choice: top gin\n  choice: tzop gun\n  choice: toh gun\n  choice: toup gun\nA:\nAnswer:",
+        "output_text": "toh gun",
+        "target_str": "top gin",
+        "references": "top gin"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the girl with all the gifts'?\n  choice: the girl with all the grifts\n  choice: the girl with iall the gifts\n  choice: the girl with alf the gifts\n  choice: the girl with all thke gifts\nA:\nAnswer:",
+        "output_text": "the girl with all the grifts",
+        "target_str": "the girl with all the grifts",
+        "references": "the girl with all the grifts"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the sisters of mercy'?\n  choice: the sisters of msrcy\n  choice: the svsters of mercy\n  choice: the sister of mercy\n  choice: the sisters of percy\nA:\nAnswer:",
+        "output_text": "svsters of mercy",
+        "target_str": "the sisters of percy",
+        "references": "the sisters of percy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the jam'?\n  choice: the jams\n  choice: the ljam\n  choice: the ham\n  choice: the jar\nA:\nAnswer:",
+        "output_text": "the ham",
+        "target_str": "the jar",
+        "references": "the jar"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'gone with the wind'?\n  choice: gone with the winm\n  choice: gong with the wind\n  choice: goke with the wind\n  choice: gone with the wynd\nA:\nAnswer:",
+        "output_text": "goke with the wind",
+        "target_str": "gong with the wind",
+        "references": "gong with the wind"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'gone with the wind'?\n  choice: gone with the wing\n  choice: gowne with the wind\n  choice: gone with the wand\n  choice: gone witth the wind\nA:\nAnswer:",
+        "output_text": "gone with the wand",
+        "target_str": "gone with the wand",
+        "references": "gone with the wand"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'dream theater'?\n  choice: dream theatpr\n  choice: tdream theater\n  choice: cream theater\n  choice: dreaml theater\nA:\nAnswer:",
+        "output_text": "tdream theater",
+        "target_str": "cream theater",
+        "references": "cream theater"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'belle and sebastian'?\n  choice: belle and sebasrtian\n  choice: ibelle and sebastian\n  choice: belle and sebajtian\n  choice: belly and sebastian\nA:\nAnswer:",
+        "output_text": "ibelle and sebastian",
+        "target_str": "belly and sebastian",
+        "references": "belly and sebastian"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'earth, wind, & fire'?\n  choice: eareth, wind, & fire\n  choice: earthm wind, & fire\n  choice: dearth, wind, & fire\n  choice: earth, bind, & fire\nA:\nAnswer:",
+        "output_text": "dearth, wind, & fire",
+        "target_str": "dearth, wind, & fire",
+        "references": "dearth, wind, & fire"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the battle of britain'?\n  choice: the battles of britain\n  choice: thke battle of britain\n  choice: the battle ofkbritain\n  choice: the cattle of britain\nA:\nAnswer:",
+        "output_text": "the battle ofkbritain",
+        "target_str": "the cattle of britain",
+        "references": "the cattle of britain"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'dead man walking'?\n  choice: dead man talking\n  choice: dead men walking\n  choice: dead man jwalking\n  choice: dead man walkinbg\nA:\nAnswer:",
+        "output_text": "dead man walkinbg",
+        "target_str": "dead man talking",
+        "references": "dead man talking"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'suicide squad'?\n  choice: suicide squid\n  choice: sunicide squad\n  choice: suicide squad\n  choice: suicideu squad\nA:\nAnswer:",
+        "output_text": "suicide squid",
+        "target_str": "suicide squid",
+        "references": "suicide squid"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the dark knight'?\n  choice: the dark night\n  choice: the park knight\n  choice: the dark knilht\n  choice: the darxk knight\nA:\nAnswer:",
+        "output_text": "the darxk knight",
+        "target_str": "the park knight",
+        "references": "the park knight"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'sleepless in seattle'?\n  choice: sleeplekss in seattle\n  choice: sleepless in settle\n  choice: sheepless in seattle\n  choice: sleepless in peattle\nA:\nAnswer:",
+        "output_text": "sleeplekss in seattle",
+        "target_str": "sheepless in seattle",
+        "references": "sheepless in seattle"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pink floyd'?\n  choice: pink flomyd\n  choice: piqk floyd\n  choice: fink floyd\n  choice: pink floyds\nA:\nAnswer:",
+        "output_text": "piqk floyd",
+        "target_str": "fink floyd",
+        "references": "fink floyd"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the man with the golden gun'?\n  choice: the man with the golden bun\n  choice: the men with the golden gun\n  choice: the dan with the golden gun\n  choice: the man withethe golden gun\nA:\nAnswer:",
+        "output_text": "the man with the golden bun",
+        "target_str": "the man with the golden bun",
+        "references": "the man with the golden bun"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the mash'?\n  choice: the maseh\n  choice: thj mash\n  choice: tee mash\n  choice: the smash\nA:\nAnswer:",
+        "output_text": "thj mash",
+        "target_str": "the smash",
+        "references": "the smash"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'missy elliott'?\n  choice: missy eltliott\n  choice: pissy elliott\n  choice: mibssy elliott\n  choice: missywelliott\nA:\nAnswer:",
+        "output_text": "pissy elliot",
+        "target_str": "pissy elliott",
+        "references": "pissy elliott"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'sleater-kinney'?\n  choice: sleater-kinnhy\n  choice: sleatsr-kinney\n  choice: sleater-kidney\n  choice: sleaterfkinney\nA:\nAnswer:",
+        "output_text": "sleaterfkinney",
+        "target_str": "sleater-kidney",
+        "references": "sleater-kidney"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'dirty dancing'?\n  choice: dirty danqcing\n  choice: djrty dancing\n  choice: dirty cancing\n  choice: dirty lancing\nA:\nAnswer:",
+        "output_text": "djrty dancing",
+        "target_str": "dirty lancing",
+        "references": "dirty lancing"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'jay and silent bob strike back'?\n  choice: jay and silent bob strike bach\n  choice: jay and sizent bob strike back\n  choice: jagy and silent bob strike back\n  choice: jay and silent rob strike back\nA:\nAnswer:",
+        "output_text": "jay and silent rob strike back",
+        "target_str": "jay and silent bob strike bach",
+        "references": "jay and silent bob strike bach"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'a bridge too far'?\n  choice: a bridge toe far\n  choice: a bridge top far\n  choice: a bfridge too far\n  choice: a bridge too fat\nA:\nAnswer:",
+        "output_text": "a bridge too fat",
+        "target_str": "a bridge too fat",
+        "references": "a bridge too fat"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beatles'?\n  choice: the beatnles\n  choice: tje beatles\n  choice: the beatles\n  choice: the meatles\nA:\nAnswer:",
+        "output_text": "the meatles",
+        "target_str": "the meatles",
+        "references": "the meatles"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'night club'?\n  choice: nigdht club\n  choice: nigut club\n  choice: light club\n  choice: night cslub\nA:\nAnswer:",
+        "output_text": "night cslub",
+        "target_str": "light club",
+        "references": "light club"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'no time to die'?\n  choice: no time to diz\n  choice: noetime to die\n  choice: no time to diet\n  choice: no timu to die\nA:\nAnswer:",
+        "output_text": "no timu to die",
+        "target_str": "no time to diet",
+        "references": "no time to diet"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'batman begins'?\n  choice: batman begin\n  choice: hatman begins\n  choice: barman begins\n  choice: batman bewins\nA:\nAnswer:",
+        "output_text": "hatman begins",
+        "target_str": "hatman begins",
+        "references": "hatman begins"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'gold finger'?\n  choice: golt finger\n  choice: pold finger\n  choice: gohd finger\n  choice: mold finger\nA:\nAnswer:",
+        "output_text": "golt finger",
+        "target_str": "mold finger",
+        "references": "mold finger"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'calamity jane'?\n  choice: calamitf jane\n  choice: calamity jyane\n  choice: aalamity jane\n  choice: calamity june\nA:\nAnswer:",
+        "output_text": "aalamity jane",
+        "target_str": "calamity june",
+        "references": "calamity june"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'saving private ryan'?\n  choice: saving privates ryan\n  choice: shaving private ryan\n  choice: saving pripate ryan\n  choice: sfaving private ryan\nA:\nAnswer:",
+        "output_text": "sfaving private ryan",
+        "target_str": "shaving private ryan",
+        "references": "shaving private ryan"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the cult'?\n  choice: hhe cult\n  choice: the cut\n  choice: dthe cult\n  choice: the colt\nA:\nAnswer:",
+        "output_text": "dthe cult",
+        "target_str": "the colt",
+        "references": "the colt"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'johnny got his gun'?\n  choice: johnno got his gun\n  choice: johnny got hiw gun\n  choice: johgnny got his gun\n  choice: johnny got his run\nA:\nAnswer:",
+        "output_text": "johgnny got his gun",
+        "target_str": "johnny got his run",
+        "references": "johnny got his run"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'counting crows'?\n  choice: counting brows\n  choice: mounting crows\n  choice: coufting crows\n  choice: counting crowj\nA:\nAnswer:",
+        "output_text": "coufting crows",
+        "target_str": "counting brows",
+        "references": "counting brows"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'lawrence of arabia'?\n  choice: lawrence of arabida\n  choice: ljwrence of arabia\n  choice: lawrence of arabica\n  choice: lawrenqe of arabia\nA:\nAnswer:",
+        "output_text": "lawrence of arabica",
+        "target_str": "lawrence of arabica",
+        "references": "lawrence of arabica"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'jungle book'?\n  choice: jundgle book\n  choice: junxle book\n  choice: jingle book\n  choice: jungleg book\nA:\nAnswer:",
+        "output_text": "jundgle book",
+        "target_str": "jingle book",
+        "references": "jingle book"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'paint your wagon'?\n  choice: paint your wagons\n  choice: taint your wagon\n  choice: paint youbr wagon\n  choice: pajint your wagon\nA:\nAnswer:",
+        "output_text": "pajint your wagon",
+        "target_str": "taint your wagon",
+        "references": "taint your wagon"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'blade'?\n  choice: blaqe\n  choice: slade\n  choice: blades\n  choice: blkade\nA:\nAnswer:",
+        "output_text": "blkade",
+        "target_str": "slade",
+        "references": "slade"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the sisterhood of the traveling pants'?\n  choice: the sisterhood of the traveling pnants\n  choice: the sisterhootd of the traveling pants\n  choice: the sisterhood of the traveling pints\n  choice: the sisterhood vf the traveling pants\nA:\nAnswer:",
+        "output_text": "the sisterhood vf the traveling pants",
+        "target_str": "the sisterhood of the traveling pints",
+        "references": "the sisterhood of the traveling pints"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'green day'?\n  choice: green dazy\n  choice: groeen day\n  choice: green dad\n  choice: green pay\nA:\nAnswer:",
+        "output_text": "groeen day",
+        "target_str": "green dad",
+        "references": "green dad"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the sting'?\n  choice: the soing\n  choice: thegsting\n  choice: the mting\n  choice: the stink\nA:\nAnswer:",
+        "output_text": "thegsting",
+        "target_str": "the stink",
+        "references": "the stink"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the artist'?\n  choice: thw artist\n  choice: xthe artist\n  choice: kthe artist\n  choice: toe artist\nA:\nAnswer:",
+        "output_text": "xthe artist",
+        "target_str": "toe artist",
+        "references": "toe artist"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the hope'?\n  choice: the hogpe\n  choice: tzhe hope\n  choice: the hodpe\n  choice: the hose\nA:\nAnswer:",
+        "output_text": "tzhe hope",
+        "target_str": "the hose",
+        "references": "the hose"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'blade runner'?\n  choice: blate runner\n  choice: jblade runner\n  choice: blade rknner\n  choice: brlade runner\nA:\nAnswer:",
+        "output_text": "jblade runner",
+        "target_str": "blate runner",
+        "references": "blate runner"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'a view to a kill'?\n  choice: a view to a krill\n  choice: a view zto a kill\n  choice: a view to a kiwll\n  choice: a view to akkill\nA:\nAnswer:",
+        "output_text": "a view to akkill",
+        "target_str": "a view to a krill",
+        "references": "a view to a krill"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'hope floats'?\n  choice: hopes floats\n  choice: pope floats\n  choice: hope float\n  choice: hopge floats\nA:\nAnswer:",
+        "output_text": "hope float",
+        "target_str": "pope floats",
+        "references": "pope floats"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the apartment'?\n  choice: the apartments\n  choice: toe apartment\n  choice: lthe apartment\n  choice: thew apartment\nA:\nAnswer:",
+        "output_text": "toe apartment",
+        "target_str": "toe apartment",
+        "references": "toe apartment"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'schindler's list'?\n  choice: schindler's liit\n  choice: schindlerm's list\n  choice: schindler's lift\n  choice: schindler's list\nA:\nAnswer:",
+        "output_text": "schindlerm's list",
+        "target_str": "schindler's lift",
+        "references": "schindler's lift"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'beauty and the beast'?\n  choice: beauty and the beasts\n  choice: beauty rnd the beast\n  choice: beauty and thd beast\n  choice: beauty and the feast\nA:\nAnswer:",
+        "output_text": "beauty and the beasts",
+        "target_str": "beauty and the feast",
+        "references": "beauty and the feast"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'news of the world'?\n  choice: news of thte world\n  choice: newt of the world\n  choice: new of the world\n  choice: news ofwthe world\nA:\nAnswer:",
+        "output_text": "news ofwthe world",
+        "target_str": "newt of the world",
+        "references": "newt of the world"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the guns of navarone'?\n  choice: the guns gof navarone\n  choice: the guns of navfarone\n  choice: the buns of navarone\n  choice: the guns of navaronpe\nA:\nAnswer:",
+        "output_text": "the buns of navarone",
+        "target_str": "the buns of navarone",
+        "references": "the buns of navarone"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beatles'?\n  choice: the beatlies\n  choice: the ubeatles\n  choice: the beagles\n  choice: the beatlis\nA:\nAnswer:",
+        "output_text": "the ubeatles",
+        "target_str": "the beagles",
+        "references": "the beagles"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the godfather'?\n  choice: the codfather\n  choice: thue godfather\n  choice: tee godfather\n  choice: the godqfather\nA:\nAnswer:",
+        "output_text": "thue godfather",
+        "target_str": "the codfather",
+        "references": "the codfather"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'hank williams'?\n  choice: hank willianms\n  choice: hanqk williams\n  choice: dank williams\n  choice: hank williyams\nA:\nAnswer:",
+        "output_text": "hank williyams",
+        "target_str": "dank williams",
+        "references": "dank williams"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'black sabbath'?\n  choice: black seabbath\n  choice: slack sabbath\n  choice: black sabzbath\n  choice: blaik sabbath\nA:\nAnswer:",
+        "output_text": "black seabbath",
+        "target_str": "slack sabbath",
+        "references": "slack sabbath"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'rita, sue and bob too'?\n  choice: rita, sue and bob too\n  choice: rita,y sue and bob too\n  choice: rita, sue and bob poo\n  choice: rita, sue and box too\nA:\nAnswer:",
+        "output_text": "rita, sue and bob poo",
+        "target_str": "rita, sue and bob poo",
+        "references": "rita, sue and bob poo"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'jethro tull'?\n  choice: jethro tuill\n  choice: jethrpo tull\n  choice: jethro dull\n  choice: jethro tult\nA:\nAnswer:",
+        "output_text": "jethro dull",
+        "target_str": "jethro dull",
+        "references": "jethro dull"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the sound of music'?\n  choice: the sound of muasic\n  choice: them sound of music\n  choice: the hound of music\n  choice: the ssund of music\nA:\nAnswer:",
+        "output_text": "the ssund of music",
+        "target_str": "the hound of music",
+        "references": "the hound of music"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'dream theater'?\n  choice: dream thdeater\n  choice: drzeam theater\n  choice: dread theater\n  choice: dreavm theater\nA:\nAnswer:",
+        "output_text": "drzeam theater",
+        "target_str": "dread theater",
+        "references": "dread theater"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'my fair lady'?\n  choice: my fair laddy\n  choice: my fmair lady\n  choice: my fair laady\n  choice: my faird lady\nA:\nAnswer:",
+        "output_text": "my fair laddy",
+        "target_str": "my fair laddy",
+        "references": "my fair laddy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'offspring'?\n  choice: offsprinc\n  choice: offstring\n  choice: offespring\n  choice: offsprinig\nA:\nAnswer:",
+        "output_text": "offsprinc",
+        "target_str": "offstring",
+        "references": "offstring"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the longest day'?\n  choice: the longesb day\n  choice: the longest sday\n  choice: the long est day\n  choice: the longest days\nA:\nAnswer:",
+        "output_text": "the longest sday",
+        "target_str": "the long est day",
+        "references": "the long est day"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'apocalypse now'?\n  choice: apocalypse ncow\n  choice: iapocalypse now\n  choice: apocalypse cow\n  choice: apocalypxse now\nA:\nAnswer:",
+        "output_text": "apocalypse now",
+        "target_str": "apocalypse cow",
+        "references": "apocalypse cow"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'star wars'?\n  choice: star wwars\n  choice: stat wars\n  choice: star warg\n  choice: stars wars\nA:\nAnswer:",
+        "output_text": "stars wars",
+        "target_str": "stat wars",
+        "references": "stat wars"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'big country'?\n  choice: big countrys\n  choice: pig country\n  choice: bag country\n  choice: mbig country\nA:\nAnswer:",
+        "output_text": "mbig country",
+        "target_str": "pig country",
+        "references": "pig country"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: '12 angry men'?\n  choice: 12 hangry men\n  choice: 2 angry men\n  choice: 12 angry mhen\n  choice: 12oangry men\nA:\nAnswer:",
+        "output_text": "2 angry men",
+        "target_str": "12 hangry men",
+        "references": "12 hangry men"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'in search of a midnight kiss'?\n  choice: in search of a midnight piss\n  choice: in secarch of a midnight kiss\n  choice: in search of a midnibht kiss\n  choice: in seavrch of a midnight kiss\nA:\nAnswer:",
+        "output_text": "in search of a midnight piss",
+        "target_str": "in search of a midnight piss",
+        "references": "in search of a midnight piss"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'men in black'?\n  choice: hmen in black\n  choice: men ib black\n  choice: hen in black\n  choice: man in black\nA:\nAnswer:",
+        "output_text": "hmen in black",
+        "target_str": "hen in black",
+        "references": "hen in black"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beatles'?\n  choice: the beagles\n  choice: the reatles\n  choice: ihe beatles\n  choice: the beatlhes\nA:\nAnswer:",
+        "output_text": "the reatles",
+        "target_str": "the beagles",
+        "references": "the beagles"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'raging bull'?\n  choice: raging dull\n  choice: rating bull\n  choice: raging bulls\n  choice: ragingzbull\nA:\nAnswer:",
+        "output_text": "ragingzbull",
+        "target_str": "raging dull",
+        "references": "raging dull"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bad brains'?\n  choice: bad bramins\n  choice: bed brains\n  choice: bad brabins\n  choice: bad brauns\nA:\nAnswer:",
+        "output_text": "bad bramins",
+        "target_str": "bed brains",
+        "references": "bed brains"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'thin lizzy'?\n  choice: thin fizzy\n  choice: thiny lizzy\n  choice: ghin lizzy\n  choice: thin lpzzy\nA:\nAnswer:",
+        "output_text": "thiny lizzy",
+        "target_str": "thin fizzy",
+        "references": "thin fizzy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'ben folds five'?\n  choice: ben foldsk five\n  choice: ten folds five\n  choice: ben folds fpve\n  choice: bengfolds five\nA:\nAnswer:",
+        "output_text": "bengfolds five",
+        "target_str": "ten folds five",
+        "references": "ten folds five"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'citizen kane'?\n  choice: citizen kale\n  choice: citsizen kane\n  choice: citizen kahne\n  choice: citizey kane\nA:\nAnswer:",
+        "output_text": "citizey kane",
+        "target_str": "citizen kale",
+        "references": "citizen kale"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'dave matthews band'?\n  choice: dave matthews basnd\n  choice: dave matthews xand\n  choice: dave matthewg band\n  choice: dave matthews hand\nA:\nAnswer:",
+        "output_text": "dave matthews xand",
+        "target_str": "dave matthews hand",
+        "references": "dave matthews hand"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the sum of all fears'?\n  choice: the sudm of all fears\n  choice: the sums of all fears\n  choice: the mum of all fears\n  choice: the sum of all fear\nA:\nAnswer:",
+        "output_text": "the sudm of all fears",
+        "target_str": "the mum of all fears",
+        "references": "the mum of all fears"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'city hall'?\n  choice: city halls\n  choice: citys hall\n  choice: bity hall\n  choice: city hell\nA:\nAnswer:",
+        "output_text": "bity hall",
+        "target_str": "city hell",
+        "references": "city hell"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the abyss'?\n  choice: thehabyss\n  choice: tse abyss\n  choice: the aboss\n  choice: toe abyss\nA:\nAnswer:",
+        "output_text": "tse abyss",
+        "target_str": "toe abyss",
+        "references": "toe abyss"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'mank'?\n  choice: man\n  choice: monk\n  choice: hank\n  choice: manks\nA:\nAnswer:",
+        "output_text": "manks",
+        "target_str": "monk",
+        "references": "monk"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'sex pistols'?\n  choice: sex pistoils\n  choice: six pistols\n  choice: sex pibtols\n  choice: sex pistols\nA:\nAnswer:",
+        "output_text": "sex pistols",
+        "target_str": "six pistols",
+        "references": "six pistols"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'life of brian'?\n  choice: life oi brian\n  choice: litfe of brian\n  choice: life f brian\n  choice: lift of brian\nA:\nAnswer:",
+        "output_text": "lift of brian",
+        "target_str": "lift of brian",
+        "references": "lift of brian"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'black panther'?\n  choice: black panthers\n  choice: block panther\n  choice: black panthek\n  choice: bliack panther\nA:\nAnswer:",
+        "output_text": "bliack panther",
+        "target_str": "block panther",
+        "references": "block panther"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'goldfinger'?\n  choice: goldfingers\n  choice: moldfinger\n  choice: gboldfinger\n  choice: goldfingfr\nA:\nAnswer:",
+        "output_text": "gboldfinger",
+        "target_str": "moldfinger",
+        "references": "moldfinger"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'foo fighters'?\n  choice: foo fixhters\n  choice: food fighters\n  choice: foo fighter\n  choice: foo fwighters\nA:\nAnswer:",
+        "output_text": "foo fwighters",
+        "target_str": "food fighters",
+        "references": "food fighters"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'air supply'?\n  choice: air supply\n  choice: lir supply\n  choice: aio supply\n  choice: hair supply\nA:\nAnswer:",
+        "output_text": "aio supply",
+        "target_str": "hair supply",
+        "references": "hair supply"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'diana ross and the supremes'?\n  choice: diana ross and pthe supremes\n  choice: diana rosts and the supremes\n  choice: diana dross and the supremes\n  choice: diana ross nand the supremes\nA:\nAnswer:",
+        "output_text": "diana ross nand the supremes",
+        "target_str": "diana dross and the supremes",
+        "references": "diana dross and the supremes"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'brokeback mountain'?\n  choice: brokeback fountain\n  choice: broseback mountain\n  choice: brhokeback mountain\n  choice: brokeback mounttin\nA:\nAnswer:",
+        "output_text": "brokeback fountain",
+        "target_str": "brokeback fountain",
+        "references": "brokeback fountain"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'godzilla vs. kong'?\n  choice: godzilla vs. bong\n  choice: gozilla vs. kong\n  choice: godzilla as. kong\n  choice: godzillas vs. kong\nA:\nAnswer:",
+        "output_text": "godzilla vs. bong",
+        "target_str": "godzilla vs. bong",
+        "references": "godzilla vs. bong"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the who!'?\n  choice: the pho!\n  choice: thqe who!\n  choice: thd who!\n  choice: the wqo!\nA:\nAnswer:",
+        "output_text": "thqe who!",
+        "target_str": "the pho!",
+        "references": "the pho!"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the green mile'?\n  choice: the geen mile\n  choice: the greenzmile\n  choice: the gdreen mile\n  choice: the green milk\nA:\nAnswer:",
+        "output_text": "the gdreen mile",
+        "target_str": "the green milk",
+        "references": "the green milk"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the dark knight'?\n  choice: the dark ksight\n  choice: tie dark knight\n  choice: the dark knigst\n  choice: the dork knight\nA:\nAnswer:",
+        "output_text": "the dork knight",
+        "target_str": "the dork knight",
+        "references": "the dork knight"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'live and let die'?\n  choice: liee and let die\n  choice: live and let dzie\n  choice: eive and let die\n  choice: live and let diet\nA:\nAnswer:",
+        "output_text": "eive and let die",
+        "target_str": "live and let diet",
+        "references": "live and let diet"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'midnight cowboy'?\n  choice: midnight cowbory\n  choice: midnigmht cowboy\n  choice: midnight cow boy\n  choice: midnights cowboy\nA:\nAnswer:",
+        "output_text": "midnight cowboy",
+        "target_str": "midnight cow boy",
+        "references": "midnight cow boy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'snow patrol'?\n  choice: snow patrol\n  choice: snow pqtrol\n  choice: snot patrol\n  choice: snow paztrol\nA:\nAnswer:",
+        "output_text": "snot patrol",
+        "target_str": "snot patrol",
+        "references": "snot patrol"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the bangles'?\n  choice: the mfangles\n  choice: tue mangles\n  choice: the mangles\n  choice: the tmangles\nA:\nAnswer:",
+        "output_text": "the tmangles",
+        "target_str": "the mangles",
+        "references": "the mangles"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'state champs'?\n  choice: state chumps\n  choice: statek champs\n  choice: state champ\n  choice: state cqhamps\nA:\nAnswer:",
+        "output_text": "state chumps",
+        "target_str": "state chumps",
+        "references": "state chumps"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the secret life of pets'?\n  choice: the secret life of pat\n  choice: the secret life of pots\n  choice: the saecret life of pets\n  choice: the secret life of pet\nA:\nAnswer:",
+        "output_text": "the secret life of pat",
+        "target_str": "the secret life of pots",
+        "references": "the secret life of pots"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'full metal jacket'?\n  choice: full metal jactet\n  choice: fullmmetal jacket\n  choice: dull metal jacket\n  choice: full mpetal jacket\nA:\nAnswer:",
+        "output_text": "dull metal jacket",
+        "target_str": "dull metal jacket",
+        "references": "dull metal jacket"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'friday the 13th'?\n  choice: friday the 12th\n  choice: xriday the 13th\n  choice: fribay the 13th\n  choice: fridays the 13th\nA:\nAnswer:",
+        "output_text": "xriday the 13th",
+        "target_str": "friday the 12th",
+        "references": "friday the 12th"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the bay city rollers'?\n  choice: the baby city rollers\n  choice: the bay city rolleyrs\n  choice: tce bay city rollers\n  choice: the bay ciby rollers\nA:\nAnswer:",
+        "output_text": "the bay ciby rollers",
+        "target_str": "the baby city rollers",
+        "references": "the baby city rollers"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'blue'?\n  choice: bvlue\n  choice: lue\n  choice: blfue\n  choice: glue\nA:\nAnswer:",
+        "output_text": "blfue",
+        "target_str": "glue",
+        "references": "glue"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the gap band'?\n  choice: the lap band\n  choice: thwe gap band\n  choice: the gap bannd\n  choice: thn gap band\nA:\nAnswer:",
+        "output_text": "thn gap band",
+        "target_str": "the lap band",
+        "references": "the lap band"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'star wars'?\n  choice: star wafs\n  choice: star wart\n  choice: stal wars\n  choice: star waqs\nA:\nAnswer:",
+        "output_text": "star wafs",
+        "target_str": "star wart",
+        "references": "star wart"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the fall of the house of usher'?\n  choice: the fall of the houses of usher\n  choice: the zall of the house of usher\n  choice: the fall of tce house of usher\n  choice: the fall of the louse of usher\nA:\nAnswer:",
+        "output_text": "the zall of the house of usher",
+        "target_str": "the fall of the louse of usher",
+        "references": "the fall of the louse of usher"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'old joy'?\n  choice: old jody\n  choice: olzd joy\n  choice: old jdy\n  choice: old toy\nA:\nAnswer:",
+        "output_text": "old jdy",
+        "target_str": "old toy",
+        "references": "old toy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'run dmc'?\n  choice: run dac\n  choice: runxdmc\n  choice: rqn dmc\n  choice: run dnc\nA:\nAnswer:",
+        "output_text": "run dac",
+        "target_str": "run dnc",
+        "references": "run dnc"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the grapes of wrath'?\n  choice: the graqpes of wrath\n  choice: tve grapes of wrath\n  choice: the drapes of wrath\n  choice: the grdapes of wrath\nA:\nAnswer:",
+        "output_text": "tve grapes of wrath",
+        "target_str": "the drapes of wrath",
+        "references": "the drapes of wrath"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'drag me to hell'?\n  choice: drag mge to hell\n  choice: mrag me to hell\n  choice: drag me to help\n  choice: drags me to hell\nA:\nAnswer:",
+        "output_text": "mrag me to hell",
+        "target_str": "drag me to help",
+        "references": "drag me to help"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'talking heads'?\n  choice: talking had\n  choice: talrking heads\n  choice: stalking heads\n  choice: talking head\nA:\nAnswer:",
+        "output_text": "talking head",
+        "target_str": "stalking heads",
+        "references": "stalking heads"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'paul oakenfold'?\n  choice: paul oakenfdold\n  choice: paull oakenfold\n  choice: paul joakenfold\n  choice: paul oakenfod\nA:\nAnswer:",
+        "output_text": "paull oakenfold",
+        "target_str": "paul joakenfold",
+        "references": "paul joakenfold"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'brief encounter'?\n  choice: brief encounzter\n  choice: grief encounter\n  choice: brief eencounter\n  choice: brief qncounter\nA:\nAnswer:",
+        "output_text": "brief encounter",
+        "target_str": "grief encounter",
+        "references": "grief encounter"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'a tribe called quest'?\n  choice: a tribe callel quest\n  choice: a tribe valled quests\n  choice: a tribe called queso\n  choice: a tribe callew quest\nA:\nAnswer:",
+        "output_text": "a tribe callew quest",
+        "target_str": "a tribe called queso",
+        "references": "a tribe called queso"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'star wars'?\n  choice: stap wars\n  choice: svar wars\n  choice: scar wars\n  choice: staz wars\nA:\nAnswer:",
+        "output_text": "staz wars",
+        "target_str": "scar wars",
+        "references": "scar wars"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the wizard of oz'?\n  choice: the widzard of oz\n  choice: the wvzard of oz\n  choice: the lizard of oz\n  choice: the wizards of oz\nA:\nAnswer:",
+        "output_text": "the wvzard of oz",
+        "target_str": "the lizard of oz",
+        "references": "the lizard of oz"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'run dmc'?\n  choice: run dmv\n  choice: runs dmc\n  choice: run bdmc\n  choice: run hmc\nA:\nAnswer:",
+        "output_text": "run bdmc",
+        "target_str": "run dmv",
+        "references": "run dmv"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the third man'?\n  choice: the third mans\n  choice: the third nan\n  choice: the jhird man\n  choice: the third men\nA:\nAnswer:",
+        "output_text": "the third mans",
+        "target_str": "the third nan",
+        "references": "the third nan"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'cat on a hot tin roof'?\n  choice: cat on a hot tan roof\n  choice: fat on a hot tin roof\n  choice: cat on a hkt tin roof\n  choice: cat on a hot tin riof\nA:\nAnswer:",
+        "output_text": "fat on a hot tin roof",
+        "target_str": "fat on a hot tin roof",
+        "references": "fat on a hot tin roof"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'notting hill'?\n  choice: notting hill\n  choice: nottirg hill\n  choice: nothing hill\n  choice: notting hills\nA:\nAnswer:",
+        "output_text": "nottirg hill",
+        "target_str": "nothing hill",
+        "references": "nothing hill"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'good will hunting'?\n  choice: good will hvnting\n  choice: good wiol hunting\n  choice: gokd will hunting\n  choice: good will punting\nA:\nAnswer:",
+        "output_text": "good will hvnting",
+        "target_str": "good will punting",
+        "references": "good will punting"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'foo fighters'?\n  choice: foo fxghters\n  choice: poo fighters\n  choice: foo faghters\n  choice: foo uighters\nA:\nAnswer:",
+        "output_text": "poo fighters",
+        "target_str": "poo fighters",
+        "references": "poo fighters"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'goo goo dolls'?\n  choice: goo goo dills\n  choice: goo goto dolls\n  choice: goo gfoo dolls\n  choice: goo goo dohlls\nA:\nAnswer:",
+        "output_text": "goo gfoo dolls",
+        "target_str": "goo goo dills",
+        "references": "goo goo dills"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'soundgarden'?\n  choice: sojndgarden\n  choice: sounhgarden\n  choice: foundgarden\n  choice: soundgardew\nA:\nAnswer:",
+        "output_text": "soundgardew",
+        "target_str": "foundgarden",
+        "references": "foundgarden"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'peter and the test tube babies'?\n  choice: peter and the test tube tabies\n  choice: peter and theatest tube babies\n  choice: peter and the test tube rabies\n  choice: peter and the tests tube babies\nA:\nAnswer:",
+        "output_text": "peter and the tests tube babies",
+        "target_str": "peter and the test tube rabies",
+        "references": "peter and the test tube rabies"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'blur'?\n  choice: blub\n  choice: tlur\n  choice: bldur\n  choice: blux\nA:\nAnswer:",
+        "output_text": "bldur",
+        "target_str": "blub",
+        "references": "blub"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'black sabbath'?\n  choice: black sabiath\n  choice: blank sabbath\n  choice: black sabbtath\n  choice: black sabvbath\nA:\nAnswer:",
+        "output_text": "black sabvbath",
+        "target_str": "blank sabbath",
+        "references": "blank sabbath"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'trolls'?\n  choice: trells\n  choice: trollb\n  choice: qtrolls\n  choice: trills\nA:\nAnswer:",
+        "output_text": "qtrolls",
+        "target_str": "trills",
+        "references": "trills"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bad company'?\n  choice: bad vcompany\n  choice: sad company\n  choice: bad companys\n  choice: badc company\nA:\nAnswer:",
+        "output_text": "badc company",
+        "target_str": "sad company",
+        "references": "sad company"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: '3:10 to yuma'?\n  choice: 3:10 to yumga\n  choice: 3:k0 to yuma\n  choice: 3:10 to duma\n  choice: 3:10 tou yuma\nA:\nAnswer:",
+        "output_text": "3:k0 to yuma",
+        "target_str": "3:10 to duma",
+        "references": "3:10 to duma"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'herman's hermits'?\n  choice: herman's permits\n  choice: hwrman's hermits\n  choice: herman's hermtts\n  choice: hermjn's hermits\nA:\nAnswer:",
+        "output_text": "hwrman's hermits",
+        "target_str": "herman's permits",
+        "references": "herman's permits"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'night of the demons'?\n  choice: night of the demon\n  choice: nights of the demons\n  choice: nighkt of the demons\n  choice: night of the lemons\nA:\nAnswer:",
+        "output_text": "night of the lemons",
+        "target_str": "night of the lemons",
+        "references": "night of the lemons"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the rolling stones'?\n  choice: the rolling stone\n  choice: the tolling stones\n  choice: the rolling scones\n  choice: the rollizng stones\nA:\nAnswer:",
+        "output_text": "the rolling scones",
+        "target_str": "the rolling scones",
+        "references": "the rolling scones"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'blur'?\n  choice: blucr\n  choice: ublur\n  choice: blnur\n  choice: blue\nA:\nAnswer:",
+        "output_text": "ublur",
+        "target_str": "blue",
+        "references": "blue"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'a matter of life and death'?\n  choice: a matter of wife and death\n  choice: aumatter of life and death\n  choice: a matter of life nnd death\n  choice: a matter zof life and death\nA:\nAnswer:",
+        "output_text": "a matter zof life and death",
+        "target_str": "a matter of wife and death",
+        "references": "a matter of wife and death"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'singin' in the rain'?\n  choice: singin' in the ruin\n  choice: sizngin' in the rain\n  choice: silgin' in the rain\n  choice: singint in the rain\nA:\nAnswer:",
+        "output_text": "sizngin' in the rain",
+        "target_str": "singin' in the ruin",
+        "references": "singin' in the ruin"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the man with two brains'?\n  choice: the man with two bvrains\n  choice: the man wwith two brains\n  choice: the man with tgo brains\n  choice: the man with two drains\nA:\nAnswer:",
+        "output_text": "the man with two bvrains",
+        "target_str": "the man with two drains",
+        "references": "the man with two drains"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'born free'?\n  choice: born flee\n  choice: bsrn free\n  choice: barn free\n  choice: bornqfree\nA:\nAnswer:",
+        "output_text": "bsrn free",
+        "target_str": "born flee",
+        "references": "born flee"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the moody blues'?\n  choice: the moody blueb\n  choice: the woody blues\n  choice: the moody bloes\n  choice: the moodyy blues\nA:\nAnswer:",
+        "output_text": "the moodyy blues",
+        "target_str": "the woody blues",
+        "references": "the woody blues"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'jojo rabbit'?\n  choice: jojo vrabbit\n  choice: mojo rabbit\n  choice: jojo rababit\n  choice: jojvo rabbit\nA:\nAnswer:",
+        "output_text": "jojo rababit",
+        "target_str": "mojo rabbit",
+        "references": "mojo rabbit"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'reservoir dogs'?\n  choice: reservoir fogs\n  choice: resxervoir dogs\n  choice: reservoir dofgs\n  choice: reservzoir dogs\nA:\nAnswer:",
+        "output_text": "resxervoir dogs",
+        "target_str": "reservoir fogs",
+        "references": "reservoir fogs"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'thunder road'?\n  choice: thunder iroad\n  choice: thunder toad\n  choice: thuider road\n  choice: thunder koad\nA:\nAnswer:",
+        "output_text": "thunder koad",
+        "target_str": "thunder toad",
+        "references": "thunder toad"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'star wars'?\n  choice: spar wars\n  choice: stxr wars\n  choice: sdtar wars\n  choice: star wars\nA:\nAnswer:",
+        "output_text": "star wars",
+        "target_str": "spar wars",
+        "references": "spar wars"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'deadpool'?\n  choice: deadpowol\n  choice: ndeadpool\n  choice: deadfool\n  choice: dveadpool\nA:\nAnswer:",
+        "output_text": "ndeadpool",
+        "target_str": "deadfool",
+        "references": "deadfool"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the lady vanishes'?\n  choice: the lady vanishxes\n  choice: the lady varnishes\n  choice: the lady ranishes\n  choice: the lady vanzishes\nA:\nAnswer:",
+        "output_text": "the lady vanishxes",
+        "target_str": "the lady varnishes",
+        "references": "the lady varnishes"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'steely dan'?\n  choice: steely man\n  choice: stveely dan\n  choice: steely dans\n  choice: steely yan\nA:\nAnswer:",
+        "output_text": "steely man",
+        "target_str": "steely man",
+        "references": "steely man"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the men who stare at goats'?\n  choice: the men who stare as goats\n  choice: the men who stare at giats\n  choice: the men who stare akt goats\n  choice: the men who stare at coats\nA:\nAnswer:",
+        "output_text": "the men who stare akt goats",
+        "target_str": "the men who stare at coats",
+        "references": "the men who stare at coats"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the stone roses'?\n  choice: the stone rosees\n  choice: ths stone roses\n  choice: the stone ropes\n  choice: the stone zroses\nA:\nAnswer:",
+        "output_text": "the stone zroses",
+        "target_str": "the stone ropes",
+        "references": "the stone ropes"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'nine inch nails'?\n  choice: nine inch sails\n  choice: nine isch nails\n  choice: nine inch qnails\n  choice: nine ionch nails\nA:\nAnswer:",
+        "output_text": "nine inch qnails",
+        "target_str": "nine inch sails",
+        "references": "nine inch sails"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'billy idol'?\n  choice: billy midol\n  choice: pbilly idol\n  choice: billy imdol\n  choice: lbilly idol\nA:\nAnswer:",
+        "output_text": "lbilly idol",
+        "target_str": "billy midol",
+        "references": "billy midol"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'schindler's list'?\n  choice: schindler's lihst\n  choice: schintler's list\n  choice: fchindler's list\n  choice: schindler's lost\nA:\nAnswer:",
+        "output_text": "fchindler's list",
+        "target_str": "schindler's lost",
+        "references": "schindler's lost"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'sex pistols'?\n  choice: sex pisthls\n  choice: skx pistols\n  choice: sex fistols\n  choice: sex piwtols\nA:\nAnswer:",
+        "output_text": "sex piwtols",
+        "target_str": "sex fistols",
+        "references": "sex fistols"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'gone with the wind'?\n  choice: gone with the wino\n  choice: gone withmthe wind\n  choice: gone with the wicd\n  choice: gone with thecwind\nA:\nAnswer:",
+        "output_text": "gone with the wicd",
+        "target_str": "gone with the wino",
+        "references": "gone with the wino"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'it's a wonderful life'?\n  choice: it's a wonderful libfe\n  choice: it's a wonderful line\n  choice: it's a londerful life\n  choice: it's a wonderful lifr\nA:\nAnswer:",
+        "output_text": "it's a wonderful lifr",
+        "target_str": "it's a wonderful line",
+        "references": "it's a wonderful line"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'guns n' roses'?\n  choice: guns n' rgoses\n  choice: suns n' roses\n  choice: guns n' goses\n  choice: guns n' rosjs\nA:\nAnswer:",
+        "output_text": "guns n' goses",
+        "target_str": "suns n' roses",
+        "references": "suns n' roses"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'witness'?\n  choice: wimness\n  choice: witsess\n  choice: wetness\n  choice: witnpss\nA:\nAnswer:",
+        "output_text": "witnpss",
+        "target_str": "wetness",
+        "references": "wetness"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'killing joke'?\n  choice: killing jokes\n  choice: villing joke\n  choice: killing coke\n  choice: killing toke\nA:\nAnswer:",
+        "output_text": "villing joke",
+        "target_str": "killing toke",
+        "references": "killing toke"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'panic! at the disco'?\n  choice: panic! at the cisco\n  choice: panic! at thexdisco\n  choice: panic! art the disco\n  choice: panic! at the discos\nA:\nAnswer:",
+        "output_text": "panic! at thexdisco",
+        "target_str": "panic! at the cisco",
+        "references": "panic! at the cisco"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'spice girls'?\n  choice: spice tgirls\n  choice: spite girls\n  choice: spic girls\n  choice: spihe girls\nA:\nAnswer:",
+        "output_text": "spihe girls",
+        "target_str": "spite girls",
+        "references": "spite girls"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the police'?\n  choice: the polite\n  choice: the poplice\n  choice: the polece\n  choice: the polixce\nA:\nAnswer:",
+        "output_text": "the polixce",
+        "target_str": "the polite",
+        "references": "the polite"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'spandau ballet'?\n  choice: spandau pallet\n  choice: spaydau ballet\n  choice: spandau aballet\n  choice: spandfu ballet\nA:\nAnswer:",
+        "output_text": "spandfu ballet",
+        "target_str": "spandau pallet",
+        "references": "spandau pallet"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'toto'?\n  choice: tioto\n  choice: tote\n  choice: thto\n  choice: totco\nA:\nAnswer:",
+        "output_text": "thto",
+        "target_str": "tote",
+        "references": "tote"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'system of a down'?\n  choice: system mof a down\n  choice: syster of a down\n  choice: shstem of a down\n  choice: system of a gown\nA:\nAnswer:",
+        "output_text": "syster of a down",
+        "target_str": "system of a gown",
+        "references": "system of a gown"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'beverly hills cop'?\n  choice: beverly hills qop\n  choice: beverly wills cop\n  choice: beverly hills mop\n  choice: beverly hillsz cop\nA:\nAnswer:",
+        "output_text": "beverly hillsz cop",
+        "target_str": "beverly hills mop",
+        "references": "beverly hills mop"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pearl jam'?\n  choice: peajl jam\n  choice: prarl jam\n  choice: npearl jam\n  choice: pearl ham\nA:\nAnswer:",
+        "output_text": "npearl jam",
+        "target_str": "pearl ham",
+        "references": "pearl ham"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the doors'?\n  choice: the poors\n  choice: tthe doors\n  choice: the doord\n  choice: the zdoors\nA:\nAnswer:",
+        "output_text": "the zdoors",
+        "target_str": "the poors",
+        "references": "the poors"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'roxy music'?\n  choice: roxy musij\n  choice: roxy zusic\n  choice: poxy music\n  choice: roxy musiz\nA:\nAnswer:",
+        "output_text": "poxy music",
+        "target_str": "poxy music",
+        "references": "poxy music"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'puss in boots'?\n  choice: pss in boots\n  choice: upuss in boots\n  choice: piss in boots\n  choice: puls in boots\nA:\nAnswer:",
+        "output_text": "upuss in boots",
+        "target_str": "piss in boots",
+        "references": "piss in boots"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'scream'?\n  choice: scoeam\n  choice: sxream\n  choice: cream\n  choice: secream\nA:\nAnswer:",
+        "output_text": "sxream",
+        "target_str": "cream",
+        "references": "cream"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'ace in the hole'?\n  choice: ace in the hofe\n  choice: ape in the hole\n  choice: ace in nthe hole\n  choice: ace in ths hole\nA:\nAnswer:",
+        "output_text": "ace in ths hole",
+        "target_str": "ape in the hole",
+        "references": "ape in the hole"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'things to do in denver when you're dead'?\n  choice: things to do in denver when you're deaf\n  choice: thiyngs to do in denver when you're dead\n  choice: thing to do in denver when you're dead\n  choice: things to do in denver when younre dead\nA:\nAnswer:",
+        "output_text": "thiyngs to do in denver when you're dead",
+        "target_str": "things to do in denver when you're deaf",
+        "references": "things to do in denver when you're deaf"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pink floyd'?\n  choice: pink flhoyd\n  choice: pzink floyd\n  choice: pdnk floyd\n  choice: punk floyd\nA:\nAnswer:",
+        "output_text": "pzink floyd",
+        "target_str": "punk floyd",
+        "references": "punk floyd"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'ghost busters'?\n  choice: ghost bustqrs\n  choice: ghostvbusters\n  choice: ghost buster\n  choice: ghost lusters\nA:\nAnswer:",
+        "output_text": "ghostvbusters",
+        "target_str": "ghost lusters",
+        "references": "ghost lusters"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the wild bunch'?\n  choice: thc wild bunch\n  choice: the wilsd bunch\n  choice: tee wild bunch\n  choice: the wild brunch\nA:\nAnswer:",
+        "output_text": "tee wild bunch",
+        "target_str": "the wild brunch",
+        "references": "the wild brunch"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'shutter island'?\n  choice: shufter island\n  choice: shuttmer island\n  choice: shdtter island\n  choice: shutter inland\nA:\nAnswer:",
+        "output_text": "shdtter island",
+        "target_str": "shutter inland",
+        "references": "shutter inland"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'rush'?\n  choice: ruph\n  choice: tush\n  choice: rudsh\n  choice: trush\nA:\nAnswer:",
+        "output_text": "trush",
+        "target_str": "tush",
+        "references": "tush"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beastie boys'?\n  choice: the beastuie boys\n  choice: thet beastie boys\n  choice: the beasdie boys\n  choice: the bestie boys\nA:\nAnswer:",
+        "output_text": "the beastuie boys",
+        "target_str": "the bestie boys",
+        "references": "the bestie boys"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'kool & the gang'?\n  choice: kofol & the gang\n  choice: kozol & the gang\n  choice: fool & the gang\n  choice: kool & tlhe gang\nA:\nAnswer:",
+        "output_text": "kool & the gang",
+        "target_str": "fool & the gang",
+        "references": "fool & the gang"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the swimmer'?\n  choice: the swimmeh\n  choice: the swimmrer\n  choice: the slimmer\n  choice: the swimmers\nA:\nAnswer:",
+        "output_text": "the swimmeh",
+        "target_str": "the slimmer",
+        "references": "the slimmer"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'mad max'?\n  choice: madc max\n  choice: mjad max\n  choice: mad mix\n  choice: made max\nA:\nAnswer:",
+        "output_text": "mad mix",
+        "target_str": "mad mix",
+        "references": "mad mix"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'clueless'?\n  choice: cluceless\n  choice: clueoess\n  choice: clubless\n  choice: cluegess\nA:\nAnswer:",
+        "output_text": "cluegess",
+        "target_str": "clubless",
+        "references": "clubless"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'gone with the wind'?\n  choice: gone with tge wind\n  choice: gone withu the wind\n  choice: done with the wind\n  choice: gone with the winds\nA:\nAnswer:",
+        "output_text": "gone with the wind",
+        "target_str": "done with the wind",
+        "references": "done with the wind"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'true grit'?\n  choice: true brit\n  choice: true sgrit\n  choice: tlrue grit\n  choice: true grmt\nA:\nAnswer:",
+        "output_text": "true sgrit",
+        "target_str": "true brit",
+        "references": "true brit"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the police'?\n  choice: the poplice\n  choice: thn police\n  choice: the polite\n  choice: the povlice\nA:\nAnswer:",
+        "output_text": "the povlice",
+        "target_str": "the polite",
+        "references": "the polite"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'it's a beautiful day'?\n  choice: it's a beautiful ray\n  choice: it's u beautiful day\n  choice: it's a beautiful dam\n  choice: it's as beautiful day\nA:\nAnswer:",
+        "output_text": "it's u beautiful day",
+        "target_str": "it's a beautiful dam",
+        "references": "it's a beautiful dam"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'diary of a wimpy kid'?\n  choice: diary of a wimpy kiq\n  choice: dizary of a wimpy kid\n  choice: diary of a wimpy gkid\n  choice: diary of a wimpy skid\nA:\nAnswer:",
+        "output_text": "diary of a wimpy skid",
+        "target_str": "diary of a wimpy skid",
+        "references": "diary of a wimpy skid"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'lawrence of arabia'?\n  choice: lawrence of arabica\n  choice: lawrfence of arabia\n  choice: awrence of arabia\n  choice: lawrences of arabia\nA:\nAnswer:",
+        "output_text": "awrence of arabia",
+        "target_str": "lawrence of arabica",
+        "references": "lawrence of arabica"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'star wars'?\n  choice: stare wars\n  choice: stars wars\n  choice: star was\n  choice: stariwars\nA:\nAnswer:",
+        "output_text": "stariwars",
+        "target_str": "stare wars",
+        "references": "stare wars"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'three dog night'?\n  choice: three dog fight\n  choice: three dogt night\n  choice: tehree dog night\n  choice: three dog tight\nA:\nAnswer:",
+        "output_text": "tehree dog night",
+        "target_str": "three dog fight",
+        "references": "three dog fight"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the guns of navarone'?\n  choice: the gun of navarone\n  choice: the guns of ngvarone\n  choice: the gins of navarone\n  choice: the guns of mavarone\nA:\nAnswer:",
+        "output_text": "the gins of navarone",
+        "target_str": "the gins of navarone",
+        "references": "the gins of navarone"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'chicago'?\n  choice: chijago\n  choice: chyicago\n  choice: chicano\n  choice: chlicago\nA:\nAnswer:",
+        "output_text": "chlicago",
+        "target_str": "chicano",
+        "references": "chicano"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'harry connick, jr.'?\n  choice: harrn connick, jr.\n  choice: havry connick, jr.\n  choice: harqy connick, jr.\n  choice: harry connick, sr.\nA:\nAnswer:",
+        "output_text": "havy connick, jr.",
+        "target_str": "harry connick, sr.",
+        "references": "harry connick, sr."
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'vertigo'?\n  choice: vwertigo\n  choice: wertigo\n  choice: vesrtigo\n  choice: vxertigo\nA:\nAnswer:",
+        "output_text": "vxertigo",
+        "target_str": "wertigo",
+        "references": "wertigo"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'finding dory'?\n  choice: finding dorp\n  choice: ofinding dory\n  choice: finding bdory\n  choice: finding tory\nA:\nAnswer:",
+        "output_text": "finding tory",
+        "target_str": "finding tory",
+        "references": "finding tory"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'oasis'?\n  choice: oasih\n  choice: wasis\n  choice: kasis\n  choice: onasis\nA:\nAnswer:",
+        "output_text": "onasis",
+        "target_str": "onasis",
+        "references": "onasis"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'midnight oil'?\n  choice: midnight soil\n  choice: midnighz oil\n  choice: midnight oils\n  choice: midnights oil\nA:\nAnswer:",
+        "output_text": "midnights oil",
+        "target_str": "midnight soil",
+        "references": "midnight soil"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the right stuff'?\n  choice: the right snuff\n  choice: tve right stuff\n  choice: othe right stuff\n  choice: thewright stuff\nA:\nAnswer:",
+        "output_text": "tve right stuff",
+        "target_str": "the right snuff",
+        "references": "the right snuff"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'dave matthews band'?\n  choice: dave matthews gband\n  choice: rave mathews band\n  choice: dave matthew band\n  choice: dave matthewsuband\nA:\nAnswer:",
+        "output_text": "dave matthews band",
+        "target_str": "rave mathews band",
+        "references": "rave mathews band"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: '10 years'?\n  choice: 10 yearbs\n  choice: 10 yenars\n  choice: 10 ears\n  choice: 10 yearws\nA:\nAnswer:",
+        "output_text": "10 yearws",
+        "target_str": "10 ears",
+        "references": "10 ears"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'badly drawn boy'?\n  choice: badly drawn bov\n  choice: badly dsawn boy\n  choice: badly drawn bob\n  choice: badly drawn boy\nA:\nAnswer:",
+        "output_text": "badly drawn bob",
+        "target_str": "badly drawn bob",
+        "references": "badly drawn bob"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bob seger & the silver bullet band'?\n  choice: bob seger & the silver mullet band\n  choice: rob seger & the silver bullet band\n  choice: bob seger & the silver bullet bend\n  choice: bob seger & thewsilver bullet band\nA:\nAnswer:",
+        "output_text": "bob seger & the silver mullet band",
+        "target_str": "bob seger & the silver mullet band",
+        "references": "bob seger & the silver mullet band"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'jaws'?\n  choice: jams\n  choice: jgaws\n  choice: jaiws\n  choice: jawas\nA:\nAnswer:",
+        "output_text": "jgaws",
+        "target_str": "jams",
+        "references": "jams"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'oasis'?\n  choice: iasis\n  choice: oaszis\n  choice: basis\n  choice: oasqs\nA:\nAnswer:",
+        "output_text": "oaszis",
+        "target_str": "basis",
+        "references": "basis"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'muse'?\n  choice: mush\n  choice: muxse\n  choice: muses\n  choice: muso\nA:\nAnswer:",
+        "output_text": "muso",
+        "target_str": "mush",
+        "references": "mush"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the cranberries'?\n  choice: the crapberries\n  choice: tthe cranberries\n  choice: the cranbgerries\n  choice: the csranberries\nA:\nAnswer:",
+        "output_text": "the csranberries",
+        "target_str": "the crapberries",
+        "references": "the crapberries"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'city hall'?\n  choice: city half\n  choice: city mall\n  choice: caty hall\n  choice: city halls\nA:\nAnswer:",
+        "output_text": "caty hall",
+        "target_str": "city mall",
+        "references": "city mall"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the poseidon adventure'?\n  choice: the poseidon adventnre\n  choice: thy poseidon adventure\n  choice: the poseidon ad venture\n  choice: the poseidow adventure\nA:\nAnswer:",
+        "output_text": "thy poseidon adventure",
+        "target_str": "the poseidon ad venture",
+        "references": "the poseidon ad venture"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beach boys'?\n  choice: the beach boys\n  choice: the peach boys\n  choice: the beach bmoys\n  choice: the bemach boys\nA:\nAnswer:",
+        "output_text": "the bemach boys",
+        "target_str": "the peach boys",
+        "references": "the peach boys"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'modern talking'?\n  choice: modern walking\n  choice: msdern talking\n  choice: modern tzlking\n  choice: mohdern talking\nA:\nAnswer:",
+        "output_text": "msdern talking",
+        "target_str": "modern walking",
+        "references": "modern walking"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'big trouble in little china'?\n  choice: big trouble in littmle china\n  choice: bigwtrouble in little china\n  choice: big trouble in little chins\n  choice: big troubles in little china\nA:\nAnswer:",
+        "output_text": "big trouble in little chins",
+        "target_str": "big trouble in little chins",
+        "references": "big trouble in little chins"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'taylor swift'?\n  choice: taylor snift\n  choice: tzaylor swift\n  choice: ftaylor swift\n  choice: taylors swift\nA:\nAnswer:",
+        "output_text": "tzaylor swift",
+        "target_str": "taylor snift",
+        "references": "taylor snift"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'sally'?\n  choice: salliy\n  choice: tsally\n  choice: asally\n  choice: silly\nA:\nAnswer:",
+        "output_text": "tsally",
+        "target_str": "silly",
+        "references": "silly"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'sly and the family stone'?\n  choice: sly and the family stmone\n  choice: sly and the family tone\n  choice: fly and the family stone\n  choice: sly and the family stones\nA:\nAnswer:",
+        "output_text": "sly and the family tone",
+        "target_str": "fly and the family stone",
+        "references": "fly and the family stone"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'run dmc'?\n  choice: run dgmc\n  choice: runydmc\n  choice: rub dmc\n  choice: run dmic\nA:\nAnswer:",
+        "output_text": "runydmc",
+        "target_str": "rub dmc",
+        "references": "rub dmc"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'o.a.r.'?\n  choice: e.a.r.\n  choice: ov.a.r.\n  choice: co.a.r.\n  choice: o.alr.\nA:\nAnswer:",
+        "output_text": "ov.a.r",
+        "target_str": "e.a.r.",
+        "references": "e.a.r."
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'arab strap'?\n  choice: arab straps\n  choice: arhb strap\n  choice: arab sktrap\n  choice: arab strip\nA:\nAnswer:",
+        "output_text": "arab strip",
+        "target_str": "arab strip",
+        "references": "arab strip"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'lost in translation'?\n  choice: last in translation\n  choice: lost in translations\n  choice: cost in translation\n  choice: lost il translation\nA:\nAnswer:",
+        "output_text": "lost il translation",
+        "target_str": "cost in translation",
+        "references": "cost in translation"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'star wars'?\n  choice: star bars\n  choice: stars wars\n  choice: ktar wars\n  choice: star woars\nA:\nAnswer:",
+        "output_text": "star woars",
+        "target_str": "star bars",
+        "references": "star bars"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'there will be blood'?\n  choice: there will be flood\n  choice: tkere will be blood\n  choice: there awill be blood\n  choice: there will bez blood\nA:\nAnswer:",
+        "output_text": "there will bez blood",
+        "target_str": "there will be flood",
+        "references": "there will be flood"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the godmothers'?\n  choice: the godmother\n  choice: the grdmothers\n  choice: ghe godmothers\n  choice: the godmothqrs\nA:\nAnswer:",
+        "output_text": "the godmothqrs",
+        "target_str": "the godmother",
+        "references": "the godmother"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'dirty harry'?\n  choice: dirty kharry\n  choice: dirtyzharry\n  choice: dirty hairy\n  choice: dirtyo harry\nA:\nAnswer:",
+        "output_text": "dirtyzharry",
+        "target_str": "dirty hairy",
+        "references": "dirty hairy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'jackson five'?\n  choice: jackson pfive\n  choice: sjackson five\n  choice: jackson fire\n  choice: jacksons five\nA:\nAnswer:",
+        "output_text": "sjackson five",
+        "target_str": "jackson fire",
+        "references": "jackson fire"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pitch perfect'?\n  choice: pitcgh perfect\n  choice: witch perfect\n  choice: patch perfect\n  choice: pitchn perfect\nA:\nAnswer:",
+        "output_text": "pitchn perfect",
+        "target_str": "witch perfect",
+        "references": "witch perfect"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pink floyd'?\n  choice: pink floayd\n  choice: prnk floyd\n  choice: pine floyd\n  choice: pinks floyd\nA:\nAnswer:",
+        "output_text": "prnk floyd",
+        "target_str": "pine floyd",
+        "references": "pine floyd"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the rolling stones'?\n  choice: the rolling stone\n  choice: twe rolling stones\n  choice: the roiling stones\n  choice: the rollwng stones\nA:\nAnswer:",
+        "output_text": "twe rolling stones",
+        "target_str": "the roiling stones",
+        "references": "the roiling stones"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'apocalypse now'?\n  choice: apocalcpse now\n  choice: apocalypse nvow\n  choice: ampocalypse now\n  choice: apocalypse not\nA:\nAnswer:",
+        "output_text": "apocalypse not",
+        "target_str": "apocalypse not",
+        "references": "apocalypse not"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the commodores'?\n  choice: the commoores\n  choice: thy commodores\n  choice: the commodorks\n  choice: thescommodores\nA:\nAnswer:",
+        "output_text": "the commoores",
+        "target_str": "the commodorks",
+        "references": "the commodorks"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'training day'?\n  choice: trahining day\n  choice: trainink day\n  choice: raining day\n  choice: training days\nA:\nAnswer:",
+        "output_text": "trahining day",
+        "target_str": "raining day",
+        "references": "raining day"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'foo fighters'?\n  choice: foo fighvters\n  choice: fso fighters\n  choice: foo fightefrs\n  choice: fool fighters\nA:\nAnswer:",
+        "output_text": "fool fighters",
+        "target_str": "fool fighters",
+        "references": "fool fighters"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'trainspotting'?\n  choice: trainspoeting\n  choice: trainspqtting\n  choice: trainspitting\n  choice: trainspottaing\nA:\nAnswer:",
+        "output_text": "trainspottaing",
+        "target_str": "trainspitting",
+        "references": "trainspitting"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'small boy'?\n  choice: smallyboy\n  choice: snmall boy\n  choice: small boys\n  choice: smell boy\nA:\nAnswer:",
+        "output_text": "snmall boy",
+        "target_str": "smell boy",
+        "references": "smell boy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bahen'?\n  choice: baken\n  choice: vbahen\n  choice: baheun\n  choice: baxen\nA:\nAnswer:",
+        "output_text": "vbahen",
+        "target_str": "baken",
+        "references": "baken"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'phillips, craig, and dean'?\n  choice: phillips, craig, and deans\n  choice: phillips, craiig, and dean\n  choice: phillips, craig, and dead\n  choice: phillips, craig,a and dean\nA:\nAnswer:",
+        "output_text": "phillips, craig, and dean",
+        "target_str": "phillips, craig, and dead",
+        "references": "phillips, craig, and dead"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'dracula has risen from the grave'?\n  choice: dracula has risen from the grate\n  choice: dracula vas risen from the grave\n  choice: dcacula has risen from the grave\n  choice: dracula has risenp from the grave\nA:\nAnswer:",
+        "output_text": "dcacula has risen from the grave",
+        "target_str": "dracula has risen from the grate",
+        "references": "dracula has risen from the grate"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'reservoir dogs'?\n  choice: reservoir dovs\n  choice: resyrvoir dogs\n  choice: reservoir dog\n  choice: reservoir logs\nA:\nAnswer:",
+        "output_text": "resyrvoir dogs",
+        "target_str": "reservoir logs",
+        "references": "reservoir logs"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the boat that rocked'?\n  choice: the boat that rocvked\n  choice: thge boat that rocked\n  choice: the boat that rockegd\n  choice: the goat that rocked\nA:\nAnswer:",
+        "output_text": "the boat that rockegd",
+        "target_str": "the goat that rocked",
+        "references": "the goat that rocked"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'deadpool'?\n  choice: deadpouol\n  choice: dradpool\n  choice: deadpoo\n  choice: deadpxol\nA:\nAnswer:",
+        "output_text": "dradpool",
+        "target_str": "deadpoo",
+        "references": "deadpoo"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'rocky'?\n  choice: lrocky\n  choice: rgocky\n  choice: kocky\n  choice: pocky\nA:\nAnswer:",
+        "output_text": "kocky",
+        "target_str": "pocky",
+        "references": "pocky"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the lion king'?\n  choice: the liodn king\n  choice: the lion lking\n  choice: the lien king\n  choice: the liok king\nA:\nAnswer:",
+        "output_text": "the liok king",
+        "target_str": "the lien king",
+        "references": "the lien king"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pink floyd'?\n  choice: pink flobyd\n  choice: wink floyd\n  choice: pinfk floyd\n  choice: pink floyy\nA:\nAnswer:",
+        "output_text": "pink floyy",
+        "target_str": "wink floyd",
+        "references": "wink floyd"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'apocalypse now'?\n  choice: apocalypse ow\n  choice: apockalypse now\n  choice: apocalypse ncow\n  choice: apocalypses now\nA:\nAnswer:",
+        "output_text": "apocalypse ncow",
+        "target_str": "apocalypse ow",
+        "references": "apocalypse ow"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'star wars'?\n  choice: star ware\n  choice: star wsrs\n  choice: star nars\n  choice: star warts\nA:\nAnswer:",
+        "output_text": "star warts",
+        "target_str": "star warts",
+        "references": "star warts"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'mc hammer'?\n  choice: mc uammer\n  choice: qc hammer\n  choice: mc halmmer\n  choice: mr hammer\nA:\nAnswer:",
+        "output_text": "mr hammer",
+        "target_str": "mr hammer",
+        "references": "mr hammer"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'johnny cash'?\n  choice: johnny cashs\n  choice: sohnny cash\n  choice: johnny cabh\n  choice: johnny rash\nA:\nAnswer:",
+        "output_text": "johnny cabh",
+        "target_str": "johnny rash",
+        "references": "johnny rash"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the sisters of mercy'?\n  choice: the sisters of percy\n  choice: tmhe sisters of mercy\n  choice: the sisters of meurcy\n  choice: the sisters ozf mercy\nA:\nAnswer:",
+        "output_text": "tmhe sisters of mercy",
+        "target_str": "the sisters of percy",
+        "references": "the sisters of percy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'star wars'?\n  choice: star warb\n  choice: tar wars\n  choice: scar wars\n  choice: star wari\nA:\nAnswer:",
+        "output_text": "star wari",
+        "target_str": "tar wars",
+        "references": "tar wars"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beach boys'?\n  choice: the bleach boys\n  choice: zthe beach boys\n  choice: the beauch boys\n  choice: theu beach boys\nA:\nAnswer:",
+        "output_text": "zthe beach boys",
+        "target_str": "the bleach boys",
+        "references": "the bleach boys"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'herb alpert and the tijuana brass'?\n  choice: herb alpert and the tijuana birass\n  choice: herb alpert and the tijuana briss\n  choice: herb alpert and the tihuana brass\n  choice: herb alpert and the tijuana bravss\nA:\nAnswer:",
+        "output_text": "herb alpert and the tijuana briss",
+        "target_str": "herb alpert and the tijuana briss",
+        "references": "herb alpert and the tijuana briss"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'goodfellas'?\n  choice: gooifellas\n  choice: gotdfellas\n  choice: foodfellas\n  choice: gooofellas\nA:\nAnswer:",
+        "output_text": "gooofellas",
+        "target_str": "foodfellas",
+        "references": "foodfellas"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'rush'?\n  choice: ruxsh\n  choice: zush\n  choice: hush\n  choice: rwsh\nA:\nAnswer:",
+        "output_text": "ruxsh",
+        "target_str": "hush",
+        "references": "hush"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: '50 cent'?\n  choice: 50 scent\n  choice: 5d cent\n  choice: 50 ecent\n  choice: 50q cent\nA:\nAnswer:",
+        "output_text": "5d cent",
+        "target_str": "50 scent",
+        "references": "50 scent"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'snoop dogg'?\n  choice: snoop dogs\n  choice: snoopq dogg\n  choice: snhoop dogg\n  choice: snoop logg\nA:\nAnswer:",
+        "output_text": "snhoop dogg",
+        "target_str": "snoop logg",
+        "references": "snoop logg"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'blade'?\n  choice: bladie\n  choice: glade\n  choice: blades\n  choice: blasde\nA:\nAnswer:",
+        "output_text": "blasde",
+        "target_str": "glade",
+        "references": "glade"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'con air'?\n  choice: con gair\n  choice: cov air\n  choice: can air\n  choice: conb air\nA:\nAnswer:",
+        "output_text": "cov air",
+        "target_str": "cov air",
+        "references": "cov air"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'man on fire'?\n  choice: man on file\n  choice: man on qire\n  choice: man in fire\n  choice: man on fre\nA:\nAnswer:",
+        "output_text": "man on fri",
+        "target_str": "man in fire",
+        "references": "man in fire"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'sex pistols'?\n  choice: sex pistons\n  choice: sexqpistols\n  choice: sax pistols\n  choice: sex pistwls\nA:\nAnswer:",
+        "output_text": "sex pistwls",
+        "target_str": "sex pistons",
+        "references": "sex pistons"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the thing'?\n  choice: the thing\n  choice: the thong\n  choice: phe thing\n  choice: the things\nA:\nAnswer:",
+        "output_text": "phe thing",
+        "target_str": "the thong",
+        "references": "the thong"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'back to the future'?\n  choice: back to the fmture\n  choice: bark to the future\n  choice: back to nthe future\n  choice: back to the iuture\nA:\nAnswer:",
+        "output_text": "bark to the future",
+        "target_str": "bark to the future",
+        "references": "bark to the future"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the philadelphia story'?\n  choice: the philadelphia store\n  choice: thexphiladelphia story\n  choice: fhe philadelphia story\n  choice: the philadelphiapstory\nA:\nAnswer:",
+        "output_text": "fhe philadelphia story",
+        "target_str": "the philadelphia store",
+        "references": "the philadelphia store"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'dangerous lies'?\n  choice: dangerous lees\n  choice: dangerous pies\n  choice: dangeroous lies\n  choice: dangerous lie\nA:\nAnswer:",
+        "output_text": "dangerous lie",
+        "target_str": "dangerous pies",
+        "references": "dangerous pies"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bullet for my valentine'?\n  choice: bullet for my valentini\n  choice: mullet for my valentine\n  choice: btllet for my valentine\n  choice: bullets for my valentine\nA:\nAnswer:",
+        "output_text": "mullet for my valentine",
+        "target_str": "mullet for my valentine",
+        "references": "mullet for my valentine"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the verve'?\n  choice: the perve\n  choice: thse verve\n  choice: tche verve\n  choice: the verqve\nA:\nAnswer:",
+        "output_text": "tche verve",
+        "target_str": "the perve",
+        "references": "the perve"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'mad max: fury road'?\n  choice: mad max: fury toad\n  choice: madzmax: fury road\n  choice: mad max: fury rwoad\n  choice: mad maxb: fury road\nA:\nAnswer:",
+        "output_text": "madzmax: fury road",
+        "target_str": "mad max: fury toad",
+        "references": "mad max: fury toad"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'tool'?\n  choice: stool\n  choice: tqool\n  choice: ftool\n  choice: tiol\nA:\nAnswer:",
+        "output_text": "ftool",
+        "target_str": "stool",
+        "references": "stool"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'first cow'?\n  choice: first cows\n  choice: firsts cow\n  choice: first co\n  choice: first crow\nA:\nAnswer:",
+        "output_text": "first co",
+        "target_str": "first crow",
+        "references": "first crow"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beach boys'?\n  choice: the beachy boys\n  choice: the bleach boys\n  choice: the beach bozs\n  choice: the beamch boys\nA:\nAnswer:",
+        "output_text": "the beamch boys",
+        "target_str": "the bleach boys",
+        "references": "the bleach boys"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'backstreet boys'?\n  choice: backstreet toys\n  choice: bacqkstreet boys\n  choice: backstreet boy\n  choice: backstreret boys\nA:\nAnswer:",
+        "output_text": "bacqkstreet boys",
+        "target_str": "backstreet toys",
+        "references": "backstreet toys"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the rolling stones'?\n  choice: the rolling scones\n  choice: thq rolling stones\n  choice: the folling stones\n  choice: the rollizg stones\nA:\nAnswer:",
+        "output_text": "the rolling scones",
+        "target_str": "the rolling scones",
+        "references": "the rolling scones"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pet shop boys'?\n  choice: pet shop boys\n  choice: pt shop boys\n  choice: pet shodp boys\n  choice: pet shop toys\nA:\nAnswer:",
+        "output_text": "pet shodp boys",
+        "target_str": "pet shop toys",
+        "references": "pet shop toys"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the hug'?\n  choice: the huwg\n  choice: the yug\n  choice: the hrug\n  choice: the mug\nA:\nAnswer:",
+        "output_text": "the yug",
+        "target_str": "the mug",
+        "references": "the mug"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'reo speedwagon'?\n  choice: reo speedwadon\n  choice: reuo speedwagon\n  choice: ceo speedwagon\n  choice: reo xspeedwagon\nA:\nAnswer:",
+        "output_text": "reo xspeedwagon",
+        "target_str": "ceo speedwagon",
+        "references": "ceo speedwagon"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'red hot chili peppers'?\n  choice: red hot chili peppners\n  choice: red hwt chili peppers\n  choice: red hot chili peppercs\n  choice: red hot chili poppers\nA:\nAnswer:",
+        "output_text": "red hot chili peppners",
+        "target_str": "red hot chili poppers",
+        "references": "red hot chili poppers"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the rolling stones'?\n  choice: the polling stones\n  choice: thea rolling stones\n  choice: tce rolling stones\n  choice: the rollvng stones\nA:\nAnswer:",
+        "output_text": "tce rolling stones",
+        "target_str": "the polling stones",
+        "references": "the polling stones"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'cocktails'?\n  choice: cocktailq\n  choice: mocktails\n  choice: cocktail\n  choice: eocktails\nA:\nAnswer:",
+        "output_text": "eocktails",
+        "target_str": "mocktails",
+        "references": "mocktails"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'empire of the ants'?\n  choice: empire of the antts\n  choice: empire of tihe ants\n  choice: empiqe of the ants\n  choice: empire of the pants\nA:\nAnswer:",
+        "output_text": "empire of the pants",
+        "target_str": "empire of the pants",
+        "references": "empire of the pants"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the fast and the furious'?\n  choice: the fast aed the furious\n  choice: the fat and the furious\n  choice: the fart and the furious\n  choice: the fasts and the furious\nA:\nAnswer:",
+        "output_text": "the fart and the furious",
+        "target_str": "the fart and the furious",
+        "references": "the fart and the furious"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the wedding planner'?\n  choice: the weddingz planner\n  choice: thne wedding planner\n  choice: the wedding planners\n  choice: the weeding planner\nA:\nAnswer:",
+        "output_text": "the weddingz planner",
+        "target_str": "the weeding planner",
+        "references": "the weeding planner"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'atlantic starr'?\n  choice: atlantic star\n  choice: ztlantic starr\n  choice: atlantic ostarr\n  choice: atlantic start\nA:\nAnswer:",
+        "output_text": "atlantic ostarr",
+        "target_str": "atlantic start",
+        "references": "atlantic start"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'sweet ignitions'?\n  choice: sweet ignition\n  choice: swemet ignitions\n  choice: sweat ignitions\n  choice: sweet mignitions\nA:\nAnswer:",
+        "output_text": "sweet mignitions",
+        "target_str": "sweat ignitions",
+        "references": "sweat ignitions"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beatles'?\n  choice: gthe beatles\n  choice: tohe beatles\n  choice: ethe beatles\n  choice: the beagles\nA:\nAnswer:",
+        "output_text": "ethe beatles",
+        "target_str": "the beagles",
+        "references": "the beagles"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the doobie brothers'?\n  choice: the doobiw brothers\n  choice: the rdoobie brothers\n  choice: the doobie brotghers\n  choice: the dookie brothers\nA:\nAnswer:",
+        "output_text": "the dookie brothers",
+        "target_str": "the dookie brothers",
+        "references": "the dookie brothers"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beatles'?\n  choice: the beatlews\n  choice: tre beatles\n  choice: the beatles\n  choice: the beetles\nA:\nAnswer:",
+        "output_text": "the beatlews",
+        "target_str": "the beetles",
+        "references": "the beetles"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'foo fighters'?\n  choice: foo fighteyrs\n  choice: poo fighters\n  choice: fbo fighters\n  choice: gfoo fighters\nA:\nAnswer:",
+        "output_text": "poo fighters",
+        "target_str": "poo fighters",
+        "references": "poo fighters"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'toy story'?\n  choice: to story\n  choice: tory story\n  choice: tloy story\n  choice: tooy story\nA:\nAnswer:",
+        "output_text": "tooy story",
+        "target_str": "tory story",
+        "references": "tory story"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'gone with the wind'?\n  choice: gone with the wine\n  choice: guone with the wind\n  choice: gone with the winds\n  choice: gone with tpe wind\nA:\nAnswer:",
+        "output_text": "gone with tpe wind",
+        "target_str": "gone with the wine",
+        "references": "gone with the wine"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'beauty and the beast'?\n  choice: beauty and the beasb\n  choice: beauty and the yeast\n  choice: beauty and the beakt\n  choice: beauty and the blast\nA:\nAnswer:",
+        "output_text": "beauty and the blast",
+        "target_str": "beauty and the yeast",
+        "references": "beauty and the yeast"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the who!'?\n  choice: the whom!\n  choice: tmhe who!\n  choice: dhe who!\n  choice: thehwho!\nA:\nAnswer:",
+        "output_text": "tmhe who!",
+        "target_str": "the whom!",
+        "references": "the whom!"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the matrix'?\n  choice: the matwix\n  choice: thqe matrix\n  choice: the matric\n  choice: the mitrix\nA:\nAnswer:",
+        "output_text": "the mitrix",
+        "target_str": "the matwix",
+        "references": "the matwix"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'u2'?\n  choice: u2\n  choice: um\n  choice: u\n  choice: uc\nA:\nAnswer:",
+        "output_text": "um",
+        "target_str": "um",
+        "references": "um"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'steely dan'?\n  choice: steelycdan\n  choice: steiely dan\n  choice: steely don\n  choice: steemly dan\nA:\nAnswer:",
+        "output_text": "steiely dan",
+        "target_str": "steely don",
+        "references": "steely don"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'house party'?\n  choice: house farty\n  choice: houses party\n  choice: homse party\n  choice: housed party\nA:\nAnswer:",
+        "output_text": "house farty",
+        "target_str": "house farty",
+        "references": "house farty"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'beatloaf'?\n  choice: beagloaf\n  choice: teatloaf\n  choice: beadtloaf\n  choice: beatloasf\nA:\nAnswer:",
+        "output_text": "beagloaf",
+        "target_str": "teatloaf",
+        "references": "teatloaf"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'jack reacher'?\n  choice: jack teacher\n  choice: jqck reacher\n  choice: jaci reacher\n  choice: jackkreacher\nA:\nAnswer:",
+        "output_text": "jackkreacher",
+        "target_str": "jack teacher",
+        "references": "jack teacher"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beach boys'?\n  choice: the beacmh boys\n  choice: the leach boys\n  choice: the beach boy\n  choice: the bkeach boys\nA:\nAnswer:",
+        "output_text": "the leach boys",
+        "target_str": "the leach boys",
+        "references": "the leach boys"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the moon and sixpence'?\n  choice: the moon and sixwence\n  choice: the moon and svixpence\n  choice: the loon and sixpence\n  choice: the moon and suixpence\nA:\nAnswer:",
+        "output_text": "the loon and sixpence",
+        "target_str": "the loon and sixpence",
+        "references": "the loon and sixpence"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the green mile'?\n  choice: the green miles\n  choice: the gueen mile\n  choice: the green bile\n  choice: the gregn mile\nA:\nAnswer:",
+        "output_text": "the gueen mile",
+        "target_str": "the green bile",
+        "references": "the green bile"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'buzzcocks'?\n  choice: buzzcofcks\n  choice: fuzzcocks\n  choice: bdzzcocks\n  choice: buzzcoycks\nA:\nAnswer:",
+        "output_text": "bdzzcocks",
+        "target_str": "fuzzcocks",
+        "references": "fuzzcocks"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'peter pan'?\n  choice: petej pan\n  choice: peterppan\n  choice: peqter pan\n  choice: peter ran\nA:\nAnswer:",
+        "output_text": "peqter pan",
+        "target_str": "peter ran",
+        "references": "peter ran"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'frankie goes to hollywood'?\n  choice: frankie goes to heollywood\n  choice: franuie goes to hollywood\n  choice: frankie goes to bollywood\n  choice: frankie goes to lollywood\nA:\nAnswer:",
+        "output_text": "frankie goes to heollywood",
+        "target_str": "frankie goes to bollywood",
+        "references": "frankie goes to bollywood"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'guns n' roses'?\n  choice: guns mn' roses\n  choice: guns o' roses\n  choice: gums n' roses\n  choice: guns nd roses\nA:\nAnswer:",
+        "output_text": "gums n' roses",
+        "target_str": "gums n' roses",
+        "references": "gums n' roses"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pigbag'?\n  choice: pifgbag\n  choice: ypigbag\n  choice: pfigbag\n  choice: sigbag\nA:\nAnswer:",
+        "output_text": "ypigbag",
+        "target_str": "sigbag",
+        "references": "sigbag"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'days of wine and roses'?\n  choice: days of wine and noses\n  choice: days ofkwine and roses\n  choice: dayl of wine and roses\n  choice: days of wine and rose\nA:\nAnswer:",
+        "output_text": "days of wine and noses",
+        "target_str": "days of wine and noses",
+        "references": "days of wine and noses"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'dracula has risen from the grave'?\n  choice: dracula has risen frof the grave\n  choice: dracula has risen from the gravy\n  choice: dracula has risehn from the grave\n  choice: dracula has risen from the graves\nA:\nAnswer:",
+        "output_text": "dracula has risen from the gravy",
+        "target_str": "dracula has risen from the gravy",
+        "references": "dracula has risen from the gravy"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'captain beefheart'?\n  choice: captain beerheart\n  choice: captyain beefheart\n  choice: captain beefhekart\n  choice: captaix beefheart\nA:\nAnswer:",
+        "output_text": "captain beerheart",
+        "target_str": "captain beerheart",
+        "references": "captain beerheart"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'top gun'?\n  choice: qop gun\n  choice: top run\n  choice: dop gun\n  choice: toip gun\nA:\nAnswer:",
+        "output_text": "toip gun",
+        "target_str": "top run",
+        "references": "top run"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the guns of navarone'?\n  choice: the guns of navarony\n  choice: the nuns of navarone\n  choice: the guns of nanarone\n  choice: the guns of nhavarone\nA:\nAnswer:",
+        "output_text": "the guns of nhavarone",
+        "target_str": "the nuns of navarone",
+        "references": "the nuns of navarone"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'catch me if you can'?\n  choice: catch me iq you can\n  choice: catchxme if you can\n  choice: catch me if you jan\n  choice: catch me iqf you can\nA:\nAnswer:",
+        "output_text": "catchxme if you can",
+        "target_str": "catch me if you jan",
+        "references": "catch me if you jan"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'echo & the bunnymen'?\n  choice: echo & tshe bunnymen\n  choice: echo x& the bunnymen\n  choice: echo & the funnymen\n  choice: echo & vhe bunnymen\nA:\nAnswer:",
+        "output_text": "echo & the funnymen",
+        "target_str": "echo & the funnymen",
+        "references": "echo & the funnymen"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the rolling stones'?\n  choice: the rolling sntones\n  choice: the rolling stonfes\n  choice: the lolling stones\n  choice: the rolling stobes\nA:\nAnswer:",
+        "output_text": "the rolling sntones",
+        "target_str": "the lolling stones",
+        "references": "the lolling stones"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'aliens'?\n  choice: alien\n  choice: allens\n  choice: alhens\n  choice: alienys\nA:\nAnswer:",
+        "output_text": "alienys",
+        "target_str": "allens",
+        "references": "allens"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'black sabbath'?\n  choice: black sabjath\n  choice: slack sabbath\n  choice: back sabbath\n  choice: blayk sabbath\nA:\nAnswer:",
+        "output_text": "blayk sabbath",
+        "target_str": "slack sabbath",
+        "references": "slack sabbath"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'moby dick'?\n  choice: moby duck\n  choice: movby dick\n  choice: moby dikk\n  choice: mobyudick\nA:\nAnswer:",
+        "output_text": "movby dick",
+        "target_str": "moby duck",
+        "references": "moby duck"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'reo speedwagon'?\n  choice: reo speedwagons\n  choice: reo spreedwagon\n  choice: oreo speedwagon\n  choice: reo speedwayon\nA:\nAnswer:",
+        "output_text": "reo spreedwagon",
+        "target_str": "oreo speedwagon",
+        "references": "oreo speedwagon"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'mobb deep'?\n  choice: mobb dgep\n  choice: mobib deep\n  choice: mgbb deep\n  choice: mobb jeep\nA:\nAnswer:",
+        "output_text": "mgbb deep",
+        "target_str": "mobb jeep",
+        "references": "mobb jeep"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bend it like beckham'?\n  choice: bend it like beclkham\n  choice: mend it like beckham\n  choice: bend it lifke beckham\n  choice: bend itj like beckham\nA:\nAnswer:",
+        "output_text": "bend itj like beckham",
+        "target_str": "mend it like beckham",
+        "references": "mend it like beckham"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bad boys for life'?\n  choice: bad boy for life\n  choice: bazd boys for life\n  choice: bad bons for life\n  choice: bad toys for life\nA:\nAnswer:",
+        "output_text": "bad boy for life",
+        "target_str": "bad toys for life",
+        "references": "bad toys for life"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'bad company'?\n  choice: bad company\n  choice: sad company\n  choice: bad cobmpany\n  choice: bad compaqy\nA:\nAnswer:",
+        "output_text": "bad compaqy",
+        "target_str": "sad company",
+        "references": "sad company"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'quatermass and the pit'?\n  choice: quatermass and the pip\n  choice: quatermasss and the pat\n  choice: qualermass and the pit\n  choice: quatermass and the zit\nA:\nAnswer:",
+        "output_text": "quatermass and the zit",
+        "target_str": "quatermass and the zit",
+        "references": "quatermass and the zit"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the terminator'?\n  choice: the pterminator\n  choice: the terminators\n  choice: the germinator\n  choice: the tebrminator\nA:\nAnswer:",
+        "output_text": "the pterminator",
+        "target_str": "the germinator",
+        "references": "the germinator"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the beach boys'?\n  choice: the beach boym\n  choice: the benach boys\n  choice: the beacb boys\n  choice: the beach toys\nA:\nAnswer:",
+        "output_text": "the benach boys",
+        "target_str": "the beach toys",
+        "references": "the beach toys"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the grand budapest hotel'?\n  choice: the grand budapest hozel\n  choice: the grind budapest hotel\n  choice: the grand budapest hostel\n  choice: the grandmbudapest hotel\nA:\nAnswer:",
+        "output_text": "the grandmbudapest hotel",
+        "target_str": "the grand budapest hostel",
+        "references": "the grand budapest hostel"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'taxi driver'?\n  choice: taxi driven\n  choice: taxq driver\n  choice: taxi dqriver\n  choice: taxi drivwer\nA:\nAnswer:",
+        "output_text": "taxi dqriver",
+        "target_str": "taxi driven",
+        "references": "taxi driven"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'star wars'?\n  choice: stab wars\n  choice: star warl\n  choice: sar wars\n  choice: star warfs\nA:\nAnswer:",
+        "output_text": "star warfs",
+        "target_str": "stab wars",
+        "references": "stab wars"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'toy story'?\n  choice: top story\n  choice: toyqstory\n  choice: toe story\n  choice: toy stoty\nA:\nAnswer:",
+        "output_text": "toy stoty",
+        "target_str": "toe story",
+        "references": "toe story"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'some like it hot'?\n  choice: some likewit hot\n  choice: some liqe it hot\n  choice: some like it not\n  choice: some likt it hot\nA:\nAnswer:",
+        "output_text": "some likewit hot",
+        "target_str": "some like it not",
+        "references": "some like it not"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the smashing pumpkins'?\n  choice: the smashing tpumpkins\n  choice: toe smashing pumpkins\n  choice: the smashing pumpkiens\n  choice: these smashing pumpkins\nA:\nAnswer:",
+        "output_text": "these smashing pumpkins",
+        "target_str": "toe smashing pumpkins",
+        "references": "toe smashing pumpkins"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'happy mondays'?\n  choice: happy moondays\n  choice: sappy mondays\n  choice: happy mogndays\n  choice: happycmondays\nA:\nAnswer:",
+        "output_text": "sappy mondays",
+        "target_str": "sappy mondays",
+        "references": "sappy mondays"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pals'?\n  choice: palvs\n  choice: paws\n  choice: pall\n  choice: panls\nA:\nAnswer:",
+        "output_text": "palvs",
+        "target_str": "paws",
+        "references": "paws"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'you've got mail'?\n  choice: you've got fail\n  choice: you'veigot mail\n  choice: you've goht mail\n  choice: you've lot mail\nA:\nAnswer:",
+        "output_text": "you've got fail",
+        "target_str": "you've got fail",
+        "references": "you've got fail"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'top gun'?\n  choice: top gaun\n  choice: top guns\n  choice: tap gun\n  choice: top gum\nA:\nAnswer:",
+        "output_text": "tap gun",
+        "target_str": "top gum",
+        "references": "top gum"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'indiana jones and the temple of doom'?\n  choice: indiana jones and the temples of doom\n  choice: indiana jonesqand the temple of doom\n  choice: indiana jones and the temple of zoom\n  choice: indiana jones and the tempvle of doom\nA:\nAnswer:",
+        "output_text": "indiana jones and the temple of zoom",
+        "target_str": "indiana jones and the temple of zoom",
+        "references": "indiana jones and the temple of zoom"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'rush'?\n  choice: rufh\n  choice: rzush\n  choice: rash\n  choice: rusq\nA:\nAnswer:",
+        "output_text": "rzush",
+        "target_str": "rash",
+        "references": "rash"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'purple rain'?\n  choice: purple raiyn\n  choice: purplejrain\n  choice: puarple rain\n  choice: purple vain\nA:\nAnswer:",
+        "output_text": "puarple rain",
+        "target_str": "purple vain",
+        "references": "purple vain"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'billie eilish'?\n  choice: billir eilish\n  choice: pillie eilish\n  choice: billie eilksh\n  choice: bwillie eilish\nA:\nAnswer:",
+        "output_text": "bwillie eilish",
+        "target_str": "pillie eilish",
+        "references": "pillie eilish"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'herman's hermits'?\n  choice: herman's hemrmits\n  choice: heruman's hermits\n  choice: germans hermits\n  choice: hernman's hermits\nA:\nAnswer:",
+        "output_text": "herman's hemrmits",
+        "target_str": "germans hermits",
+        "references": "germans hermits"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'black narcissus'?\n  choice: black narcissux\n  choice: blank narcissus\n  choice: black narcispsus\n  choice: blamck narcissus\nA:\nAnswer:",
+        "output_text": "black narcissus",
+        "target_str": "blank narcissus",
+        "references": "blank narcissus"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'n.e.r.d.'?\n  choice: n.el.r.d.\n  choice: t.e.r.d.\n  choice: n.e.s.d.\n  choice: nxe.r.d.\nA:\nAnswer:",
+        "output_text": "nxe.r.d",
+        "target_str": "t.e.r.d.",
+        "references": "t.e.r.d."
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'suicide squad'?\n  choice: suicide squads\n  choice: suicuide squad\n  choice: suicide quad\n  choice: suicide squat\nA:\nAnswer:",
+        "output_text": "suicide squads",
+        "target_str": "suicide squat",
+        "references": "suicide squat"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'foo fighters'?\n  choice: foo fsighters\n  choice: poo fighters\n  choice: foo fightprs\n  choice: foso fighters\nA:\nAnswer:",
+        "output_text": "poo fighters",
+        "target_str": "poo fighters",
+        "references": "poo fighters"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'grateful dead'?\n  choice: grateful devd\n  choice: groateful dead\n  choice: grateful deaf\n  choice: gratueful dead\nA:\nAnswer:",
+        "output_text": "groateful dead",
+        "target_str": "grateful deaf",
+        "references": "grateful deaf"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'pearl jam'?\n  choice: pearl jams\n  choice: pegarl jam\n  choice: pearl ham\n  choice: pearls jam\nA:\nAnswer:",
+        "output_text": "pegarl jam",
+        "target_str": "pearl ham",
+        "references": "pearl ham"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'jurassic park'?\n  choice: jurassic parks\n  choice: jurhassic park\n  choice: jurassic mark\n  choice: jurassic prk\nA:\nAnswer:",
+        "output_text": "jurhassic park",
+        "target_str": "jurassic mark",
+        "references": "jurassic mark"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the french connection'?\n  choice: the french connecteion\n  choice: the french convection\n  choice: tee french connection\n  choice: the french connections\nA:\nAnswer:",
+        "output_text": "tee french connection",
+        "target_str": "the french convection",
+        "references": "the french convection"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'lady gaga'?\n  choice: lady gagxa\n  choice: laody gaga\n  choice: lady gags\n  choice: ladys gaga\nA:\nAnswer:",
+        "output_text": "lady gags",
+        "target_str": "lady gags",
+        "references": "lady gags"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'full metal jacket'?\n  choice: full mektal jacket\n  choice: full metal racket\n  choice: fall metal jacket\n  choice: full metal jackets\nA:\nAnswer:",
+        "output_text": "full metal racket",
+        "target_str": "full metal racket",
+        "references": "full metal racket"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the monkees'?\n  choice: the monkees\n  choice: the moxkees\n  choice: the donkees\n  choice: the monketes\nA:\nAnswer:",
+        "output_text": "the monketes",
+        "target_str": "the donkees",
+        "references": "the donkees"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'everything but the girl'?\n  choice: everything bunt the girl\n  choice: everythoing but the girl\n  choice: everything bit the girl\n  choice: everything but the gqrl\nA:\nAnswer:",
+        "output_text": "everything but the gqrl",
+        "target_str": "everything bit the girl",
+        "references": "everything bit the girl"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'the jackson 5'?\n  choice: the jackson 6\n  choice: thr jackson 5\n  choice: the jacksgn 5\n  choice: the jacksun 5\nA:\nAnswer:",
+        "output_text": "thr jackson 5",
+        "target_str": "the jackson 6",
+        "references": "the jackson 6"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'n sync'?\n  choice: n stync\n  choice: n synh\n  choice: n sqnc\n  choice: n syinc\nA:\nAnswer:",
+        "output_text": "n syinc",
+        "target_str": "n stync",
+        "references": "n stync"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'one night in miami'?\n  choice: one night tin miami\n  choice: ones night in miami\n  choice: one knight in miami\n  choice: one nights in miami\nA:\nAnswer:",
+        "output_text": "one nights in miami",
+        "target_str": "one knight in miami",
+        "references": "one knight in miami"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'ultravox'?\n  choice: ucltravox\n  choice: ultrdavox\n  choice: gultravox\n  choice: ultrapox\nA:\nAnswer:",
+        "output_text": "gloravox",
+        "target_str": "ultrapox",
+        "references": "ultrapox"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'national treasure'?\n  choice: national treaxure\n  choice: rational treasure\n  choice: national treasures\n  choice: nativonal treasure\nA:\nAnswer:",
+        "output_text": "national treaxure",
+        "target_str": "rational treasure",
+        "references": "rational treasure"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'alice cooper'?\n  choice: alice cooter\n  choice: alicea cooper\n  choice: alice cohper\n  choice: alice pooper\nA:\nAnswer:",
+        "output_text": "alice pooper",
+        "target_str": "alice pooper",
+        "references": "alice pooper"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'shai'?\n  choice: sham\n  choice: skai\n  choice: ghai\n  choice: shfi\nA:\nAnswer:",
+        "output_text": "ghai",
+        "target_str": "sham",
+        "references": "sham"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'debarge'?\n  choice: debaxrge\n  choice: detbarge\n  choice: debarfe\n  choice: debxarge\nA:\nAnswer:",
+        "output_text": "detbarge",
+        "target_str": "debarfe",
+        "references": "debarfe"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'earth, wind, & fire'?\n  choice: earth, wind,v & fire\n  choice: earth, wink, & fire\n  choice: earth, wind, & fires\n  choice: earth, winds, & fire\nA:\nAnswer:",
+        "output_text": "earth, wind, & fire",
+        "target_str": "earth, wink, & fire",
+        "references": "earth, wink, & fire"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'arcade fire'?\n  choice: arcadenfire\n  choice: arcane fire\n  choice: arcade fir\n  choice: arcades fire\nA:\nAnswer:",
+        "output_text": "arcade fir",
+        "target_str": "arcane fire",
+        "references": "arcane fire"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'requiem for a dream'?\n  choice: requiem for a bream\n  choice: requiem for a dreram\n  choice: reequiem for a dream\n  choice: requiem for a dbream\nA:\nAnswer:",
+        "output_text": "reequiem for a dream",
+        "target_str": "requiem for a bream",
+        "references": "requiem for a bream"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'whitesnake'?\n  choice: whitesnape\n  choice: whitesnuake\n  choice: mwhitesnake\n  choice: whitesnapke\nA:\nAnswer:",
+        "output_text": "whitesnape",
+        "target_str": "whitesnape",
+        "references": "whitesnape"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'one of our dinosaurs is missing'?\n  choice: one af our dinosaurs is missing\n  choice: one of our dinosaurs is pissing\n  choice: ofne of our dinosaurs is missing\n  choice: one of our dinosaur is missing\nA:\nAnswer:",
+        "output_text": "one of our dinosaur is missing",
+        "target_str": "one of our dinosaurs is pissing",
+        "references": "one of our dinosaurs is pissing"
+    },
+    {
+        "input_str": "Q: Which of the following is a humorous edit of this artist or movie name: 'counting crows'?\n  choice: countingy crows\n  choice: coutnting crows\n  choice: counting cows\n  choice: courting crows\nA:\nAnswer:",
+        "output_text": "countingy crows",
+        "target_str": "counting cows",
+        "references": "counting cows"
+    }
+]

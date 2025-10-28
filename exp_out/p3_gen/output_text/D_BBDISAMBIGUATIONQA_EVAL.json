@@ -1,0 +1,1550 @@
+[
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The patient was referred to the specialist because he had a rare skin condition.\n  choice: Ambiguous\n  choice: The patient had a skin condition\n  choice: The specialist had a skin condition\nPronoun identification:\nAnswer:",
+        "output_text": "The patient had a skin condition",
+        "target_str": "The patient had a skin condition",
+        "references": "The patient had a skin condition"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The scientist collaborated with the artist, and he shared a story.\n  choice: Ambiguous\n  choice: The artist shared a story\n  choice: The scientist shared a story\nPronoun identification:\nAnswer:",
+        "output_text": "The scientist shared a story",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer was unable to communicate with the writer because she used big words.\n  choice: Ambiguous\n  choice: The developer uses big words\n  choice: The writer uses big words\nPronoun identification:\nAnswer:",
+        "output_text": "The writer uses big words",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The scientist will collaborate with the artist, and he will share a story.\n  choice: Ambiguous\n  choice: The artist will share a story\n  choice: The scientist will share a story\nPronoun identification:\nAnswer:",
+        "output_text": "The scientist",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Bailey planned to meet the director at their office\n  choice: Ambiguous\n  choice: The office was Bailey's office\n  choice: The office was the director's office\nPronoun identification:\nAnswer:",
+        "output_text": "director",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer argued with the designer because she liked the design.\n  choice: Ambiguous\n  choice: The designer liked the design\n  choice: The developer liked the design\nPronoun identification:\nAnswer:",
+        "output_text": "The developer",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The investigator wanted to interview the witness in person, but she was too late.\n  choice: Ambiguous\n  choice: The investigator was too late\n  choice: The witness was too late\nPronoun identification:\nAnswer:",
+        "output_text": "The investigator",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The guard called the cleaner and asked them to open the door.\n  choice: Ambiguous\n  choice: Asked the cleaner\n  choice: Asked the guard\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the cleaner",
+        "target_str": "Asked the cleaner",
+        "references": "Asked the cleaner"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The scientist collaborates with the artist, and he shares a story.\n  choice: Ambiguous\n  choice: The artist shares a story\n  choice: The scientist shares a story\nPronoun identification:\nAnswer:",
+        "output_text": "The scientist shares a story",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The customer and the chef discuss his culinary training.\n  choice: Ambiguous\n  choice: It is the chef's culinary training\n  choice: It is the customer's culinary training\nPronoun identification:\nAnswer:",
+        "output_text": "the chef's culinary training",
+        "target_str": "It is the chef's culinary training",
+        "references": "It is the chef's culinary training"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic disliked the cashier because he is arrogant.\n  choice: Ambiguous\n  choice: The cashier is arrogant\n  choice: The mechanic is arrogant\nPronoun identification:\nAnswer:",
+        "output_text": "The cashier",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Bailey planned to meet the director at his office\n  choice: Ambiguous\n  choice: The office was Bailey's office\n  choice: The office was the director's office\nPronoun identification:\nAnswer:",
+        "output_text": "The office",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The writer tried to fool the salesperson and told them a fake story.\n  choice: Ambiguous\n  choice: Told the salesperson a fake story\n  choice: Told the writer a fake story\nPronoun identification:\nAnswer:",
+        "output_text": "Told the salesperson a fake story",
+        "target_str": "Told the salesperson a fake story",
+        "references": "Told the salesperson a fake story"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: This story could not be published without the writer and their friends' support.\n  choice: They were the friends' friends\n  choice: They were the writer's friends\n  choice: Ambiguous\n  choice: They were the story's friends\nPronoun identification:\nAnswer:",
+        "output_text": "They were the writer's friends",
+        "target_str": "They were the writer's friends",
+        "references": "They were the writer's friends"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The chief thanked the housekeeper and gave her some tips.\n  choice: Ambiguous\n  choice: Gave the chief some tips\n  choice: Gave the housekeeper some tips\nPronoun identification:\nAnswer:",
+        "output_text": "Gave the housekeeper some tips",
+        "target_str": "Gave the housekeeper some tips",
+        "references": "Gave the housekeeper some tips"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The homeowner asked the inspector if the house they had purchased was structurally sound.\n  choice: Ambiguous\n  choice: The homeowner had purchased\n  choice: The inspector had purchased\nPronoun identification:\nAnswer:",
+        "output_text": "The homeowner had purchased",
+        "target_str": "The homeowner had purchased",
+        "references": "The homeowner had purchased"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer was unable to communicate with the writer because he focuses on code.\n  choice: Ambiguous\n  choice: The developer focuses on code\n  choice: The writer focuses on code\nPronoun identification:\nAnswer:",
+        "output_text": "The developer focuses on code",
+        "target_str": "The developer focuses on code",
+        "references": "The developer focuses on code"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The supervisor gave the employee feedback on his stellar performance.\n  choice: Ambiguous\n  choice: It was the employee's performance\n  choice: It was the supervisor's performance\nPronoun identification:\nAnswer:",
+        "output_text": "It was the employee's performance",
+        "target_str": "It was the employee's performance",
+        "references": "It was the employee's performance"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The lawyer looked into illegal accusations against the cashier, because he needed to understand the case.\n  choice: Ambiguous\n  choice: The cashier needed to understand\n  choice: The lawyer needed to understand\nPronoun identification:\nAnswer:",
+        "output_text": "The lawyer needed to understand",
+        "target_str": "The lawyer needed to understand",
+        "references": "The lawyer needed to understand"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic called to inform the customer that his car would be ready in the morning.\n  choice: Ambiguous\n  choice: It was the customer's car\n  choice: It was the mechanic's car\nPronoun identification:\nAnswer:",
+        "output_text": "It was the customer's car",
+        "target_str": "It was the customer's car",
+        "references": "It was the customer's car"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The worker told the pedestrian that they were repairing the sidewalk as quickly as possible.\n  choice: Ambiguous\n  choice: The pedestrian was repairing\n  choice: The worker was repairing\nPronoun identification:\nAnswer:",
+        "output_text": "The worker was repairing",
+        "target_str": "The worker was repairing",
+        "references": "The worker was repairing"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The taxpayer met with the accountant to find out if they could help with tax preparation.\n  choice: Ambiguous\n  choice: The accountant could help\n  choice: The taxpayer could help\nPronoun identification:\nAnswer:",
+        "output_text": "The accountant could help",
+        "target_str": "The accountant could help",
+        "references": "The accountant could help"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer argued with the designer because he liked the design.\n  choice: Ambiguous\n  choice: The designer liked the design\n  choice: The developer liked the design\nPronoun identification:\nAnswer:",
+        "output_text": "The developer",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The cook is always teaching the assistant new techniques because they like to teach others.\n  choice: Ambiguous\n  choice: The assistant likes to teach\n  choice: The cook likes to teach\nPronoun identification:\nAnswer:",
+        "output_text": "The cook likes to teach",
+        "target_str": "The cook likes to teach",
+        "references": "The cook likes to teach"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The patient was referred to the specialist because he is an expert on rare skin conditions.\n  choice: Ambiguous\n  choice: The patient is an expert\n  choice: The specialist is an expert\nPronoun identification:\nAnswer:",
+        "output_text": "The specialist is an expert",
+        "target_str": "The specialist is an expert",
+        "references": "The specialist is an expert"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The technician told the customer that she had completed the repair.\n  choice: Ambiguous\n  choice: The customer completed the repair\n  choice: The technician completed the repair\nPronoun identification:\nAnswer:",
+        "output_text": "The technician",
+        "target_str": "The technician completed the repair",
+        "references": "The technician completed the repair"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The carpenter collaborated with the designer and gave him a prototype.\n  choice: Ambiguous\n  choice: Gave the carpenter a prototype\n  choice: Gave the designer a prototype\nPronoun identification:\nAnswer:",
+        "output_text": "Gave the designer a prototype",
+        "target_str": "Gave the designer a prototype",
+        "references": "Gave the designer a prototype"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The secretary corrected the developer because they better understood the problem.\n  choice: Ambiguous\n  choice: The developer understood the problem\n  choice: The secretary understood the problem\nPronoun identification:\nAnswer:",
+        "output_text": "The secretary understood the problem",
+        "target_str": "The secretary understood the problem",
+        "references": "The secretary understood the problem"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The undergraduate applied to work with the scientist because he needed a lab assistant.\n  choice: Ambiguous\n  choice: The scientist needed an assistant\n  choice: The undergraduate needed an assistant\nPronoun identification:\nAnswer:",
+        "output_text": "The scientist",
+        "target_str": "The scientist needed an assistant",
+        "references": "The scientist needed an assistant"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The supervisor gave the employee feedback on their stellar performance.\n  choice: Ambiguous\n  choice: It was the employee's performance\n  choice: It was the supervisor's performance\nPronoun identification:\nAnswer:",
+        "output_text": "It was the employee's performance",
+        "target_str": "It was the employee's performance",
+        "references": "It was the employee's performance"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The salesperson tried to fool the writer and sold them some garbage.\n  choice: Ambiguous\n  choice: Sold the salesperson some garbage\n  choice: Sold the writer some garbage\nPronoun identification:\nAnswer:",
+        "output_text": "the writer",
+        "target_str": "Sold the writer some garbage",
+        "references": "Sold the writer some garbage"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The driver yelled at the tailor after he broke a window.\n  choice: Ambiguous\n  choice: The driver broke a window\n  choice: The tailor broke a window\nPronoun identification:\nAnswer:",
+        "output_text": "The tailor",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The visitor told the teacher that he liked the cake.\n  choice: Ambiguous\n  choice: The teacher liked the cake\n  choice: The visitor liked the cake\nPronoun identification:\nAnswer:",
+        "output_text": "The visitor liked the cake",
+        "target_str": "The visitor liked the cake",
+        "references": "The visitor liked the cake"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The scientist will collaborate with the artist, and she will share a story.\n  choice: Ambiguous\n  choice: The artist will share a story\n  choice: The scientist will share a story\nPronoun identification:\nAnswer:",
+        "output_text": "The artist",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The designer showed the cook a blueprint and asked him for feedback.\n  choice: Ambiguous\n  choice: Asked the cook\n  choice: Asked the designer\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the cook",
+        "target_str": "Asked the cook",
+        "references": "Asked the cook"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: My parent called his secretary for more information\n  choice: Ambiguous\n  choice: They were my parent's secretary\n  choice: They were the secretary's secretary\nPronoun identification:\nAnswer:",
+        "output_text": "They were my parent's secretary",
+        "target_str": "They were my parent's secretary",
+        "references": "They were my parent's secretary"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The janitor warned the child not to step on the wet floor, otherwise she would have to mop it all over again.\n  choice: Ambiguous\n  choice: The child would have to mop\n  choice: The janitor would have to mop\nPronoun identification:\nAnswer:",
+        "output_text": "The janitor",
+        "target_str": "The janitor would have to mop",
+        "references": "The janitor would have to mop"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer was unable to communicate with the writer because she focuses on code.\n  choice: Ambiguous\n  choice: The developer focuses on code\n  choice: The writer focuses on code\nPronoun identification:\nAnswer:",
+        "output_text": "The developer",
+        "target_str": "The developer focuses on code",
+        "references": "The developer focuses on code"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The carpenter told the onlooker that they had been working on the house for three weeks.\n  choice: Ambiguous\n  choice: The carpenter had been working on the house\n  choice: The onlooker had been working on the house\nPronoun identification:\nAnswer:",
+        "output_text": "The carpenter had been working on the house",
+        "target_str": "The carpenter had been working on the house",
+        "references": "The carpenter had been working on the house"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: This story could not be published without the writer and her friends' support.\n  choice: They were the friends' friends\n  choice: They were the writer's friends\n  choice: Ambiguous\n  choice: They were the story's friends\nPronoun identification:\nAnswer:",
+        "output_text": "They were the writer's friends",
+        "target_str": "They were the writer's friends",
+        "references": "They were the writer's friends"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The assistant asked the physician if they could borrow some money.\n  choice: Ambiguous\n  choice: Asked if the assistant could borrow money\n  choice: Asked if the physician could borrow money\nPronoun identification:\nAnswer:",
+        "output_text": "The assistant",
+        "target_str": "Asked if the assistant could borrow money",
+        "references": "Asked if the assistant could borrow money"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The cleaner called the guard and asked them to open the door.\n  choice: Ambiguous\n  choice: Asked the cleaner\n  choice: Asked the guard\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the guard",
+        "target_str": "Asked the guard",
+        "references": "Asked the guard"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic greets the receptionist because he is standing in front of the door.\n  choice: Ambiguous\n  choice: The mechanic is standing in front of the door\n  choice: The receptionist is standing in front of the door\nPronoun identification:\nAnswer:",
+        "output_text": "The mechanic",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The educator was meeting with a student to discuss his grading policy.\n  choice: Ambiguous\n  choice: It was the educator's grading policy\n  choice: It was the student's grading policy\nPronoun identification:\nAnswer:",
+        "output_text": "It was the educator's grading policy",
+        "target_str": "It was the educator's grading policy",
+        "references": "It was the educator's grading policy"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The investigator wanted to interview the witness in person, but he was too late.\n  choice: Ambiguous\n  choice: The investigator was too late\n  choice: The witness was too late\nPronoun identification:\nAnswer:",
+        "output_text": "The investigator",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Alex tells us that they could not meet.\n  choice: Alex could not meet\n  choice: Ambiguous\n  choice: We could not meet\nPronoun identification:\nAnswer:",
+        "output_text": "We",
+        "target_str": "Alex could not meet",
+        "references": "Alex could not meet"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The lawyer looked into illegal accusations against the cashier, because they needed to understand the case.\n  choice: Ambiguous\n  choice: The cashier needed to understand\n  choice: The lawyer needed to understand\nPronoun identification:\nAnswer:",
+        "output_text": "The lawyer needed to understand",
+        "target_str": "The lawyer needed to understand",
+        "references": "The lawyer needed to understand"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The nurse was running from the laborer because he smelled awful.\n  choice: Ambiguous\n  choice: The laborer smelled awful\n  choice: The nurse smelled awful\nPronoun identification:\nAnswer:",
+        "output_text": "The laborer",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: This story could not be published without the writer and his friends' support.\n  choice: They were the friends' friends\n  choice: They were the writer's friends\n  choice: Ambiguous\n  choice: They were the story's friends\nPronoun identification:\nAnswer:",
+        "output_text": "They were the writer's friends",
+        "target_str": "They were the writer's friends",
+        "references": "They were the writer's friends"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic greets the receptionist because she is standing in front of the door.\n  choice: Ambiguous\n  choice: The mechanic is standing in front of the door\n  choice: The receptionist is standing in front of the door\nPronoun identification:\nAnswer:",
+        "output_text": "The receptionist",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The worker told the pedestrian that she should avoid the closed portion of the street.\n  choice: Ambiguous\n  choice: The pedestrian should avoid the closed portion\n  choice: The worker should avoid the closed portion\nPronoun identification:\nAnswer:",
+        "output_text": "The pedestrian",
+        "target_str": "The pedestrian should avoid the closed portion",
+        "references": "The pedestrian should avoid the closed portion"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer met with the designer because her idea can be implemented.\n  choice: Ambiguous\n  choice: The designer's idea could be implemented\n  choice: The developer's idea could be implemented\nPronoun identification:\nAnswer:",
+        "output_text": "The designer's idea",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The carpenter told the onlooker that he had been working on the house for three weeks.\n  choice: Ambiguous\n  choice: The carpenter had been working on the house\n  choice: The onlooker had been working on the house\nPronoun identification:\nAnswer:",
+        "output_text": "The carpenter had been working on the house",
+        "target_str": "The carpenter had been working on the house",
+        "references": "The carpenter had been working on the house"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The sheriff protected the writer because they uphold the peace.\n  choice: Ambiguous\n  choice: The sheriff upholds the peace\n  choice: The writer upholds the peace\nPronoun identification:\nAnswer:",
+        "output_text": "The sheriff",
+        "target_str": "The sheriff upholds the peace",
+        "references": "The sheriff upholds the peace"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The reporter and the chef discussed his favorite dishes.\n  choice: Ambiguous\n  choice: They discussed the chef's favorite dishes\n  choice: They discussed the reporter's favorite dishes\nPronoun identification:\nAnswer:",
+        "output_text": "They discussed the chef's favorite dishes",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Alex tells us that he could not meet.\n  choice: Alex could not meet\n  choice: Ambiguous\n  choice: We could not meet\nPronoun identification:\nAnswer:",
+        "output_text": "Alex",
+        "target_str": "Alex could not meet",
+        "references": "Alex could not meet"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The hygienist told the patient that she should floss every day.\n  choice: Ambiguous\n  choice: The hygienist should floss\n  choice: The patient should floss\nPronoun identification:\nAnswer:",
+        "output_text": "The patient should floss",
+        "target_str": "The patient should floss",
+        "references": "The patient should floss"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic called to inform the customer that her car would be ready in the morning.\n  choice: Ambiguous\n  choice: It was the customer's car\n  choice: It was the mechanic's car\nPronoun identification:\nAnswer:",
+        "output_text": "It was the customer's car",
+        "target_str": "It was the customer's car",
+        "references": "It was the customer's car"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The carpenter made a desk for the clerk and gave them a discount.\n  choice: Ambiguous\n  choice: Gave the carpenter a discount\n  choice: Gave the clerk a discount\nPronoun identification:\nAnswer:",
+        "output_text": "Gave the clerk a discount",
+        "target_str": "Gave the clerk a discount",
+        "references": "Gave the clerk a discount"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic disliked the cashier because they are arrogant.\n  choice: Ambiguous\n  choice: The cashier is arrogant\n  choice: The mechanic is arrogant\nPronoun identification:\nAnswer:",
+        "output_text": "The cashier",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer corrected the secretary because she better understood the problem.\n  choice: Ambiguous\n  choice: The developer understood the problem\n  choice: The secretary understood the problem\nPronoun identification:\nAnswer:",
+        "output_text": "The developer understood the problem",
+        "target_str": "The developer understood the problem",
+        "references": "The developer understood the problem"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Bailey planned to meet the director at her office\n  choice: Ambiguous\n  choice: The office was Bailey's office\n  choice: The office was the director's office\nPronoun identification:\nAnswer:",
+        "output_text": "The office",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The customer and the chef discuss her culinary training.\n  choice: Ambiguous\n  choice: It is the chef's culinary training\n  choice: It is the customer's culinary training\nPronoun identification:\nAnswer:",
+        "output_text": "the chef's culinary training",
+        "target_str": "It is the chef's culinary training",
+        "references": "It is the chef's culinary training"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The patient was referred to the specialist because she is an expert on rare skin conditions.\n  choice: Ambiguous\n  choice: The patient is an expert\n  choice: The specialist is an expert\nPronoun identification:\nAnswer:",
+        "output_text": "The specialist is an expert",
+        "target_str": "The specialist is an expert",
+        "references": "The specialist is an expert"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The reporter and the chef will discuss their favorite dishes.\n  choice: Ambiguous\n  choice: They will discuss the chef's favorite dishes\n  choice: They will discuss the reporter's favorite dishes\nPronoun identification:\nAnswer:",
+        "output_text": "Their",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The scientist collaborated with the artist, and she shared a story.\n  choice: Ambiguous\n  choice: The artist shared a story\n  choice: The scientist shared a story\nPronoun identification:\nAnswer:",
+        "output_text": "The artist",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer was unable to communicate with the writer because they used big words.\n  choice: Ambiguous\n  choice: The developer uses big words\n  choice: The writer uses big words\nPronoun identification:\nAnswer:",
+        "output_text": "The developer uses big words",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The pathologist obtained tissue samples from the victim to look at under her microscope.\n  choice: Ambiguous\n  choice: It was the pathologist's microscope\n  choice: It was the victim's microscope\nPronoun identification:\nAnswer:",
+        "output_text": "It was the pathologist's microscope",
+        "target_str": "It was the pathologist's microscope",
+        "references": "It was the pathologist's microscope"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Before he sent the letter, Alex did not know Taylor.\n  choice: Alex sent the letter\n  choice: Ambiguous\n  choice: Taylor sent the letter\nPronoun identification:\nAnswer:",
+        "output_text": "Alex",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The patient disclosed to the counselor that he had a history of substance abuse.\n  choice: Ambiguous\n  choice: The counselor had a history\n  choice: The patient had a history\nPronoun identification:\nAnswer:",
+        "output_text": "The patient had a history",
+        "target_str": "The patient had a history",
+        "references": "The patient had a history"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The scientist collaborates with the artist, and she shares a story.\n  choice: Ambiguous\n  choice: The artist shares a story\n  choice: The scientist shares a story\nPronoun identification:\nAnswer:",
+        "output_text": "The artist",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer met with the secretary because she made a mistake.\n  choice: Ambiguous\n  choice: The developer made a mistake\n  choice: The secretary made a mistake\nPronoun identification:\nAnswer:",
+        "output_text": "The secretary",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: After meeting with the producers, Sam went to their office.\n  choice: Ambiguous\n  choice: The office was Sam's office\n  choice: The office was the producers' office\nPronoun identification:\nAnswer:",
+        "output_text": "Sam",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The writer tried to fool the salesperson and told him a fake story.\n  choice: Ambiguous\n  choice: Told the salesperson a fake story\n  choice: Told the writer a fake story\nPronoun identification:\nAnswer:",
+        "output_text": "Told the salesperson a fake story",
+        "target_str": "Told the salesperson a fake story",
+        "references": "Told the salesperson a fake story"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The carpenter collaborated with the designer and gave them a prototype.\n  choice: Ambiguous\n  choice: Gave the carpenter a prototype\n  choice: Gave the designer a prototype\nPronoun identification:\nAnswer:",
+        "output_text": "Gave the designer a prototype",
+        "target_str": "Gave the designer a prototype",
+        "references": "Gave the designer a prototype"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The carpenter made a desk for the clerk and gave him a discount.\n  choice: Ambiguous\n  choice: Gave the carpenter a discount\n  choice: Gave the clerk a discount\nPronoun identification:\nAnswer:",
+        "output_text": "Gave the clerk a discount",
+        "target_str": "Gave the clerk a discount",
+        "references": "Gave the clerk a discount"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The lawyer looked into illegal accusations against the cashier, because she needed to understand the case.\n  choice: Ambiguous\n  choice: The cashier needed to understand\n  choice: The lawyer needed to understand\nPronoun identification:\nAnswer:",
+        "output_text": "The lawyer needed to understand",
+        "target_str": "The lawyer needed to understand",
+        "references": "The lawyer needed to understand"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The technician told the customer that they could pay with cash.\n  choice: Ambiguous\n  choice: The customer could pay\n  choice: The technician could pay\nPronoun identification:\nAnswer:",
+        "output_text": "The customer could pay",
+        "target_str": "The customer could pay",
+        "references": "The customer could pay"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The librarian helped the CEO to find the book because they asked.\n  choice: Ambiguous\n  choice: The CEO asked\n  choice: The librarian asked\nPronoun identification:\nAnswer:",
+        "output_text": "The CEO asked",
+        "target_str": "The CEO asked",
+        "references": "The CEO asked"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The scientist collaborates with the artist, and they share a story.\n  choice: Ambiguous\n  choice: The artist shares a story\n  choice: The scientist shares a story\nPronoun identification:\nAnswer:",
+        "output_text": "The scientist",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The assistant asked the physician if she needs any help.\n  choice: Ambiguous\n  choice: Asked if the assistant needs help\n  choice: Asked if the physician needs help\nPronoun identification:\nAnswer:",
+        "output_text": "Asked if the physician needs help",
+        "target_str": "Asked if the physician needs help",
+        "references": "Asked if the physician needs help"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The surgeon warned the patient that they needed to get more rest.\n  choice: Ambiguous\n  choice: The patient needed more rest\n  choice: The surgeon needed more rest\nPronoun identification:\nAnswer:",
+        "output_text": "The patient",
+        "target_str": "The patient needed more rest",
+        "references": "The patient needed more rest"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The surgeon warned the nurse that they needed more time to prepare.\n  choice: Ambiguous\n  choice: The nurse needed more time\n  choice: The surgeon needed more time\nPronoun identification:\nAnswer:",
+        "output_text": "The surgeon",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The worker told the pedestrian that he should avoid the closed portion of the street.\n  choice: Ambiguous\n  choice: The pedestrian should avoid the closed portion\n  choice: The worker should avoid the closed portion\nPronoun identification:\nAnswer:",
+        "output_text": "The pedestrian",
+        "target_str": "The pedestrian should avoid the closed portion",
+        "references": "The pedestrian should avoid the closed portion"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic greets the receptionist because he was in a good mood.\n  choice: Ambiguous\n  choice: The mechanic was in a good mood\n  choice: The receptionist was in a good mood\nPronoun identification:\nAnswer:",
+        "output_text": "The mechanic",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: After meeting with the producers, Sam goes to their office.\n  choice: Ambiguous\n  choice: It is Sam's office\n  choice: It is the producers' office\nPronoun identification:\nAnswer:",
+        "output_text": "It is the producers' office",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The assistant asked the physician if he needs any help.\n  choice: Ambiguous\n  choice: Asked if the assistant needs help\n  choice: Asked if the physician needs help\nPronoun identification:\nAnswer:",
+        "output_text": "Asked if the physician needs help",
+        "target_str": "Asked if the physician needs help",
+        "references": "Asked if the physician needs help"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The manager sent a message to the secretary, but she didn't reply yet.\n  choice: Ambiguous\n  choice: The manager didn't reply yet\n  choice: The secretary didn't reply yet\nPronoun identification:\nAnswer:",
+        "output_text": "The secretary didn't reply yet",
+        "target_str": "The secretary didn't reply yet",
+        "references": "The secretary didn't reply yet"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The chief thanked the housekeeper and gave him some tips.\n  choice: Ambiguous\n  choice: Gave the chief some tips\n  choice: Gave the housekeeper some tips\nPronoun identification:\nAnswer:",
+        "output_text": "the housekeeper",
+        "target_str": "Gave the housekeeper some tips",
+        "references": "Gave the housekeeper some tips"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The practitioner made a house call for the patient because they felt gravely ill.\n  choice: Ambiguous\n  choice: The patient felt ill\n  choice: The practitioner felt ill\nPronoun identification:\nAnswer:",
+        "output_text": "The practitioner felt ill",
+        "target_str": "The patient felt ill",
+        "references": "The patient felt ill"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The reporter and the chef will discuss her favorite dishes.\n  choice: Ambiguous\n  choice: They will discuss the chef's favorite dishes\n  choice: They will discuss the reporter's favorite dishes\nPronoun identification:\nAnswer:",
+        "output_text": "The reporter",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Alex did not know Taylor until he sent a letter.\n  choice: Alex sent the letter\n  choice: Ambiguous\n  choice: Taylor sent the letter\nPronoun identification:\nAnswer:",
+        "output_text": "Taylor",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The student set up a meeting with the architect to review her blueprints.\n  choice: Ambiguous\n  choice: The blueprints were the architect's\n  choice: The blueprints were the student's\nPronoun identification:\nAnswer:",
+        "output_text": "The blueprints were the architect's",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: After meeting with the producers, Sam went to his office.\n  choice: Ambiguous\n  choice: The office was Sam's office\n  choice: The office was the producers' office\nPronoun identification:\nAnswer:",
+        "output_text": "Sam",
+        "target_str": "The office was Sam's office",
+        "references": "The office was Sam's office"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The construction worker called the editor and told him the whole story.\n  choice: Ambiguous\n  choice: Told the construction worker the story\n  choice: Told the editor the story\nPronoun identification:\nAnswer:",
+        "output_text": "Told the editor the story",
+        "target_str": "Told the editor the story",
+        "references": "Told the editor the story"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer met with the secretary because they made a mistake.\n  choice: Ambiguous\n  choice: The developer made a mistake\n  choice: The secretary made a mistake\nPronoun identification:\nAnswer:",
+        "output_text": "The developer",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The educator was meeting with a student to discuss their grading policy.\n  choice: Ambiguous\n  choice: It was the educator's grading policy\n  choice: It was the student's grading policy\nPronoun identification:\nAnswer:",
+        "output_text": "It was the educator's grading policy",
+        "target_str": "It was the educator's grading policy",
+        "references": "It was the educator's grading policy"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: After meeting with the producers, Sam goes to her office.\n  choice: Ambiguous\n  choice: It is Sam's office\n  choice: It is the producers' office\nPronoun identification:\nAnswer:",
+        "output_text": "Sam",
+        "target_str": "It is Sam's office",
+        "references": "It is Sam's office"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The nurse was running from the laborer because she smelled awful.\n  choice: Ambiguous\n  choice: The laborer smelled awful\n  choice: The nurse smelled awful\nPronoun identification:\nAnswer:",
+        "output_text": "The laborer smelled awful",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The designer collaborated with the carpenter and gave them a blueprint.\n  choice: Ambiguous\n  choice: Gave the carpenter a blueprint\n  choice: Gave the designer a blueprint\nPronoun identification:\nAnswer:",
+        "output_text": "Gave the carpenter a blueprint",
+        "target_str": "Gave the carpenter a blueprint",
+        "references": "Gave the carpenter a blueprint"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic greets the receptionist because she was in a good mood.\n  choice: Ambiguous\n  choice: The mechanic was in a good mood\n  choice: The receptionist was in a good mood\nPronoun identification:\nAnswer:",
+        "output_text": "The mechanic was in a good mood",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The chief encouraged the writer because they wrote a good book.\n  choice: Ambiguous\n  choice: The chief wrote a good book\n  choice: The writer wrote a good book\nPronoun identification:\nAnswer:",
+        "output_text": "The writer",
+        "target_str": "The writer wrote a good book",
+        "references": "The writer wrote a good book"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Alex did not know Taylor until she sent a letter.\n  choice: Alex sent the letter\n  choice: Ambiguous\n  choice: Taylor sent the letter\nPronoun identification:\nAnswer:",
+        "output_text": "Taylor sent the letter",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The taxpayer met with the accountant to find out if she could help with tax preparation.\n  choice: Ambiguous\n  choice: The accountant could help\n  choice: The taxpayer could help\nPronoun identification:\nAnswer:",
+        "output_text": "The accountant could help",
+        "target_str": "The accountant could help",
+        "references": "The accountant could help"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer met with the designer because their idea can be implemented.\n  choice: Ambiguous\n  choice: The designer's idea could be implemented\n  choice: The developer's idea could be implemented\nPronoun identification:\nAnswer:",
+        "output_text": "The developer's idea",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The homeowner asked the inspector if the house he had purchased was structurally sound.\n  choice: Ambiguous\n  choice: The homeowner had purchased\n  choice: The inspector had purchased\nPronoun identification:\nAnswer:",
+        "output_text": "The homeowner had purchased",
+        "target_str": "The homeowner had purchased",
+        "references": "The homeowner had purchased"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The assistant asked the physician if they need any help.\n  choice: Ambiguous\n  choice: Asked if the assistant needs help\n  choice: Asked if the physician needs help\nPronoun identification:\nAnswer:",
+        "output_text": "Asked if the physician needs help",
+        "target_str": "Asked if the physician needs help",
+        "references": "Asked if the physician needs help"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic disliked the cashier because she is arrogant.\n  choice: Ambiguous\n  choice: The cashier is arrogant\n  choice: The mechanic is arrogant\nPronoun identification:\nAnswer:",
+        "output_text": "The cashier",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer met with the secretary because he made a mistake.\n  choice: Ambiguous\n  choice: The developer made a mistake\n  choice: The secretary made a mistake\nPronoun identification:\nAnswer:",
+        "output_text": "The developer",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic called to inform the customer that their car would be ready in the morning.\n  choice: Ambiguous\n  choice: It was the customer's car\n  choice: It was the mechanic's car\nPronoun identification:\nAnswer:",
+        "output_text": "It was the customer's car",
+        "target_str": "It was the customer's car",
+        "references": "It was the customer's car"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The reporter and the chef discuss her favorite dishes.\n  choice: Ambiguous\n  choice: They discuss the chef's favorite dishes\n  choice: They discuss the reporter's favorite dishes\nPronoun identification:\nAnswer:",
+        "output_text": "The chef",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Before they sent the letter, Alex did not know Taylor.\n  choice: Alex sent the letter\n  choice: Ambiguous\n  choice: Taylor sent the letter\nPronoun identification:\nAnswer:",
+        "output_text": "Alex",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The designer collaborated with the carpenter and gave her a blueprint.\n  choice: Ambiguous\n  choice: Gave the carpenter a blueprint\n  choice: Gave the designer a blueprint\nPronoun identification:\nAnswer:",
+        "output_text": "Gave the carpenter a blueprint",
+        "target_str": "Gave the carpenter a blueprint",
+        "references": "Gave the carpenter a blueprint"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The designer called the janitor and asked her to clean the room.\n  choice: Ambiguous\n  choice: Asked the designer\n  choice: Asked the janitor\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the janitor",
+        "target_str": "Asked the janitor",
+        "references": "Asked the janitor"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The technician told the customer that he had completed the repair.\n  choice: Ambiguous\n  choice: The customer completed the repair\n  choice: The technician completed the repair\nPronoun identification:\nAnswer:",
+        "output_text": "The technician completed the repair",
+        "target_str": "The technician completed the repair",
+        "references": "The technician completed the repair"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The visitor tells the teacher that he likes the cake.\n  choice: Ambiguous\n  choice: The teacher likes the cake\n  choice: The visitor likes the cake\nPronoun identification:\nAnswer:",
+        "output_text": "The visitor likes the cake",
+        "target_str": "The visitor likes the cake",
+        "references": "The visitor likes the cake"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The paralegal forgot to file paperwork for the client so they were fired.\n  choice: Ambiguous\n  choice: The client was fired\n  choice: The paralegal was fired\nPronoun identification:\nAnswer:",
+        "output_text": "The paralegal was fired",
+        "target_str": "The paralegal was fired",
+        "references": "The paralegal was fired"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The laborer handed the secretary a hammer because they asked for a tool.\n  choice: Ambiguous\n  choice: The laborer asked for a tool\n  choice: The secretary asked for a tool\nPronoun identification:\nAnswer:",
+        "output_text": "The secretary",
+        "target_str": "The secretary asked for a tool",
+        "references": "The secretary asked for a tool"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The surgeon warned the nurse that she needed more time to prepare.\n  choice: Ambiguous\n  choice: The nurse needed more time\n  choice: The surgeon needed more time\nPronoun identification:\nAnswer:",
+        "output_text": "The surgeon",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The physician told the baker that he had cancer.\n  choice: Ambiguous\n  choice: The baker had cancer\n  choice: The physician had cancer\nPronoun identification:\nAnswer:",
+        "output_text": "The physician",
+        "target_str": "The baker had cancer",
+        "references": "The baker had cancer"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The patient disclosed to the counselor that they had a history of substance abuse.\n  choice: Ambiguous\n  choice: The counselor had a history\n  choice: The patient had a history\nPronoun identification:\nAnswer:",
+        "output_text": "The patient had a history",
+        "target_str": "The patient had a history",
+        "references": "The patient had a history"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The secretary came to the analyst's office and helped her to book a flight.\n  choice: Ambiguous\n  choice: Helped the analyst book a flight\n  choice: Helped the secretary book a flight\nPronoun identification:\nAnswer:",
+        "output_text": "Helped the analyst book a flight",
+        "target_str": "Helped the analyst book a flight",
+        "references": "Helped the analyst book a flight"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The cleaner called the guard and asked her to open the door.\n  choice: Ambiguous\n  choice: Asked the cleaner\n  choice: Asked the guard\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the guard",
+        "target_str": "Asked the guard",
+        "references": "Asked the guard"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The physician told the baker that they had cancer.\n  choice: Ambiguous\n  choice: The baker had cancer\n  choice: The physician had cancer\nPronoun identification:\nAnswer:",
+        "output_text": "The baker had cancer",
+        "target_str": "The baker had cancer",
+        "references": "The baker had cancer"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: My cousin called her boss for more information\n  choice: Ambiguous\n  choice: They were my cousin's boss\n  choice: They were the boss's boss\nPronoun identification:\nAnswer:",
+        "output_text": "My cousin's boss",
+        "target_str": "They were my cousin's boss",
+        "references": "They were my cousin's boss"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The engineer informed the client that they would need to make all future payments on time.\n  choice: Ambiguous\n  choice: The client should make payments\n  choice: The engineer should make payments\nPronoun identification:\nAnswer:",
+        "output_text": "The client should make payments",
+        "target_str": "The client should make payments",
+        "references": "The client should make payments"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The nurse stayed away from the laborer because they were very busy.\n  choice: Ambiguous\n  choice: The laborer was busy\n  choice: The nurse was busy\nPronoun identification:\nAnswer:",
+        "output_text": "The nurse was busy",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The undergraduate applied to work with the scientist because she needed a lab assistant.\n  choice: Ambiguous\n  choice: The scientist needed an assistant\n  choice: The undergraduate needed an assistant\nPronoun identification:\nAnswer:",
+        "output_text": "The scientist",
+        "target_str": "The scientist needed an assistant",
+        "references": "The scientist needed an assistant"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The worker told the pedestrian that she was repairing the sidewalk as quickly as possible.\n  choice: Ambiguous\n  choice: The pedestrian was repairing\n  choice: The worker was repairing\nPronoun identification:\nAnswer:",
+        "output_text": "The worker was repairing",
+        "target_str": "The worker was repairing",
+        "references": "The worker was repairing"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The assistant asked the physician if he could borrow some money.\n  choice: Ambiguous\n  choice: Asked if the assistant could borrow money\n  choice: Asked if the physician could borrow money\nPronoun identification:\nAnswer:",
+        "output_text": "The assistant",
+        "target_str": "Asked if the assistant could borrow money",
+        "references": "Asked if the assistant could borrow money"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The sheriff protected the writer because she upholds the peace.\n  choice: Ambiguous\n  choice: The sheriff upholds the peace\n  choice: The writer upholds the peace\nPronoun identification:\nAnswer:",
+        "output_text": "The sheriff",
+        "target_str": "The sheriff upholds the peace",
+        "references": "The sheriff upholds the peace"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The chief told the counselor that he took the day off.\n  choice: Ambiguous\n  choice: The chief took the day off\n  choice: The counselor took the day off\nPronoun identification:\nAnswer:",
+        "output_text": "The chief",
+        "target_str": "The chief took the day off",
+        "references": "The chief took the day off"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The secretary came to the analyst's office and helped him to book a flight.\n  choice: Ambiguous\n  choice: Helped the analyst book a flight\n  choice: Helped the secretary book a flight\nPronoun identification:\nAnswer:",
+        "output_text": "Helped the analyst book a flight",
+        "target_str": "Helped the analyst book a flight",
+        "references": "Helped the analyst book a flight"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The technician told the customer that she could pay with cash.\n  choice: Ambiguous\n  choice: The customer could pay\n  choice: The technician could pay\nPronoun identification:\nAnswer:",
+        "output_text": "The customer",
+        "target_str": "The customer could pay",
+        "references": "The customer could pay"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The janitor warned the child not to step on the wet floor, otherwise he would have to mop it all over again.\n  choice: Ambiguous\n  choice: The child would have to mop\n  choice: The janitor would have to mop\nPronoun identification:\nAnswer:",
+        "output_text": "The janitor",
+        "target_str": "The janitor would have to mop",
+        "references": "The janitor would have to mop"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The nurse stayed away from the laborer because she was very busy.\n  choice: Ambiguous\n  choice: The laborer was busy\n  choice: The nurse was busy\nPronoun identification:\nAnswer:",
+        "output_text": "The nurse was busy",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The surgeon warned the patient that she needed to get more rest.\n  choice: Ambiguous\n  choice: The patient needed more rest\n  choice: The surgeon needed more rest\nPronoun identification:\nAnswer:",
+        "output_text": "The patient",
+        "target_str": "The patient needed more rest",
+        "references": "The patient needed more rest"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The reporter and the chef will discuss his favorite dishes.\n  choice: Ambiguous\n  choice: They will discuss the chef's favorite dishes\n  choice: They will discuss the reporter's favorite dishes\nPronoun identification:\nAnswer:",
+        "output_text": "The chef",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The hygienist told the patient that he should floss every day.\n  choice: Ambiguous\n  choice: The hygienist should floss\n  choice: The patient should floss\nPronoun identification:\nAnswer:",
+        "output_text": "The patient should floss",
+        "target_str": "The patient should floss",
+        "references": "The patient should floss"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The engineer informed the client that she would need to make all future payments on time.\n  choice: Ambiguous\n  choice: The client should make payments\n  choice: The engineer should make payments\nPronoun identification:\nAnswer:",
+        "output_text": "The client",
+        "target_str": "The client should make payments",
+        "references": "The client should make payments"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: After meeting with the producers, Sam goes to his office.\n  choice: Ambiguous\n  choice: It is Sam's office\n  choice: It is the producers' office\nPronoun identification:\nAnswer:",
+        "output_text": "Sam",
+        "target_str": "It is Sam's office",
+        "references": "It is Sam's office"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The supervisor gave the employee feedback on her stellar performance.\n  choice: Ambiguous\n  choice: It was the employee's performance\n  choice: It was the supervisor's performance\nPronoun identification:\nAnswer:",
+        "output_text": "It was the employee's performance",
+        "target_str": "It was the employee's performance",
+        "references": "It was the employee's performance"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer was unable to communicate with the writer because they focus on code.\n  choice: Ambiguous\n  choice: The developer focuses on code\n  choice: The writer focuses on code\nPronoun identification:\nAnswer:",
+        "output_text": "The developer focuses on code",
+        "target_str": "The developer focuses on code",
+        "references": "The developer focuses on code"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The assistant asked the physician if she could borrow some money.\n  choice: Ambiguous\n  choice: Asked if the assistant could borrow money\n  choice: Asked if the physician could borrow money\nPronoun identification:\nAnswer:",
+        "output_text": "She",
+        "target_str": "Asked if the assistant could borrow money",
+        "references": "Asked if the assistant could borrow money"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The student set up a meeting with the architect to review their blueprints.\n  choice: Ambiguous\n  choice: The blueprints were the architect's\n  choice: The blueprints were the student's\nPronoun identification:\nAnswer:",
+        "output_text": "The blueprints were the architect's",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The practitioner made a house call for the patient because she felt gravely ill.\n  choice: Ambiguous\n  choice: The patient felt ill\n  choice: The practitioner felt ill\nPronoun identification:\nAnswer:",
+        "output_text": "The practitioner felt ill",
+        "target_str": "The patient felt ill",
+        "references": "The patient felt ill"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The physician told the baker that she had cancer.\n  choice: Ambiguous\n  choice: The baker had cancer\n  choice: The physician had cancer\nPronoun identification:\nAnswer:",
+        "output_text": "The baker",
+        "target_str": "The baker had cancer",
+        "references": "The baker had cancer"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: After meeting with the producers, Sam will go to his office.\n  choice: Ambiguous\n  choice: It will be Sam's office\n  choice: It will be the producers' office\nPronoun identification:\nAnswer:",
+        "output_text": "It will be Sam's office",
+        "target_str": "It will be Sam's office",
+        "references": "It will be Sam's office"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: My parent called her secretary for more information\n  choice: Ambiguous\n  choice: They were my parent's secretary\n  choice: They were the secretary's secretary\nPronoun identification:\nAnswer:",
+        "output_text": "My parent's secretary",
+        "target_str": "They were my parent's secretary",
+        "references": "They were my parent's secretary"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The guard called the cleaner and asked her to open the door.\n  choice: Ambiguous\n  choice: Asked the cleaner\n  choice: Asked the guard\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the cleaner",
+        "target_str": "Asked the cleaner",
+        "references": "Asked the cleaner"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer was unable to communicate with the writer because he used big words.\n  choice: Ambiguous\n  choice: The developer uses big words\n  choice: The writer uses big words\nPronoun identification:\nAnswer:",
+        "output_text": "The developer uses big words",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer argued with the designer because they liked the design.\n  choice: Ambiguous\n  choice: The designer liked the design\n  choice: The developer liked the design\nPronoun identification:\nAnswer:",
+        "output_text": "The developer",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The pathologist obtained tissue samples from the victim to look at under their microscope.\n  choice: Ambiguous\n  choice: It was the pathologist's microscope\n  choice: It was the victim's microscope\nPronoun identification:\nAnswer:",
+        "output_text": "It was the pathologist's microscope",
+        "target_str": "It was the pathologist's microscope",
+        "references": "It was the pathologist's microscope"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The carpenter told the onlooker that she had been working on the house for three weeks.\n  choice: Ambiguous\n  choice: The carpenter had been working on the house\n  choice: The onlooker had been working on the house\nPronoun identification:\nAnswer:",
+        "output_text": "The carpenter had been working on the house",
+        "target_str": "The carpenter had been working on the house",
+        "references": "The carpenter had been working on the house"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The manager sent a message to the secretary, but they didn't reply yet.\n  choice: Ambiguous\n  choice: The manager didn't reply yet\n  choice: The secretary didn't reply yet\nPronoun identification:\nAnswer:",
+        "output_text": "The secretary didn't reply yet",
+        "target_str": "The secretary didn't reply yet",
+        "references": "The secretary didn't reply yet"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic greets the receptionist because they were in a good mood.\n  choice: Ambiguous\n  choice: The mechanic was in a good mood\n  choice: The receptionist was in a good mood\nPronoun identification:\nAnswer:",
+        "output_text": "The mechanic",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The janitor warned the child not to step on the wet floor, otherwise they would have to mop it all over again.\n  choice: Ambiguous\n  choice: The child would have to mop\n  choice: The janitor would have to mop\nPronoun identification:\nAnswer:",
+        "output_text": "The janitor",
+        "target_str": "The janitor would have to mop",
+        "references": "The janitor would have to mop"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The manager asked the employee to not forget her car.\n  choice: Ambiguous\n  choice: It was the employee's car\n  choice: It was the manager's car\nPronoun identification:\nAnswer:",
+        "output_text": "It was the manager's car",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The reporter and the chef discuss his favorite dishes.\n  choice: Ambiguous\n  choice: They discuss the chef's favorite dishes\n  choice: They discuss the reporter's favorite dishes\nPronoun identification:\nAnswer:",
+        "output_text": "They discuss the chef's favorite dishes",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The homeowner asked the inspector if the house she had purchased was structurally sound.\n  choice: Ambiguous\n  choice: The homeowner had purchased\n  choice: The inspector had purchased\nPronoun identification:\nAnswer:",
+        "output_text": "The homeowner had purchased",
+        "target_str": "The homeowner had purchased",
+        "references": "The homeowner had purchased"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The secretary corrected the developer because she better understood the problem.\n  choice: Ambiguous\n  choice: The developer understood the problem\n  choice: The secretary understood the problem\nPronoun identification:\nAnswer:",
+        "output_text": "The secretary understood the problem",
+        "target_str": "The secretary understood the problem",
+        "references": "The secretary understood the problem"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The paralegal forgot to file paperwork for the client so he was fired.\n  choice: Ambiguous\n  choice: The client was fired\n  choice: The paralegal was fired\nPronoun identification:\nAnswer:",
+        "output_text": "The paralegal",
+        "target_str": "The paralegal was fired",
+        "references": "The paralegal was fired"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The hygienist told the patient that they should floss every day.\n  choice: Ambiguous\n  choice: The hygienist should floss\n  choice: The patient should floss\nPronoun identification:\nAnswer:",
+        "output_text": "The patient should floss",
+        "target_str": "The patient should floss",
+        "references": "The patient should floss"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The driver yelled at the tailor after she broke a window.\n  choice: Ambiguous\n  choice: The driver broke a window\n  choice: The tailor broke a window\nPronoun identification:\nAnswer:",
+        "output_text": "The tailor",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Alex tells us that she could not meet.\n  choice: Alex could not meet\n  choice: Ambiguous\n  choice: We could not meet\nPronoun identification:\nAnswer:",
+        "output_text": "Alex",
+        "target_str": "Alex could not meet",
+        "references": "Alex could not meet"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The carpenter made a desk for the clerk and gave her a discount.\n  choice: Ambiguous\n  choice: Gave the carpenter a discount\n  choice: Gave the clerk a discount\nPronoun identification:\nAnswer:",
+        "output_text": "Gave the clerk a discount",
+        "target_str": "Gave the clerk a discount",
+        "references": "Gave the clerk a discount"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The construction worker called the editor and told them the whole story.\n  choice: Ambiguous\n  choice: Told the construction worker the story\n  choice: Told the editor the story\nPronoun identification:\nAnswer:",
+        "output_text": "Told the editor the story",
+        "target_str": "Told the editor the story",
+        "references": "Told the editor the story"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: My cousin called his boss for more information\n  choice: Ambiguous\n  choice: They were my cousin's boss\n  choice: They were the boss's boss\nPronoun identification:\nAnswer:",
+        "output_text": "My cousin's boss",
+        "target_str": "They were my cousin's boss",
+        "references": "They were my cousin's boss"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The salesperson tried to fool the writer and sold him some garbage.\n  choice: Ambiguous\n  choice: Sold the salesperson some garbage\n  choice: Sold the writer some garbage\nPronoun identification:\nAnswer:",
+        "output_text": "the writer",
+        "target_str": "Sold the writer some garbage",
+        "references": "Sold the writer some garbage"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The reporter and the chef discussed their favorite dishes.\n  choice: Ambiguous\n  choice: They discussed the chef's favorite dishes\n  choice: They discussed the reporter's favorite dishes\nPronoun identification:\nAnswer:",
+        "output_text": "They",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The customer and the chef discuss their culinary training.\n  choice: Ambiguous\n  choice: It is the chef's culinary training\n  choice: It is the customer's culinary training\nPronoun identification:\nAnswer:",
+        "output_text": "It is the chef's culinary training",
+        "target_str": "It is the chef's culinary training",
+        "references": "It is the chef's culinary training"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The CEO bought the accountant a car because he needed one.\n  choice: Ambiguous\n  choice: The CEO needed a car\n  choice: The accountant needed a car\nPronoun identification:\nAnswer:",
+        "output_text": "The CEO",
+        "target_str": "The accountant needed a car",
+        "references": "The accountant needed a car"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The librarian helped the CEO to find the book because she asked.\n  choice: Ambiguous\n  choice: The CEO asked\n  choice: The librarian asked\nPronoun identification:\nAnswer:",
+        "output_text": "The CEO asked",
+        "target_str": "The CEO asked",
+        "references": "The CEO asked"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Bailey plans to meet the director at their office\n  choice: Ambiguous\n  choice: It is Bailey's office\n  choice: It is the director's office\nPronoun identification:\nAnswer:",
+        "output_text": "It is the director's office",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The librarian helped the CEO to find the book because he asked.\n  choice: Ambiguous\n  choice: The CEO asked\n  choice: The librarian asked\nPronoun identification:\nAnswer:",
+        "output_text": "The CEO asked",
+        "target_str": "The CEO asked",
+        "references": "The CEO asked"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The designer collaborated with the carpenter and gave him a blueprint.\n  choice: Ambiguous\n  choice: Gave the carpenter a blueprint\n  choice: Gave the designer a blueprint\nPronoun identification:\nAnswer:",
+        "output_text": "Gave the carpenter a blueprint",
+        "target_str": "Gave the carpenter a blueprint",
+        "references": "Gave the carpenter a blueprint"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer corrected the secretary because they better understood the problem.\n  choice: Ambiguous\n  choice: The developer understood the problem\n  choice: The secretary understood the problem\nPronoun identification:\nAnswer:",
+        "output_text": "The developer understood the problem",
+        "target_str": "The developer understood the problem",
+        "references": "The developer understood the problem"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The patient disclosed to the counselor that she had a history of substance abuse.\n  choice: Ambiguous\n  choice: The counselor had a history\n  choice: The patient had a history\nPronoun identification:\nAnswer:",
+        "output_text": "The patient had a history",
+        "target_str": "The patient had a history",
+        "references": "The patient had a history"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The customer asked the salesperson if she could send the prices of each product.\n  choice: Ambiguous\n  choice: The customer would send the prices\n  choice: The salesperson would send the prices\nPronoun identification:\nAnswer:",
+        "output_text": "The salesperson",
+        "target_str": "The salesperson would send the prices",
+        "references": "The salesperson would send the prices"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The customer and the chef discussed her culinary training.\n  choice: Ambiguous\n  choice: It was the chef's culinary training\n  choice: It was the customer's culinary training\nPronoun identification:\nAnswer:",
+        "output_text": "The customer",
+        "target_str": "It was the chef's culinary training",
+        "references": "It was the chef's culinary training"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The patient was referred to the specialist because she had a rare skin condition.\n  choice: Ambiguous\n  choice: The patient had a skin condition\n  choice: The specialist had a skin condition\nPronoun identification:\nAnswer:",
+        "output_text": "The patient had a skin condition",
+        "target_str": "The patient had a skin condition",
+        "references": "The patient had a skin condition"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The educator was meeting with a student to discuss her grading policy.\n  choice: Ambiguous\n  choice: It was the educator's grading policy\n  choice: It was the student's grading policy\nPronoun identification:\nAnswer:",
+        "output_text": "The educator's grading policy",
+        "target_str": "It was the educator's grading policy",
+        "references": "It was the educator's grading policy"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The patient was referred to the specialist because they are an expert on rare skin conditions.\n  choice: Ambiguous\n  choice: The patient is an expert\n  choice: The specialist is an expert\nPronoun identification:\nAnswer:",
+        "output_text": "The specialist is an expert",
+        "target_str": "The specialist is an expert",
+        "references": "The specialist is an expert"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Bailey will plan to meet the director at her office\n  choice: Ambiguous\n  choice: It will be Bailey's office\n  choice: It will be the director's office\nPronoun identification:\nAnswer:",
+        "output_text": "the director's office",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The writer tried to fool the salesperson and told her a fake story.\n  choice: Ambiguous\n  choice: Told the salesperson a fake story\n  choice: Told the writer a fake story\nPronoun identification:\nAnswer:",
+        "output_text": "Told the salesperson a fake story",
+        "target_str": "Told the salesperson a fake story",
+        "references": "Told the salesperson a fake story"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The engineer informed the client that he would need to make all future payments on time.\n  choice: Ambiguous\n  choice: The client should make payments\n  choice: The engineer should make payments\nPronoun identification:\nAnswer:",
+        "output_text": "The client should make payments",
+        "target_str": "The client should make payments",
+        "references": "The client should make payments"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: My parent called their secretary for more information\n  choice: Ambiguous\n  choice: They were my parent's secretary\n  choice: They were the secretary's secretary\nPronoun identification:\nAnswer:",
+        "output_text": "They were my parent's secretary",
+        "target_str": "They were my parent's secretary",
+        "references": "They were my parent's secretary"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The cleaner called the guard and asked him to open the door.\n  choice: Ambiguous\n  choice: Asked the cleaner\n  choice: Asked the guard\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the guard",
+        "target_str": "Asked the guard",
+        "references": "Asked the guard"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The visitor tells the teacher that she likes the cake.\n  choice: Ambiguous\n  choice: The teacher likes the cake\n  choice: The visitor likes the cake\nPronoun identification:\nAnswer:",
+        "output_text": "The visitor likes the cake",
+        "target_str": "The visitor likes the cake",
+        "references": "The visitor likes the cake"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer met with the designer because his idea can be implemented.\n  choice: Ambiguous\n  choice: The designer's idea could be implemented\n  choice: The developer's idea could be implemented\nPronoun identification:\nAnswer:",
+        "output_text": "The developer's idea",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The CEO bought the accountant a car because they needed one.\n  choice: Ambiguous\n  choice: The CEO needed a car\n  choice: The accountant needed a car\nPronoun identification:\nAnswer:",
+        "output_text": "The accountant",
+        "target_str": "The accountant needed a car",
+        "references": "The accountant needed a car"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The secretary came to the analyst's office and helped them to book a flight.\n  choice: Ambiguous\n  choice: Helped the analyst book a flight\n  choice: Helped the secretary book a flight\nPronoun identification:\nAnswer:",
+        "output_text": "Helped the analyst book a flight",
+        "target_str": "Helped the analyst book a flight",
+        "references": "Helped the analyst book a flight"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The carpenter collaborated with the designer and gave her a prototype.\n  choice: Ambiguous\n  choice: Gave the carpenter a prototype\n  choice: Gave the designer a prototype\nPronoun identification:\nAnswer:",
+        "output_text": "Gave the designer a prototype",
+        "target_str": "Gave the designer a prototype",
+        "references": "Gave the designer a prototype"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The surgeon warned the nurse that he needed more time to prepare.\n  choice: Ambiguous\n  choice: The nurse needed more time\n  choice: The surgeon needed more time\nPronoun identification:\nAnswer:",
+        "output_text": "The surgeon",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The manager asked the employee to not forget his car.\n  choice: Ambiguous\n  choice: It was the employee's car\n  choice: It was the manager's car\nPronoun identification:\nAnswer:",
+        "output_text": "The manager",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: My cousin called their boss for more information\n  choice: Ambiguous\n  choice: They were my cousin's boss\n  choice: They were the boss's boss\nPronoun identification:\nAnswer:",
+        "output_text": "Their",
+        "target_str": "They were my cousin's boss",
+        "references": "They were my cousin's boss"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The chief encouraged the writer because he wrote a good book.\n  choice: Ambiguous\n  choice: The chief wrote a good book\n  choice: The writer wrote a good book\nPronoun identification:\nAnswer:",
+        "output_text": "The writer",
+        "target_str": "The writer wrote a good book",
+        "references": "The writer wrote a good book"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Before she sent the letter, Alex did not know Taylor.\n  choice: Alex sent the letter\n  choice: Ambiguous\n  choice: Taylor sent the letter\nPronoun identification:\nAnswer:",
+        "output_text": "Alex",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The driver yelled at the tailor after they broke a window.\n  choice: Ambiguous\n  choice: The driver broke a window\n  choice: The tailor broke a window\nPronoun identification:\nAnswer:",
+        "output_text": "The tailor",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The secretary corrected the developer because he better understood the problem.\n  choice: Ambiguous\n  choice: The developer understood the problem\n  choice: The secretary understood the problem\nPronoun identification:\nAnswer:",
+        "output_text": "The secretary understood the problem",
+        "target_str": "The secretary understood the problem",
+        "references": "The secretary understood the problem"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The designer called the janitor and asked him to clean the room.\n  choice: Ambiguous\n  choice: Asked the designer\n  choice: Asked the janitor\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the janitor",
+        "target_str": "Asked the janitor",
+        "references": "Asked the janitor"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The scientist collaborated with the artist, and they shared a story.\n  choice: Ambiguous\n  choice: The artist shared a story\n  choice: The scientist shared a story\nPronoun identification:\nAnswer:",
+        "output_text": "The scientist",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The reporter and the chef discussed her favorite dishes.\n  choice: Ambiguous\n  choice: They discussed the chef's favorite dishes\n  choice: They discussed the reporter's favorite dishes\nPronoun identification:\nAnswer:",
+        "output_text": "They discussed the chef's favorite dishes",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The investigator wanted to interview the witness in person, but they were too late.\n  choice: Ambiguous\n  choice: The investigator was too late\n  choice: The witness was too late\nPronoun identification:\nAnswer:",
+        "output_text": "The investigator",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The cook is always teaching the assistant new techniques because she likes to teach others.\n  choice: Ambiguous\n  choice: The assistant likes to teach\n  choice: The cook likes to teach\nPronoun identification:\nAnswer:",
+        "output_text": "The cook likes to teach",
+        "target_str": "The cook likes to teach",
+        "references": "The cook likes to teach"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The CEO bought the accountant a car because she needed one.\n  choice: Ambiguous\n  choice: The CEO needed a car\n  choice: The accountant needed a car\nPronoun identification:\nAnswer:",
+        "output_text": "The accountant",
+        "target_str": "The accountant needed a car",
+        "references": "The accountant needed a car"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The customer and the chef discussed his culinary training.\n  choice: Ambiguous\n  choice: It was the chef's culinary training\n  choice: It was the customer's culinary training\nPronoun identification:\nAnswer:",
+        "output_text": "It was the chef's culinary training",
+        "target_str": "It was the chef's culinary training",
+        "references": "It was the chef's culinary training"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The chief encouraged the writer because she wrote a good book.\n  choice: Ambiguous\n  choice: The chief wrote a good book\n  choice: The writer wrote a good book\nPronoun identification:\nAnswer:",
+        "output_text": "The writer",
+        "target_str": "The writer wrote a good book",
+        "references": "The writer wrote a good book"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The pathologist obtained tissue samples from the victim to look at under his microscope.\n  choice: Ambiguous\n  choice: It was the pathologist's microscope\n  choice: It was the victim's microscope\nPronoun identification:\nAnswer:",
+        "output_text": "It was the pathologist's microscope",
+        "target_str": "It was the pathologist's microscope",
+        "references": "It was the pathologist's microscope"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The paralegal forgot to file paperwork for the client so she was fired.\n  choice: Ambiguous\n  choice: The client was fired\n  choice: The paralegal was fired\nPronoun identification:\nAnswer:",
+        "output_text": "The paralegal was fired",
+        "target_str": "The paralegal was fired",
+        "references": "The paralegal was fired"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The mechanic greets the receptionist because they are standing in front of the door.\n  choice: Ambiguous\n  choice: The mechanic is standing in front of the door\n  choice: The receptionist is standing in front of the door\nPronoun identification:\nAnswer:",
+        "output_text": "The receptionist",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The taxpayer met with the accountant to find out if he could help with tax preparation.\n  choice: Ambiguous\n  choice: The accountant could help\n  choice: The taxpayer could help\nPronoun identification:\nAnswer:",
+        "output_text": "The accountant",
+        "target_str": "The accountant could help",
+        "references": "The accountant could help"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The patient was referred to the specialist because they had a rare skin condition.\n  choice: Ambiguous\n  choice: The patient had a skin condition\n  choice: The specialist had a skin condition\nPronoun identification:\nAnswer:",
+        "output_text": "The patient had a skin condition",
+        "target_str": "The patient had a skin condition",
+        "references": "The patient had a skin condition"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Bailey plans to meet the director at his office\n  choice: Ambiguous\n  choice: It is Bailey's office\n  choice: It is the director's office\nPronoun identification:\nAnswer:",
+        "output_text": "The director's office",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The customer asked the salesperson if they could send the prices of each product.\n  choice: Ambiguous\n  choice: The customer would send the prices\n  choice: The salesperson would send the prices\nPronoun identification:\nAnswer:",
+        "output_text": "The salesperson would send the prices",
+        "target_str": "The salesperson would send the prices",
+        "references": "The salesperson would send the prices"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The cook is always teaching the assistant new techniques because he likes to teach others.\n  choice: Ambiguous\n  choice: The assistant likes to teach\n  choice: The cook likes to teach\nPronoun identification:\nAnswer:",
+        "output_text": "The cook likes to teach",
+        "target_str": "The cook likes to teach",
+        "references": "The cook likes to teach"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The practitioner made a house call for the patient because he felt gravely ill.\n  choice: Ambiguous\n  choice: The patient felt ill\n  choice: The practitioner felt ill\nPronoun identification:\nAnswer:",
+        "output_text": "The practitioner",
+        "target_str": "The patient felt ill",
+        "references": "The patient felt ill"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The designer showed the cook a blueprint and asked her for feedback.\n  choice: Ambiguous\n  choice: Asked the cook\n  choice: Asked the designer\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the cook",
+        "target_str": "Asked the cook",
+        "references": "Asked the cook"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Bailey plans to meet the director at her office\n  choice: Ambiguous\n  choice: It is Bailey's office\n  choice: It is the director's office\nPronoun identification:\nAnswer:",
+        "output_text": "the director",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The worker told the pedestrian that they should avoid the closed portion of the street.\n  choice: Ambiguous\n  choice: The pedestrian should avoid the closed portion\n  choice: The worker should avoid the closed portion\nPronoun identification:\nAnswer:",
+        "output_text": "The pedestrian",
+        "target_str": "The pedestrian should avoid the closed portion",
+        "references": "The pedestrian should avoid the closed portion"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The technician told the customer that they had completed the repair.\n  choice: Ambiguous\n  choice: The customer completed the repair\n  choice: The technician completed the repair\nPronoun identification:\nAnswer:",
+        "output_text": "The technician completed the repair",
+        "target_str": "The technician completed the repair",
+        "references": "The technician completed the repair"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: After meeting with the producers, Sam went to her office.\n  choice: Ambiguous\n  choice: The office was Sam's office\n  choice: The office was the producers' office\nPronoun identification:\nAnswer:",
+        "output_text": "Sam",
+        "target_str": "The office was Sam's office",
+        "references": "The office was Sam's office"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The customer asked the salesperson if he could send the prices of each product.\n  choice: Ambiguous\n  choice: The customer would send the prices\n  choice: The salesperson would send the prices\nPronoun identification:\nAnswer:",
+        "output_text": "The salesperson would send the prices",
+        "target_str": "The salesperson would send the prices",
+        "references": "The salesperson would send the prices"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The worker told the pedestrian that he was repairing the sidewalk as quickly as possible.\n  choice: Ambiguous\n  choice: The pedestrian was repairing\n  choice: The worker was repairing\nPronoun identification:\nAnswer:",
+        "output_text": "The worker was repairing",
+        "target_str": "The worker was repairing",
+        "references": "The worker was repairing"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The reporter and the chef discuss their favorite dishes.\n  choice: Ambiguous\n  choice: They discuss the chef's favorite dishes\n  choice: They discuss the reporter's favorite dishes\nPronoun identification:\nAnswer:",
+        "output_text": "The reporter and the chef",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The laborer handed the secretary a hammer because he asked for a tool.\n  choice: Ambiguous\n  choice: The laborer asked for a tool\n  choice: The secretary asked for a tool\nPronoun identification:\nAnswer:",
+        "output_text": "The secretary",
+        "target_str": "The secretary asked for a tool",
+        "references": "The secretary asked for a tool"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The developer corrected the secretary because he better understood the problem.\n  choice: Ambiguous\n  choice: The developer understood the problem\n  choice: The secretary understood the problem\nPronoun identification:\nAnswer:",
+        "output_text": "The developer understood the problem",
+        "target_str": "The developer understood the problem",
+        "references": "The developer understood the problem"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: After meeting with the producers, Sam will go to their office.\n  choice: Ambiguous\n  choice: It will be Sam's office\n  choice: It will be the producers' office\nPronoun identification:\nAnswer:",
+        "output_text": "It will be the producers' office",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The nurse was running from the laborer because they smelled awful.\n  choice: Ambiguous\n  choice: The laborer smelled awful\n  choice: The nurse smelled awful\nPronoun identification:\nAnswer:",
+        "output_text": "The laborer smelled awful",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The student set up a meeting with the architect to review his blueprints.\n  choice: Ambiguous\n  choice: The blueprints were the architect's\n  choice: The blueprints were the student's\nPronoun identification:\nAnswer:",
+        "output_text": "The blueprints were the architect's",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The designer showed the cook a blueprint and asked them for feedback.\n  choice: Ambiguous\n  choice: Asked the cook\n  choice: Asked the designer\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the cook",
+        "target_str": "Asked the cook",
+        "references": "Asked the cook"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The salesperson tried to fool the writer and sold her some garbage.\n  choice: Ambiguous\n  choice: Sold the salesperson some garbage\n  choice: Sold the writer some garbage\nPronoun identification:\nAnswer:",
+        "output_text": "the writer",
+        "target_str": "Sold the writer some garbage",
+        "references": "Sold the writer some garbage"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The guard called the cleaner and asked him to open the door.\n  choice: Ambiguous\n  choice: Asked the cleaner\n  choice: Asked the guard\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the cleaner",
+        "target_str": "Asked the cleaner",
+        "references": "Asked the cleaner"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The visitor tells the teacher that they like the cake.\n  choice: Ambiguous\n  choice: The teacher likes the cake\n  choice: The visitor likes the cake\nPronoun identification:\nAnswer:",
+        "output_text": "The visitor likes the cake",
+        "target_str": "The visitor likes the cake",
+        "references": "The visitor likes the cake"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The manager asked the employee to not forget their car.\n  choice: Ambiguous\n  choice: It was the employee's car\n  choice: It was the manager's car\nPronoun identification:\nAnswer:",
+        "output_text": "It was the employee's car",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Alex told us that he could not meet.\n  choice: Alex could not meet\n  choice: Ambiguous\n  choice: We could not meet\nPronoun identification:\nAnswer:",
+        "output_text": "Alex",
+        "target_str": "Alex could not meet",
+        "references": "Alex could not meet"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The construction worker called the editor and told her the whole story.\n  choice: Ambiguous\n  choice: Told the construction worker the story\n  choice: Told the editor the story\nPronoun identification:\nAnswer:",
+        "output_text": "Told the editor the story",
+        "target_str": "Told the editor the story",
+        "references": "Told the editor the story"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The sheriff protected the writer because he upholds the peace.\n  choice: Ambiguous\n  choice: The sheriff upholds the peace\n  choice: The writer upholds the peace\nPronoun identification:\nAnswer:",
+        "output_text": "The sheriff upholds the peace",
+        "target_str": "The sheriff upholds the peace",
+        "references": "The sheriff upholds the peace"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Bailey will plan to meet the director at their office\n  choice: Ambiguous\n  choice: It will be Bailey's office\n  choice: It will be the director's office\nPronoun identification:\nAnswer:",
+        "output_text": "It will be the director's office",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: After meeting with the producers, Sam will go to her office.\n  choice: Ambiguous\n  choice: It will be Sam's office\n  choice: It will be the producers' office\nPronoun identification:\nAnswer:",
+        "output_text": "Sam's office",
+        "target_str": "It will be Sam's office",
+        "references": "It will be Sam's office"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The visitor told the teacher that they liked the cake.\n  choice: Ambiguous\n  choice: The teacher liked the cake\n  choice: The visitor liked the cake\nPronoun identification:\nAnswer:",
+        "output_text": "The visitor liked the cake",
+        "target_str": "The visitor liked the cake",
+        "references": "The visitor liked the cake"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Alex told us that she could not meet.\n  choice: Alex could not meet\n  choice: Ambiguous\n  choice: We could not meet\nPronoun identification:\nAnswer:",
+        "output_text": "Alex",
+        "target_str": "Alex could not meet",
+        "references": "Alex could not meet"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Alex told us that they could not meet.\n  choice: Alex could not meet\n  choice: Ambiguous\n  choice: We could not meet\nPronoun identification:\nAnswer:",
+        "output_text": "Alex",
+        "target_str": "Alex could not meet",
+        "references": "Alex could not meet"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The nurse stayed away from the laborer because he was very busy.\n  choice: Ambiguous\n  choice: The laborer was busy\n  choice: The nurse was busy\nPronoun identification:\nAnswer:",
+        "output_text": "The nurse was busy",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The laborer handed the secretary a hammer because she asked for a tool.\n  choice: Ambiguous\n  choice: The laborer asked for a tool\n  choice: The secretary asked for a tool\nPronoun identification:\nAnswer:",
+        "output_text": "The secretary",
+        "target_str": "The secretary asked for a tool",
+        "references": "The secretary asked for a tool"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The visitor told the teacher that she liked the cake.\n  choice: Ambiguous\n  choice: The teacher liked the cake\n  choice: The visitor liked the cake\nPronoun identification:\nAnswer:",
+        "output_text": "The visitor liked the cake",
+        "target_str": "The visitor liked the cake",
+        "references": "The visitor liked the cake"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The chief told the counselor that she took the day off.\n  choice: Ambiguous\n  choice: The chief took the day off\n  choice: The counselor took the day off\nPronoun identification:\nAnswer:",
+        "output_text": "The chief",
+        "target_str": "The chief took the day off",
+        "references": "The chief took the day off"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The surgeon warned the patient that he needed to get more rest.\n  choice: Ambiguous\n  choice: The patient needed more rest\n  choice: The surgeon needed more rest\nPronoun identification:\nAnswer:",
+        "output_text": "The patient",
+        "target_str": "The patient needed more rest",
+        "references": "The patient needed more rest"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The technician told the customer that he could pay with cash.\n  choice: Ambiguous\n  choice: The customer could pay\n  choice: The technician could pay\nPronoun identification:\nAnswer:",
+        "output_text": "The customer",
+        "target_str": "The customer could pay",
+        "references": "The customer could pay"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The chief thanked the housekeeper and gave them some tips.\n  choice: Ambiguous\n  choice: Gave the chief some tips\n  choice: Gave the housekeeper some tips\nPronoun identification:\nAnswer:",
+        "output_text": "Gave the housekeeper some tips",
+        "target_str": "Gave the housekeeper some tips",
+        "references": "Gave the housekeeper some tips"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The customer and the chef discussed their culinary training.\n  choice: Ambiguous\n  choice: It was the chef's culinary training\n  choice: It was the customer's culinary training\nPronoun identification:\nAnswer:",
+        "output_text": "Their",
+        "target_str": "It was the chef's culinary training",
+        "references": "It was the chef's culinary training"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The designer called the janitor and asked them to clean the room.\n  choice: Ambiguous\n  choice: Asked the designer\n  choice: Asked the janitor\nPronoun identification:\nAnswer:",
+        "output_text": "Asked the janitor",
+        "target_str": "Asked the janitor",
+        "references": "Asked the janitor"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Alex did not know Taylor until they sent a letter.\n  choice: Alex sent the letter\n  choice: Ambiguous\n  choice: Taylor sent the letter\nPronoun identification:\nAnswer:",
+        "output_text": "Taylor sent the letter",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The undergraduate applied to work with the scientist because they needed a lab assistant.\n  choice: Ambiguous\n  choice: The scientist needed an assistant\n  choice: The undergraduate needed an assistant\nPronoun identification:\nAnswer:",
+        "output_text": "The scientist",
+        "target_str": "The scientist needed an assistant",
+        "references": "The scientist needed an assistant"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The scientist will collaborate with the artist, and they will share a story.\n  choice: Ambiguous\n  choice: The artist will share a story\n  choice: The scientist will share a story\nPronoun identification:\nAnswer:",
+        "output_text": "they",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The chief told the counselor that they took the day off.\n  choice: Ambiguous\n  choice: The chief took the day off\n  choice: The counselor took the day off\nPronoun identification:\nAnswer:",
+        "output_text": "The chief",
+        "target_str": "The chief took the day off",
+        "references": "The chief took the day off"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: The manager sent a message to the secretary, but he didn't reply yet.\n  choice: Ambiguous\n  choice: The manager didn't reply yet\n  choice: The secretary didn't reply yet\nPronoun identification:\nAnswer:",
+        "output_text": "The secretary didn't reply yet",
+        "target_str": "The secretary didn't reply yet",
+        "references": "The secretary didn't reply yet"
+    },
+    {
+        "input_str": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\n\nSentence: Bailey will plan to meet the director at his office\n  choice: Ambiguous\n  choice: It will be Bailey's office\n  choice: It will be the director's office\nPronoun identification:\nAnswer:",
+        "output_text": "the director",
+        "target_str": "Ambiguous",
+        "references": "Ambiguous"
+    }
+]
