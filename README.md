@@ -100,9 +100,3 @@ A high-level overview of important directories and files:
 
 - `plot/`  
   Custom analysis and visualization scripts for postprocessing experiment outputs.
-
-- `exp_out/`  
-  Directory containing experiment results, including metrics and routing data.
-
-- `logs/`  
-  Slurm output and error logs.
