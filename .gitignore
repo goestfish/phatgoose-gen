@@ -129,8 +129,7 @@ dmypy.json
 .pyre/
 
 # experiment outputs
-exp_out/FLAN_Phatgoose
-exp_out/P3_Phatgoose
+exp_out/
 wandb/
 loggings/
 
@@ -139,3 +138,10 @@ src/datasets_offline/
 
 # VSCode settings
 .vscode/
+
+plot_drop.py
+masking_all.py
+rand_10seeds_plots/
+plots_topcum/
+plots_keep1/
+logs/

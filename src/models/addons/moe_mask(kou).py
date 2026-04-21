@@ -24,10 +24,6 @@ class MoELink:
         self.moe_layers = []
         self.expert_identifiers = []
 
-        #kou
-        self._pruned = False
-        self._keep_indices = None
-
     def set_router(self, router):
         self.router = router
 
@@ -45,27 +41,6 @@ class MoELink:
                 break
         for number in range(start_number, start_number + num_new_experts):
             self.expert_identifiers.append(f"{identifier_stem}_{number}")
-    
-    #kou
-    def prune(self, keep_indices):
-        """
-        Prune router + all moe layers consistently.
-        keep_indices: list[int], indices to keep in the CURRENT expert order.
-        """
-        if self._pruned:
-            return
-
-        keep_indices = list(sorted(set(int(i) for i in keep_indices)))
-        self._keep_indices = keep_indices
-
-        if self.router is not None:
-            self.router.prune_experts(keep_indices)
-
-        for moe_layer in self.moe_layers:
-            moe_layer.prune_experts(keep_indices)
-
-        self.expert_identifiers = [self.expert_identifiers[i] for i in keep_indices]
-        self._pruned = True
 
 
 @gin.configurable
@@ -256,56 +231,6 @@ class ExtendableAddon(Addon):
             )
         else:
             raise NotImplementedError()
-    
-    #kou
-    def prune_experts(self, keep_indices):
-        """
-        Physically keep only experts at keep_indices.
-        Works for both separate_experts=False and separate_experts=True.
-        """
-        if self.num_experts == 0:
-            return
-
-        keep_indices = torch.tensor(keep_indices, dtype=torch.long)
-
-        with torch.no_grad():
-            if self.separate_experts:
-                # assemble first
-                self._assemble_extendable_parameters()
-
-                for parameter_name in self._extendable_parameters:
-                    full_param = getattr(self, parameter_name)   # [num_experts, ...]
-                    kept = full_param.index_select(0, keep_indices.to(full_param.device))
-
-                    old_identifiers = self.moe_link.expert_identifiers[: self.num_experts]
-
-                    # delete old per-expert params
-                    for identifier in old_identifiers:
-                        attr_name = f"{parameter_name}_{identifier}"
-                        if hasattr(self, attr_name):
-                            delattr(self, attr_name)
-
-                    # recreate per-expert params only for kept experts
-                    new_identifiers = [old_identifiers[i] for i in keep_indices.tolist()]
-                    for new_idx, identifier in enumerate(new_identifiers):
-                        setattr(
-                            self,
-                            f"{parameter_name}_{identifier}",
-                            nn.Parameter(kept[new_idx].clone())
-                        )
-
-                    # keep assembled tensor in sync too
-                    setattr(self, parameter_name, torch.stack(
-                        [getattr(self, f"{parameter_name}_{identifier}") for identifier in new_identifiers],
-                        dim=0
-                    ))
-            else:
-                for parameter_name in self._extendable_parameters:
-                    parameter = getattr(self, parameter_name)
-                    kept = parameter.data.index_select(0, keep_indices.to(parameter.data.device))
-                    parameter.data = kept.contiguous()
-
-            self.num_experts = len(keep_indices)
 
 
 @gin.configurable(
@@ -322,8 +247,6 @@ class ExtendableAddon(Addon):
         "router_norm_type",
         "position",
         "is_retriever",
-        #kou
-        "removed_experts_str",
     ],
 )
 class Router(ExtendableAddon):
@@ -356,8 +279,6 @@ class Router(ExtendableAddon):
         anneal_rate=1e-2,
         router_norm_type="layer_norm",
         is_retriever=False,
-        #kou
-        removed_experts_str="",
     ):
         """
         Args:
@@ -420,41 +341,6 @@ class Router(ExtendableAddon):
                 self.d_router, elementwise_affine=self.elementwise_affine
             )
 
-        #kou
-        self.removed_experts_str = removed_experts_str
-        self._prune_checked = False
-
-    #kou   
-    def _parse_removed_experts(self):
-        if self.removed_experts_str is None:
-            return []
-        s = str(self.removed_experts_str).strip()
-        if s == "":
-            return []
-        return sorted(set(int(x) for x in s.split(",") if x.strip() != ""))
-
-    #kou
-    def _maybe_prune_experts(self):
-        if self._prune_checked:
-            return
-        self._prune_checked = True
-
-        removed = self._parse_removed_experts()
-        if len(removed) == 0:
-            return
-
-        total = self.num_experts
-        keep = [i for i in range(total) if i not in removed]
-        if len(keep) == 0:
-            raise ValueError("All experts were removed; keep set is empty.")
-
-        print(
-            f"[Router prune] total_experts={total}, "
-            f"removed={removed}, kept={keep}, kept_count={len(keep)}"
-        )
-
-        self.moe_link.prune(keep)
-
     def _get_init_weights(self, num_new_experts):
         expert_embeddings = torch.zeros(num_new_experts, self.d_router)
         return {"expert_embeddings": expert_embeddings}
@@ -477,10 +363,6 @@ class Router(ExtendableAddon):
         """
         # TODO: (Should we normalize router_hidden_states using LayerNorm? or Is cosine routing good enough to prevent degeneracy?)
         hidden_states_dtype = router_hidden_states.dtype
-        
-        #kou
-        self._maybe_prune_experts()
-
         if self.separate_experts:
             self._assemble_extendable_parameters()
         if self.is_retriever:
@@ -634,7 +516,6 @@ class Router(ExtendableAddon):
         self.global_hidden_dict[self.write_routing_weights_key] = routing_weights
 
 
-
 @gin.configurable(
     allowlist=[
         "d_in",
@@ -652,6 +533,9 @@ class Router(ExtendableAddon):
         "replace_with_weighted_hiddens",
         "learn_input_gate",
         "use_input_gate",
+        #kou
+        "allowed_experts_str",
+        "allowed_experts_path",
     ],
 )
 class FFNExperts(ExtendableAddon):
@@ -689,6 +573,9 @@ class FFNExperts(ExtendableAddon):
         use_input_gate=False,
         init_scale=0.01,
         epsilon=1e-6,
+        #kou
+        allowed_experts_str=None,
+        allowed_experts_path=None,
     ):
         """
         Args:
@@ -720,6 +607,10 @@ class FFNExperts(ExtendableAddon):
         self.parallel_axis = parallel_axis
         self.init_scale = init_scale
         self.normalize_topk = normalize_topk
+        #kou
+        self.allowed_experts_str = allowed_experts_str
+        self.allowed_experts_path = allowed_experts_path
+
         self.replace_with_weighted_hiddens = replace_with_weighted_hiddens
         self.learn_input_gate = learn_input_gate
         self.use_input_gate = use_input_gate
@@ -762,6 +653,48 @@ class FFNExperts(ExtendableAddon):
                 torch.randn(num_new_experts, self.d_bottleneck, self.d_out) * 0.0
             )
         return {"layer1": layer1, "layer2": layer2}
+
+#kou
+    def _parse_allowed_experts(self):
+        if getattr(self, "allowed_experts_path", None):
+            import json, os
+            path = os.path.expandvars(self.allowed_experts_path)
+            with open(path, "r") as f:
+                data = json.load(f)
+            if isinstance(data, dict) and "allowed_experts" in data:
+                data = data["allowed_experts"]
+            if not isinstance(data, list):
+                raise ValueError(f"allowed_experts_path must contain a JSON list, got {type(data)}")
+            return [int(x) for x in data]
+
+        s = getattr(self, "allowed_experts_str", None)
+        if s is None:
+            return None
+        s = str(s).strip()
+        if s == "" or s.lower() == "none":
+            return None
+        return [int(x.strip()) for x in s.split(",") if x.strip() != ""]
+
+#kou
+    def _apply_allowed_experts_mask(self, routing_weights):
+        allowed = self._parse_allowed_experts()
+        if allowed is None:
+            return routing_weights
+
+        num_experts = routing_weights.shape[-1]
+        for e in allowed:
+            if e < 0 or e >= num_experts:
+                raise ValueError(f"allowed expert id {e} out of range [0, {num_experts-1}]")
+
+        import torch
+        mask = torch.zeros(num_experts, device=routing_weights.device, dtype=routing_weights.dtype)
+        idx = torch.tensor(allowed, device=routing_weights.device, dtype=torch.long)
+        mask.index_fill_(0, idx, 1)
+
+        rw = routing_weights * mask
+        denom = torch.sum(rw, dim=-1, keepdim=True) + self.epsilon
+        rw = rw / denom
+        return rw
 
     def _forward(self, input_hidden, routing_weights):
         """
@@ -906,6 +839,10 @@ class FFNExperts(ExtendableAddon):
 
     def pre_forward(self, hidden_states, *args, **kwargs):
         routing_weights = self.global_hidden_dict[self.read_routing_weights_key]
+        #kou
+        routing_weights = self._apply_allowed_experts_mask(routing_weights)
+        self.global_hidden_dict[self.read_routing_weights_key] = routing_weights
+
         if self.replace_with_weighted_hiddens:
             # need this to get weighted hiddens for average activation baseline
             overwrite_key = self.moe_link.router.read_hidden_key
